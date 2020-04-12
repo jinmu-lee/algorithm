@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+INFO	rbtree_test.c	/^}INFO;$/;"	t	typeref:struct:__anon2	file:
+RB_BLACK	rbtree.h	85;"	d
+RB_CLEAR_NODE	rbtree.h	119;"	d
+RB_EMPTY_NODE	rbtree.h	118;"	d
+RB_EMPTY_ROOT	rbtree.h	117;"	d
+RB_RED	rbtree.h	84;"	d
+RB_ROOT	rbtree.h	113;"	d
+SAWON	rbtree_test.c	/^}SAWON;$/;"	t	typeref:struct:__anon1	file:
+__display	rbtree_test.c	/^void __display(struct rb_node *temp,INFO (*a)[10],int *row,int *col){$/;"	f
+__rb_erase_color	rbtree.c	/^static void __rb_erase_color(struct rb_node *node, struct rb_node *parent,$/;"	f	file:
+__rb_rotate_left	rbtree.c	/^static void __rb_rotate_left(struct rb_node *node, struct rb_root *root)$/;"	f	file:
+__rb_rotate_right	rbtree.c	/^static void __rb_rotate_right(struct rb_node *node, struct rb_root *root)$/;"	f	file:
+color	rbtree_test.c	/^	int color;$/;"	m	struct:__anon2	file:
+display	rbtree_test.c	/^void display(struct rb_root *root){$/;"	f
+main	rbtree_test.c	/^int main(){$/;"	f
+my_insert	rbtree_test.c	/^int my_insert(struct rb_root *root,SAWON *s){$/;"	f
+node	rbtree_test.c	/^	struct rb_node node;$/;"	m	struct:__anon1	typeref:struct:__anon1::rb_node	file:
+rb_augment_erase_begin	rbtree.c	/^struct rb_node *rb_augment_erase_begin(struct rb_node *node)$/;"	f
+rb_augment_erase_end	rbtree.c	/^void rb_augment_erase_end(struct rb_node *node, rb_augment_f func, void *data)$/;"	f
+rb_augment_f	rbtree.h	/^typedef void (*rb_augment_f)(struct rb_node *node, void *data);$/;"	t
+rb_augment_insert	rbtree.c	/^void rb_augment_insert(struct rb_node *node, rb_augment_f func, void *data)$/;"	f
+rb_augment_path	rbtree.c	/^static void rb_augment_path(struct rb_node *node, rb_augment_f func, void *data)$/;"	f	file:
+rb_color	rbtree.h	98;"	d
+rb_entry	rbtree.h	114;"	d
+rb_erase	rbtree.c	/^void rb_erase(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_first	rbtree.c	/^struct rb_node *rb_first(const struct rb_root *root)$/;"	f
+rb_init_node	rbtree.h	/^static inline void rb_init_node(struct rb_node *rb)$/;"	f
+rb_insert_color	rbtree.c	/^void rb_insert_color(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_is_black	rbtree.h	100;"	d
+rb_is_red	rbtree.h	99;"	d
+rb_last	rbtree.c	/^struct rb_node *rb_last(const struct rb_root *root)$/;"	f
+rb_left	rbtree.h	/^	struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_link_node	rbtree.h	/^static inline void rb_link_node(struct rb_node * node, struct rb_node * parent,$/;"	f
+rb_next	rbtree.c	/^struct rb_node *rb_next(const struct rb_node *node)$/;"	f
+rb_node	rbtree.h	/^	struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node
+rb_node	rbtree.h	/^struct rb_node$/;"	s
+rb_parent	rbtree.h	97;"	d
+rb_parent_color	rbtree.h	/^	unsigned long  rb_parent_color;$/;"	m	struct:rb_node
+rb_prev	rbtree.c	/^struct rb_node *rb_prev(const struct rb_node *node)$/;"	f
+rb_replace_node	rbtree.c	/^void rb_replace_node(struct rb_node *victim, struct rb_node *new,$/;"	f
+rb_right	rbtree.h	/^	struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_root	rbtree.h	/^struct rb_root$/;"	s
+rb_set_black	rbtree.h	102;"	d
+rb_set_color	rbtree.h	/^static inline void rb_set_color(struct rb_node *rb, int color)$/;"	f
+rb_set_parent	rbtree.h	/^static inline void rb_set_parent(struct rb_node *rb, struct rb_node *p)$/;"	f
+rb_set_red	rbtree.h	101;"	d
+sid	rbtree_test.c	/^	int sid;$/;"	m	struct:__anon1	file:
+sid	rbtree_test.c	/^	int sid;$/;"	m	struct:__anon2	file:

@@ -1,0 +1,343 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AAA	01_list/03_generic_llist/container_of.c	/^}AAA;$/;"	t	typeref:struct:__anon7	file:
+AAA	01_list/03_generic_llist/container_of_2.c	/^}AAA;$/;"	t	typeref:struct:__anon6	file:
+AAA	01_list/03_generic_llist/container_of_3.c	/^}AAA;$/;"	t	typeref:struct:__anon4	file:
+FLAG	03_tree/tree_1.c	/^typedef enum { LEFT,RIGHT } FLAG;$/;"	t	typeref:enum:__anon9	file:
+GOLDEN_RATIO_PRIME_32	02_hash/hash_2.c	32;"	d	file:
+HASH_MAX	02_hash/hash_1.c	12;"	d	file:
+HASH_MAX	02_hash/hash_2.c	12;"	d	file:
+INFO	04_rbtree/rbtree_test.c	/^}INFO;$/;"	t	typeref:struct:__anon2	file:
+LEFT	03_tree/tree_1.c	/^typedef enum { LEFT,RIGHT } FLAG;$/;"	e	enum:__anon9	file:
+NODE	01_list/01_single_llist/01_single_llist/list_1.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/01_single_llist/list_2.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/01_single_llist/list_3.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/01_single_llist/list_4.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/01_single_llist/list_5.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/01_single_llist/list_6.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/01_single_llist/list_7.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/list_1.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/list_2.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/list_3.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/list_4.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/list_5.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/list_6.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/01_single_llist/list_7.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/02_double_llist/list_8.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/03_generic_llist/list_10.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	01_list/03_generic_llist/list_11.c	/^}NODE;$/;"	v	typeref:struct:list_head
+NODE	01_list/03_generic_llist/list_12.c	/^}NODE;$/;"	v	typeref:struct:list_head
+NODE	01_list/03_generic_llist/list_13.c	/^}NODE;$/;"	v	typeref:struct:list_head
+NODE	01_list/03_generic_llist/list_9.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	03_tree/tree_1.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	03_tree/tree_2.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+NODE	03_tree/tree_3.c	/^}NODE;$/;"	t	typeref:struct:_node	file:
+RB_CLEAR_NODE	04_rbtree/rbtree.h	57;"	d
+RB_EMPTY_NODE	04_rbtree/rbtree.h	55;"	d
+RB_EMPTY_ROOT	04_rbtree/rbtree.h	52;"	d
+RB_ROOT	04_rbtree/rbtree.h	49;"	d
+RIGHT	03_tree/tree_1.c	/^typedef enum { LEFT,RIGHT } FLAG;$/;"	e	enum:__anon9	file:
+SAWON	01_list/03_generic_llist/list_10.c	/^}SAWON;$/;"	t	typeref:struct:__anon8	file:
+SAWON	01_list/03_generic_llist/list_11.c	/^}SAWON;$/;"	t	typeref:struct:__anon5	file:
+SAWON	01_list/03_generic_llist/list_9.c	/^}SAWON;$/;"	t	typeref:struct:__anon3	file:
+SAWON	02_hash/hash_1.c	/^}SAWON;$/;"	t	typeref:struct:__anon11	file:
+SAWON	02_hash/hash_2.c	/^}SAWON;$/;"	t	typeref:struct:__anon10	file:
+SAWON	04_rbtree/rbtree_test.c	/^}SAWON;$/;"	t	typeref:struct:__anon1	file:
+__TOOLS_LINUX_PERF_RBTREE_H	04_rbtree/rbtree.h	30;"	d
+____rb_erase_color	04_rbtree/rbtree.c	/^____rb_erase_color(struct rb_node *parent, struct rb_root *root,$/;"	f	file:
+__bal	03_tree/tree_3.c	/^NODE* __bal(int *a,int n){$/;"	f
+__display	03_tree/tree_1.c	/^void __display(NODE *temp,int (*a)[10],int *row,int *col){$/;"	f
+__display	03_tree/tree_2.c	/^void __display(NODE *temp,int (*a)[10],int *row,int *col){$/;"	f
+__display	03_tree/tree_3.c	/^void __display(NODE *temp,int (*a)[10],int *row,int *col){$/;"	f
+__display	04_rbtree/rbtree_test.c	/^void __display(struct rb_node *temp,INFO (*a)[10],int *row,int *col){$/;"	f
+__fill	03_tree/tree_3.c	/^void __fill(NODE *temp,int *a,int *n){$/;"	f
+__insert_data	01_list/02_double_llist/list_8.c	/^void __insert_data(NODE *temp,NODE *prev,NODE *next){$/;"	f
+__insert_data	01_list/03_generic_llist/list_10.c	/^void __insert_data(NODE *temp,NODE *prev,NODE *next){$/;"	f
+__insert_data	01_list/03_generic_llist/list_9.c	/^void __insert_data(NODE *temp,NODE *prev,NODE *next){$/;"	f
+__list_add	01_list/03_generic_llist/list_11.c	/^void __list_add(struct list_head *new,struct list_head *prev,struct list_head *next){$/;"	f
+__list_add	01_list/03_generic_llist/list_12.c	/^void __list_add(struct list_head *new,struct list_head *prev,struct list_head *next){$/;"	f
+__list_add	01_list/03_generic_llist/list_13.c	/^void __list_add(struct list_head *new,struct list_head *prev,struct list_head *next){$/;"	f
+__rb_erase_color	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(__rb_erase_color);$/;"	v
+__rb_erase_color	04_rbtree/rbtree.c	/^void __rb_erase_color(struct rb_node *parent, struct rb_root *root,$/;"	f
+__rb_insert	04_rbtree/rbtree.c	/^__rb_insert(struct rb_node *node, struct rb_root *root,$/;"	f	file:
+__rb_insert_augmented	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(__rb_insert_augmented);$/;"	v
+__rb_insert_augmented	04_rbtree/rbtree.c	/^void __rb_insert_augmented(struct rb_node *node, struct rb_root *root,$/;"	f
+__rb_parent_color	04_rbtree/rbtree.h	/^	unsigned long  __rb_parent_color;$/;"	m	struct:rb_node
+__rb_rotate_set_parents	04_rbtree/rbtree.c	/^__rb_rotate_set_parents(struct rb_node *old, struct rb_node *new,$/;"	f	file:
+_node	01_list/01_single_llist/01_single_llist/list_1.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/01_single_llist/list_2.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/01_single_llist/list_3.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/01_single_llist/list_4.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/01_single_llist/list_5.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/01_single_llist/list_6.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/01_single_llist/list_7.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/list_1.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/list_2.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/list_3.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/list_4.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/list_5.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/list_6.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/01_single_llist/list_7.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/02_double_llist/list_8.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/03_generic_llist/list_10.c	/^typedef struct _node{$/;"	s	file:
+_node	01_list/03_generic_llist/list_9.c	/^typedef struct _node{$/;"	s	file:
+_node	03_tree/tree_1.c	/^typedef struct _node{$/;"	s	file:
+_node	03_tree/tree_2.c	/^typedef struct _node{$/;"	s	file:
+_node	03_tree/tree_3.c	/^typedef struct _node{$/;"	s	file:
+a	01_list/03_generic_llist/container_of.c	/^	int a,b,c;$/;"	m	struct:__anon7	file:
+a	01_list/03_generic_llist/container_of_2.c	/^	int a,b,c;$/;"	m	struct:__anon6	file:
+a	01_list/03_generic_llist/container_of_3.c	/^	int a,b,c;$/;"	m	struct:__anon4	file:
+b	01_list/03_generic_llist/container_of.c	/^	int a,b,c;$/;"	m	struct:__anon7	file:
+b	01_list/03_generic_llist/container_of_2.c	/^	int a,b,c;$/;"	m	struct:__anon6	file:
+b	01_list/03_generic_llist/container_of_3.c	/^	int a,b,c;$/;"	m	struct:__anon4	file:
+bal	03_tree/tree_3.c	/^void bal(NODE *temp){$/;"	f
+c	01_list/03_generic_llist/container_of.c	/^	int a,b,c;$/;"	m	struct:__anon7	file:
+c	01_list/03_generic_llist/container_of_2.c	/^	int a,b,c;$/;"	m	struct:__anon6	file:
+c	01_list/03_generic_llist/container_of_3.c	/^	int a,b,c;$/;"	m	struct:__anon4	file:
+children	01_list/03_generic_llist/list_12.c	/^	struct list_head children;$/;"	m	struct:task_struct	typeref:struct:task_struct::list_head	file:
+color	04_rbtree/rbtree_test.c	/^	int color;$/;"	m	struct:__anon2	file:
+comm	01_list/03_generic_llist/list_12.c	/^	char comm[16];$/;"	m	struct:task_struct	file:
+container_of	01_list/03_generic_llist/container_of_2.c	3;"	d	file:
+container_of	01_list/03_generic_llist/container_of_3.c	7;"	d	file:
+container_of	01_list/03_generic_llist/list_10.c	22;"	d	file:
+container_of	01_list/03_generic_llist/list_11.c	21;"	d	file:
+container_of	01_list/03_generic_llist/list_12.c	21;"	d	file:
+container_of	01_list/03_generic_llist/list_13.c	21;"	d	file:
+container_of	02_hash/hash_1.c	19;"	d	file:
+container_of	02_hash/hash_2.c	19;"	d	file:
+data	01_list/01_single_llist/01_single_llist/list_1.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/01_single_llist/list_2.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/01_single_llist/list_3.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/01_single_llist/list_4.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/01_single_llist/list_5.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/01_single_llist/list_6.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/01_single_llist/list_7.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/list_1.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/list_2.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/list_3.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/list_4.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/list_5.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/list_6.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/01_single_llist/list_7.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/02_double_llist/list_8.c	/^	int data;$/;"	m	struct:_node	file:
+data	01_list/03_generic_llist/list_9.c	/^	void *data;$/;"	m	struct:_node	file:
+data	03_tree/tree_1.c	/^	int data;$/;"	m	struct:_node	file:
+data	03_tree/tree_2.c	/^	int data;$/;"	m	struct:_node	file:
+data	03_tree/tree_3.c	/^	int data;$/;"	m	struct:_node	file:
+display	01_list/01_single_llist/01_single_llist/list_1.c	/^void display(){$/;"	f
+display	01_list/01_single_llist/01_single_llist/list_2.c	/^void display(){$/;"	f
+display	01_list/01_single_llist/01_single_llist/list_3.c	/^void display(NODE *head){$/;"	f
+display	01_list/01_single_llist/01_single_llist/list_4.c	/^void display(NODE *head){$/;"	f
+display	01_list/01_single_llist/01_single_llist/list_5.c	/^void display(NODE *head,NODE *tail){$/;"	f
+display	01_list/01_single_llist/01_single_llist/list_6.c	/^void display(NODE *head){$/;"	f
+display	01_list/01_single_llist/01_single_llist/list_7.c	/^void display(NODE *head){$/;"	f
+display	01_list/01_single_llist/list_1.c	/^void display(){$/;"	f
+display	01_list/01_single_llist/list_2.c	/^void display(){$/;"	f
+display	01_list/01_single_llist/list_3.c	/^void display(NODE *head){$/;"	f
+display	01_list/01_single_llist/list_4.c	/^void display(NODE *head){$/;"	f
+display	01_list/01_single_llist/list_5.c	/^void display(NODE *head,NODE *tail){$/;"	f
+display	01_list/01_single_llist/list_6.c	/^void display(NODE *head){$/;"	f
+display	01_list/01_single_llist/list_7.c	/^void display(NODE *head){$/;"	f
+display	01_list/02_double_llist/list_8.c	/^void display(NODE *head){$/;"	f
+display	01_list/03_generic_llist/list_10.c	/^void display(NODE *head){$/;"	f
+display	01_list/03_generic_llist/list_11.c	/^void display(struct list_head *head){$/;"	f
+display	01_list/03_generic_llist/list_12.c	/^void display(struct list_head *head){$/;"	f
+display	01_list/03_generic_llist/list_13.c	/^void display(struct list_head *head){$/;"	f
+display	01_list/03_generic_llist/list_9.c	/^void display(NODE *head){$/;"	f
+display	02_hash/hash_1.c	/^void display(struct hlist_head *heads){$/;"	f
+display	02_hash/hash_2.c	/^void display(struct hlist_head *heads){$/;"	f
+display	03_tree/tree_1.c	/^void display(NODE *temp){$/;"	f
+display	03_tree/tree_2.c	/^void display(NODE *temp){$/;"	f
+display	03_tree/tree_3.c	/^void display(NODE *temp){$/;"	f
+display	04_rbtree/rbtree_test.c	/^void display(struct rb_root *root){$/;"	f
+dummy_callbacks	04_rbtree/rbtree.c	/^static const struct rb_augment_callbacks dummy_callbacks = {$/;"	v	typeref:struct:rb_augment_callbacks	file:
+dummy_copy	04_rbtree/rbtree.c	/^static inline void dummy_copy(struct rb_node *old, struct rb_node *new) {}$/;"	f	file:
+dummy_propagate	04_rbtree/rbtree.c	/^static inline void dummy_propagate(struct rb_node *node, struct rb_node *stop) {}$/;"	f	file:
+dummy_rotate	04_rbtree/rbtree.c	/^static inline void dummy_rotate(struct rb_node *old, struct rb_node *new) {}$/;"	f	file:
+first	02_hash/hash_1.c	/^	struct hlist_node *first;$/;"	m	struct:hlist_head	typeref:struct:hlist_head::hlist_node	file:
+first	02_hash/hash_2.c	/^	struct hlist_node *first;$/;"	m	struct:hlist_head	typeref:struct:hlist_head::hlist_node	file:
+hash	02_hash/hash_1.c	/^	struct hlist_node hash;$/;"	m	struct:__anon11	typeref:struct:__anon11::hlist_node	file:
+hash	02_hash/hash_2.c	/^	struct hlist_node hash;$/;"	m	struct:__anon10	typeref:struct:__anon10::hlist_node	file:
+hash_32	02_hash/hash_2.c	/^unsigned long hash_32(unsigned int val,unsigned int bits){$/;"	f
+hash_sno	02_hash/hash_1.c	/^int hash_sno(int sno){$/;"	f
+hash_sno	02_hash/hash_2.c	/^int hash_sno(int sno){$/;"	f
+head	01_list/01_single_llist/01_single_llist/list_1.c	/^NODE *head;$/;"	v
+head	01_list/01_single_llist/01_single_llist/list_2.c	/^NODE head;$/;"	v
+head	01_list/01_single_llist/list_1.c	/^NODE *head;$/;"	v
+head	01_list/01_single_llist/list_2.c	/^NODE head;$/;"	v
+hlist_add_head	02_hash/hash_1.c	/^static inline void hlist_add_head(struct hlist_node *n,struct hlist_head *h){$/;"	f	file:
+hlist_add_head	02_hash/hash_2.c	/^static inline void hlist_add_head(struct hlist_node *n,struct hlist_head *h){$/;"	f	file:
+hlist_head	02_hash/hash_1.c	/^struct hlist_head{$/;"	s	file:
+hlist_head	02_hash/hash_2.c	/^struct hlist_head{$/;"	s	file:
+hlist_node	02_hash/hash_1.c	/^struct hlist_node{$/;"	s	file:
+hlist_node	02_hash/hash_2.c	/^struct hlist_node{$/;"	s	file:
+i_ino	01_list/03_generic_llist/list_13.c	/^	unsigned long i_ino;$/;"	m	struct:inode	file:
+i_lru	01_list/03_generic_llist/list_13.c	/^	struct list_head i_lru;$/;"	m	struct:inode	typeref:struct:inode::list_head	file:
+i_sb_list	01_list/03_generic_llist/list_13.c	/^	struct list_head i_sb_list;$/;"	m	struct:inode	typeref:struct:inode::list_head	file:
+i_wb_list	01_list/03_generic_llist/list_13.c	/^	struct list_head i_wb_list;$/;"	m	struct:inode	typeref:struct:inode::list_head	file:
+in_order	03_tree/tree_1.c	/^void in_order(NODE *temp){$/;"	f
+inode	01_list/03_generic_llist/list_13.c	/^struct inode{$/;"	s	file:
+insert_back	01_list/02_double_llist/list_8.c	/^void insert_back(NODE *temp,NODE *head){$/;"	f
+insert_back	01_list/03_generic_llist/list_10.c	/^void insert_back(NODE *temp,NODE *head){$/;"	f
+insert_back	01_list/03_generic_llist/list_9.c	/^void insert_back(NODE *temp,NODE *head){$/;"	f
+insert_data	01_list/01_single_llist/01_single_llist/list_1.c	/^void insert_data(int data){$/;"	f
+insert_data	01_list/01_single_llist/01_single_llist/list_2.c	/^void insert_data(int data){$/;"	f
+insert_data	01_list/01_single_llist/01_single_llist/list_3.c	/^void insert_data(int data,NODE *head){$/;"	f
+insert_data	01_list/01_single_llist/01_single_llist/list_4.c	/^void insert_data(NODE *temp,NODE *head){$/;"	f
+insert_data	01_list/01_single_llist/01_single_llist/list_5.c	/^void insert_data(NODE *temp,NODE *head){$/;"	f
+insert_data	01_list/01_single_llist/01_single_llist/list_6.c	/^void insert_data(NODE *temp,NODE *head){$/;"	f
+insert_data	01_list/01_single_llist/01_single_llist/list_7.c	/^void insert_data(NODE *temp,NODE *head){$/;"	f
+insert_data	01_list/01_single_llist/list_1.c	/^void insert_data(int data){$/;"	f
+insert_data	01_list/01_single_llist/list_2.c	/^void insert_data(int data){$/;"	f
+insert_data	01_list/01_single_llist/list_3.c	/^void insert_data(int data,NODE *head){$/;"	f
+insert_data	01_list/01_single_llist/list_4.c	/^void insert_data(NODE *temp,NODE *head){$/;"	f
+insert_data	01_list/01_single_llist/list_5.c	/^void insert_data(NODE *temp,NODE *head){$/;"	f
+insert_data	01_list/01_single_llist/list_6.c	/^void insert_data(NODE *temp,NODE *head){$/;"	f
+insert_data	01_list/01_single_llist/list_7.c	/^void insert_data(NODE *temp,NODE *head){$/;"	f
+insert_data	03_tree/tree_1.c	/^void insert_data(int data,NODE *s,FLAG flag){$/;"	f
+insert_data	03_tree/tree_2.c	/^void insert_data(int data){$/;"	f
+insert_data	03_tree/tree_3.c	/^void insert_data(int data){$/;"	f
+insert_front	01_list/02_double_llist/list_8.c	/^void insert_front(NODE *temp,NODE *head){$/;"	f
+insert_front	01_list/03_generic_llist/list_10.c	/^void insert_front(NODE *temp,NODE *head){$/;"	f
+insert_front	01_list/03_generic_llist/list_9.c	/^void insert_front(NODE *temp,NODE *head){$/;"	f
+left	03_tree/tree_1.c	/^	struct _node *left;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+left	03_tree/tree_2.c	/^	struct _node *left;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+left	03_tree/tree_3.c	/^	struct _node *left;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+list1	01_list/03_generic_llist/list_10.c	/^	NODE list1;$/;"	m	struct:__anon8	file:
+list1	01_list/03_generic_llist/list_11.c	/^	struct list_head list1;$/;"	m	struct:__anon5	typeref:struct:__anon5::list_head	file:
+list2	01_list/03_generic_llist/list_10.c	/^	NODE list2;$/;"	m	struct:__anon8	file:
+list2	01_list/03_generic_llist/list_11.c	/^	struct list_head list2;$/;"	m	struct:__anon5	typeref:struct:__anon5::list_head	file:
+list_add	01_list/03_generic_llist/list_11.c	/^void list_add(struct list_head *new,struct list_head *head){$/;"	f
+list_add	01_list/03_generic_llist/list_12.c	/^void list_add(struct list_head *new,struct list_head *head){$/;"	f
+list_add	01_list/03_generic_llist/list_13.c	/^void list_add(struct list_head *new,struct list_head *head){$/;"	f
+list_add_tail	01_list/03_generic_llist/list_11.c	/^void list_add_tail(struct list_head *new,struct list_head *head){$/;"	f
+list_add_tail	01_list/03_generic_llist/list_12.c	/^void list_add_tail(struct list_head *new,struct list_head *head){$/;"	f
+list_add_tail	01_list/03_generic_llist/list_13.c	/^void list_add_tail(struct list_head *new,struct list_head *head){$/;"	f
+list_head	01_list/03_generic_llist/list_11.c	/^struct list_head{$/;"	s	file:
+list_head	01_list/03_generic_llist/list_12.c	/^struct list_head{$/;"	s	file:
+list_head	01_list/03_generic_llist/list_13.c	/^struct list_head{$/;"	s	file:
+main	01_list/01_single_llist/01_single_llist/list_1.c	/^int main(){	$/;"	f
+main	01_list/01_single_llist/01_single_llist/list_2.c	/^int main(){	$/;"	f
+main	01_list/01_single_llist/01_single_llist/list_3.c	/^int main(){$/;"	f
+main	01_list/01_single_llist/01_single_llist/list_4.c	/^int main(){$/;"	f
+main	01_list/01_single_llist/01_single_llist/list_5.c	/^int main(){$/;"	f
+main	01_list/01_single_llist/01_single_llist/list_6.c	/^int main(){$/;"	f
+main	01_list/01_single_llist/01_single_llist/list_7.c	/^int main(){$/;"	f
+main	01_list/01_single_llist/list_1.c	/^int main(){	$/;"	f
+main	01_list/01_single_llist/list_2.c	/^int main(){	$/;"	f
+main	01_list/01_single_llist/list_3.c	/^int main(){$/;"	f
+main	01_list/01_single_llist/list_4.c	/^int main(){$/;"	f
+main	01_list/01_single_llist/list_5.c	/^int main(){$/;"	f
+main	01_list/01_single_llist/list_6.c	/^int main(){$/;"	f
+main	01_list/01_single_llist/list_7.c	/^int main(){$/;"	f
+main	01_list/02_double_llist/list_8.c	/^int main(){$/;"	f
+main	01_list/03_generic_llist/container_of.c	/^int main(){$/;"	f
+main	01_list/03_generic_llist/container_of_2.c	/^int main(){$/;"	f
+main	01_list/03_generic_llist/container_of_3.c	/^int main(){$/;"	f
+main	01_list/03_generic_llist/list_10.c	/^int main(){$/;"	f
+main	01_list/03_generic_llist/list_11.c	/^int main(){$/;"	f
+main	01_list/03_generic_llist/list_12.c	/^int main(){$/;"	f
+main	01_list/03_generic_llist/list_13.c	/^int main(){$/;"	f
+main	01_list/03_generic_llist/list_9.c	/^int main(){$/;"	f
+main	02_hash/hash_1.c	/^int main(){$/;"	f
+main	02_hash/hash_2.c	/^int main(){$/;"	f
+main	03_tree/tree_1.c	/^int main(){$/;"	f
+main	03_tree/tree_2.c	/^int main(){$/;"	f
+main	03_tree/tree_3.c	/^int main(){$/;"	f
+main	04_rbtree/rbtree_test.c	/^int main(){$/;"	f
+my_insert	04_rbtree/rbtree_test.c	/^int my_insert(struct rb_root *root,SAWON *s){$/;"	f
+name	01_list/03_generic_llist/list_10.c	/^	char name[20];$/;"	m	struct:__anon8	file:
+name	01_list/03_generic_llist/list_11.c	/^	char name[20];$/;"	m	struct:__anon5	file:
+name	01_list/03_generic_llist/list_9.c	/^	char name[20];$/;"	m	struct:__anon3	file:
+next	01_list/01_single_llist/01_single_llist/list_1.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/01_single_llist/list_2.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/01_single_llist/list_3.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/01_single_llist/list_4.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/01_single_llist/list_5.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/01_single_llist/list_6.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/01_single_llist/list_7.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/list_1.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/list_2.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/list_3.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/list_4.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/list_5.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/list_6.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/01_single_llist/list_7.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/02_double_llist/list_8.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/03_generic_llist/list_10.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	01_list/03_generic_llist/list_11.c	/^	struct list_head *next,*prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	file:
+next	01_list/03_generic_llist/list_12.c	/^	struct list_head *next,*prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	file:
+next	01_list/03_generic_llist/list_13.c	/^	struct list_head *next,*prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	file:
+next	01_list/03_generic_llist/list_9.c	/^	struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+next	02_hash/hash_1.c	/^	struct hlist_node *next,**pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::hlist_node	file:
+next	02_hash/hash_2.c	/^	struct hlist_node *next,**pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::hlist_node	file:
+node	04_rbtree/rbtree_test.c	/^	struct rb_node node;$/;"	m	struct:__anon1	typeref:struct:__anon1::rb_node	file:
+offsetof	01_list/03_generic_llist/container_of_3.c	6;"	d	file:
+offsetof	01_list/03_generic_llist/list_11.c	20;"	d	file:
+offsetof	01_list/03_generic_llist/list_12.c	20;"	d	file:
+offsetof	01_list/03_generic_llist/list_13.c	20;"	d	file:
+offsetof	02_hash/hash_1.c	18;"	d	file:
+offsetof	02_hash/hash_2.c	18;"	d	file:
+pid_hashfn	02_hash/hash_2.c	37;"	d	file:
+post_order	03_tree/tree_1.c	/^void post_order(NODE *temp){$/;"	f
+pprev	02_hash/hash_1.c	/^	struct hlist_node *next,**pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::	file:
+pprev	02_hash/hash_2.c	/^	struct hlist_node *next,**pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::	file:
+pre_order	03_tree/tree_1.c	/^void pre_order(NODE *temp){$/;"	f
+prev	01_list/02_double_llist/list_8.c	/^	struct _node *prev;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+prev	01_list/03_generic_llist/list_10.c	/^	struct _node *prev;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+prev	01_list/03_generic_llist/list_11.c	/^	struct list_head *next,*prev;$/;"	m	struct:list_head	typeref:struct:list_head::	file:
+prev	01_list/03_generic_llist/list_12.c	/^	struct list_head *next,*prev;$/;"	m	struct:list_head	typeref:struct:list_head::	file:
+prev	01_list/03_generic_llist/list_13.c	/^	struct list_head *next,*prev;$/;"	m	struct:list_head	typeref:struct:list_head::	file:
+prev	01_list/03_generic_llist/list_9.c	/^	struct _node *prev;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+rb_entry	04_rbtree/rbtree.h	50;"	d
+rb_entry_safe	04_rbtree/rbtree.h	88;"	d
+rb_erase	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(rb_erase);$/;"	v
+rb_erase	04_rbtree/rbtree.c	/^void rb_erase(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_erase_init	04_rbtree/rbtree.h	/^static inline void rb_erase_init(struct rb_node *n, struct rb_root *root)$/;"	f
+rb_first	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(rb_first);$/;"	v
+rb_first	04_rbtree/rbtree.c	/^struct rb_node *rb_first(const struct rb_root *root)$/;"	f
+rb_first_postorder	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(rb_first_postorder);$/;"	v
+rb_first_postorder	04_rbtree/rbtree.c	/^struct rb_node *rb_first_postorder(const struct rb_root *root)$/;"	f
+rb_insert_color	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(rb_insert_color);$/;"	v
+rb_insert_color	04_rbtree/rbtree.c	/^void rb_insert_color(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_last	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(rb_last);$/;"	v
+rb_last	04_rbtree/rbtree.c	/^struct rb_node *rb_last(const struct rb_root *root)$/;"	f
+rb_left	04_rbtree/rbtree.h	/^	struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_left_deepest_node	04_rbtree/rbtree.c	/^static struct rb_node *rb_left_deepest_node(const struct rb_node *node)$/;"	f	file:
+rb_link_node	04_rbtree/rbtree.h	/^static inline void rb_link_node(struct rb_node *node, struct rb_node *parent,$/;"	f
+rb_next	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(rb_next);$/;"	v
+rb_next	04_rbtree/rbtree.c	/^struct rb_node *rb_next(const struct rb_node *node)$/;"	f
+rb_next_postorder	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(rb_next_postorder);$/;"	v
+rb_next_postorder	04_rbtree/rbtree.c	/^struct rb_node *rb_next_postorder(const struct rb_node *node)$/;"	f
+rb_node	04_rbtree/rbtree.h	/^	struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node
+rb_node	04_rbtree/rbtree.h	/^struct rb_node {$/;"	s
+rb_parent	04_rbtree/rbtree.h	47;"	d
+rb_prev	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(rb_prev);$/;"	v
+rb_prev	04_rbtree/rbtree.c	/^struct rb_node *rb_prev(const struct rb_node *node)$/;"	f
+rb_red_parent	04_rbtree/rbtree.c	/^static inline struct rb_node *rb_red_parent(struct rb_node *red)$/;"	f	file:
+rb_replace_node	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(rb_replace_node);$/;"	v
+rb_replace_node	04_rbtree/rbtree.c	/^void rb_replace_node(struct rb_node *victim, struct rb_node *new,$/;"	f
+rb_replace_node_rcu	04_rbtree/rbtree.c	/^EXPORT_SYMBOL(rb_replace_node_rcu);$/;"	v
+rb_replace_node_rcu	04_rbtree/rbtree.c	/^void rb_replace_node_rcu(struct rb_node *victim, struct rb_node *new,$/;"	f
+rb_right	04_rbtree/rbtree.h	/^	struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_root	04_rbtree/rbtree.h	/^struct rb_root {$/;"	s
+rb_set_black	04_rbtree/rbtree.c	/^static inline void rb_set_black(struct rb_node *rb)$/;"	f	file:
+reverse	01_list/01_single_llist/01_single_llist/list_7.c	/^void reverse(NODE *head){$/;"	f
+reverse	01_list/01_single_llist/list_7.c	/^void reverse(NODE *head){$/;"	f
+right	03_tree/tree_1.c	/^	struct _node *right;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+right	03_tree/tree_2.c	/^	struct _node *right;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+right	03_tree/tree_3.c	/^	struct _node *right;$/;"	m	struct:_node	typeref:struct:_node::_node	file:
+root	03_tree/tree_1.c	/^NODE *root;$/;"	v
+root	03_tree/tree_2.c	/^NODE *root;$/;"	v
+root	03_tree/tree_3.c	/^NODE *root;$/;"	v
+sibling	01_list/03_generic_llist/list_12.c	/^	struct list_head sibling;$/;"	m	struct:task_struct	typeref:struct:task_struct::list_head	file:
+sid	04_rbtree/rbtree_test.c	/^	int sid;$/;"	m	struct:__anon1	file:
+sid	04_rbtree/rbtree_test.c	/^	int sid;$/;"	m	struct:__anon2	file:
+sno	02_hash/hash_1.c	/^	int sno;$/;"	m	struct:__anon11	file:
+sno	02_hash/hash_2.c	/^	int sno;$/;"	m	struct:__anon10	file:
+task_struct	01_list/03_generic_llist/list_12.c	/^struct task_struct{$/;"	s	file:
+tasks	01_list/03_generic_llist/list_12.c	/^	struct list_head tasks;$/;"	m	struct:task_struct	typeref:struct:task_struct::list_head	file:
