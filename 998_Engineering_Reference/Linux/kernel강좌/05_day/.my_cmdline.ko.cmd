@@ -1,0 +1,1 @@
+cmd_/root/android/my_test/05_day/my_cmdline.ko := aarch64-linux-android-ld -EL -r  -T /root/tegra/scripts/module-common.lds --build-id  -o /root/android/my_test/05_day/my_cmdline.ko /root/android/my_test/05_day/my_cmdline.o /root/android/my_test/05_day/my_cmdline.mod.o

@@ -1,0 +1,193 @@
+The contents of this transaction was created by Eunpyo Lee
+of LG Electronics on 08-Oct-2013.
+
+It contains the ARM data versions listed below.
+
+This data, unless otherwise stated, is ARM Proprietary and access to it
+is subject to the agreements indicated below.
+
+If you experience problems with this data, please contact ARM support
+quoting transaction reference <557684>.
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- MP019-BU-50000-r0p1-00lac0
+  Bundle for a full licensed Cortex-A57
+  DM31p5 release
+  explicitly entitled under contract ANX-21106 
+  This is a bundled release containing the following:
+  |
+  |- MP019-DC-06003-r0p1-00lac0
+  |  Release Notes - PDF
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-MN-22010-r0p1-00lac0
+  |  Vector Replay and Capture Test Bench
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-MN-22110-r0p1-00lac0
+  |  Synthesizable Verilog - RTL
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-MN-70002-r0p1-00lac0
+  |  RAM Integration Test Bench
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-MN-70009-r0p1-00lac0
+  |  Integration Kit
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-MN-70030-r0p1-00lac0
+  |  Cortex-A57 IP-XACT Description
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-MN-70052-r0p1-00lac0
+  |  RTL Model Configuration Check Script
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-MN-70053-r0p1-00lac0
+  |  RTL Model Configuration Script
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-VE-09001-r0p1-00lac0
+  |  Power Indicative Test Source
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-VE-70006-r0p1-00lac0
+  |  Instruction Execution Test Source
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-VE-70025-r0p1-00lac0
+  |  Maximum Power Indicative Test Source
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-VE-70027-r0p1-00lac0
+  |  WFI Leakage Pwr Vectors Source
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-VE-70053-r0p1-00lac0
+  |  Post Layout Configuration Verify Vectors
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- TM918-MN-22100-r0p1-01rel0
+  |  APB Access Port Verilog RTL
+  |  APB Access Port Verilog RTL
+  |  explicitly entitled under contract ANX-02257 
+  |
+  |- TM919-MN-22100-r0p1-00rel0
+  |  APBMUX for DAP Verilog RTL
+  |  APBMUX RTL
+  |  explicitly entitled under contract ANX-02257 
+  |
+  |- TM940-MN-22100-r1p1-01rel0
+  |  CoreSight DAP Lite Verilog RTL
+  |  CoreSight DAP Lite Verilog RTL
+  |  available to all customers
+  |
+  |- TM945-MN-22100-r0p2-00rel0
+  |  Serial Wire JTAG dualmode Debug Port RTL
+  |  SWJ-DP RTL
+  |  explicitly entitled under contract ANX-02257 
+
+- MP019-BU-60000-r0p1-00lac0
+  Cortex-A57 MPCore Documentation Bundle
+  DM31p5 release
+  explicitly entitled under contract ANX-21106 
+  This is a bundled release containing the following:
+  |
+  |- MP019-DA-00001-r0p1-00lac0
+  |  TRM - Framemaker
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-DA-03001-r0p1-00lac0
+  |  Technical Reference Manual - PDF
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-DC-13001-r0p1-00lac0
+  |  Integration Manual - PDF
+  |  DM31p5 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- MP019-DC-70019-r0p1-00lac0
+  |  Configuration and Signoff Guide - PDF
+  |  DM31p3 release
+  |  explicitly entitled under contract ANX-21106 
+  |
+  |- TM093-DC-70014-r1p3-00rel0
+  |  CoreSight Generic Components IG - PDF
+  |  CoreSight Generic Components IG - PDF
+  |  available to all customers
+  |
+  |- TM940-DA-00001-r1p2-00rel0
+  |  CoreSight DAP Lite TRM - FrameMaker
+  |  CoreSight DAP Lite TRM - FrameMaker
+  |  available to all customers
+  |
+  |- TM940-DA-03001-r1p2-00rel0
+  |  CoreSight DAP Lite TRM - PDF
+  |  CoreSight DAP Lite TRM - PDF - TM940-DA-03001
+  |  available to all customers
+  |
+  |- TM940-DC-06002-r1p2-00rel0
+  |  CoreSight DAP Lite Release Note - PDF
+  |  CoreSight DAP Lite Release Note
+  |  available to all customers
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+This transaction contains deliverables which are designated as being of
+limited access release status (LAC).
+
+Limited Access release status has a particular meaning to ARM of which
+the recipient must be aware.  The deliverables of a product at Limited
+Access status have demonstrated complete or near complete conformance
+to the agreed functional and specific non-functional requirements.  Any
+known exceptions have been communicated to the recipients of these
+deliverables. The availability of a Limited Access release is to allow
+the increased testing of the deliverables outside of ARM prior to ARM
+assigning them with Early Access status.
+
+A deliverable of this status is considered to have no known functional
+or significant non-functional deficiencies against the agreed behavior
+and interface requirement. ARM advises limitations on the use by a
+customer of these deliverables, specifically they are not recommended
+for a design intended for high volume production as validation is still
+ongoing by ARM and other parties.
+
+In due course, the Limited Access release will be replaced by the Early
+Access release.
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+In addition to the data versions listed above, this transaction contains
+two additional files at the top level.
+
+The first is this file, ARM_DELIVERY_557684.TXT, which is the delivery
+note.
+
+The second is ARM_MANIFEST_557684.TXT which contains a manifest of all the
+files included in this transaction, together with their checksums.
+
+The checksums provided are calculated using the RSA Data Security, Inc.
+MD5 Message-Digest Algorithm.
+
+The checksums can be used to verify the integrity of this data using the
+"md5sum" tool (which is part of the GNU "textutils" package) by running:
+
+  % md5sum --check ARM_MANIFEST_557684.TXT
+

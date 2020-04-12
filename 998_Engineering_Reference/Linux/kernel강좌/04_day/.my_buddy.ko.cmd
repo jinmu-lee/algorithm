@@ -1,0 +1,1 @@
+cmd_/root/android/my_test/04_day/my_buddy.ko := aarch64-linux-android-ld -EL -r  -T /root/tegra/scripts/module-common.lds --build-id  -o /root/android/my_test/04_day/my_buddy.ko /root/android/my_test/04_day/my_buddy.o /root/android/my_test/04_day/my_buddy.mod.o

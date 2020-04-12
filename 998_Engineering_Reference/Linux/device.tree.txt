@@ -1,0 +1,173 @@
+1. location of device tree file
+
+\bootloader\dtb\ 에 존재하고, lk를 ./build_lk.sh odin CLAIR 로 빌드했으면 
+odin-CLAIR.dts 라는 device tree file을 사용함
+
+
+2. procedure that device tree delivery from lk to kernel 
+
+a. lk의 kernel_from_memory() 라는 함수에서 atag에 저장을 하여 아래 함수 호출 
+	entry(0, LINUX_MACHTYPE, (unsigned *)TAGS_ADDR);
+그러면 kernel의 head.S가 부팅할 때 r0, r1, r2에 각각 0, LINUX_MACHTYPE, TAGS_ADDR(우리 system에서는 p:0x82000000->v:0xC200000) 이 들어감 
+
+b. kernel booting중에 setup_arch() -> setup_machine_fdt(), setup_machine_tags() 등에서 atag와 device tree를 parsing하는 걸로 보임
+
+
+3. how to use device tree in kernel 
+
+a. odin-fpga.c라는 file에 아래와 같은 내용이 있음 
+
+	// device tree에서 compatible가 "arm,sp804" 인 놈을 찾음 
+	np = of_find_compatible_node(NULL, NULL, "arm,sp804");
+	
+	// base address를 얻어옴, virtual address를 얻어옴
+	timer_base = of_iomap(np, 0);
+	WARN_ON(!timer_base);
+	
+	// irq number를 얻어옴
+	irq = irq_of_parse_and_map(np, 0);
+
+  // clock source를 얻어옴 
+	odin_clocks_init();
+	lookup.clk = of_clk_get(np, 0);
+	
+b. 실제로는 device tree의 내용중, 아래의 timer 관련한 device tree를 parsing한 내용임 
+
+	s_timer: timer@20026000 {
+		compatible = "arm,sp804", "arm,primecell";
+		reg = <0 0x20026000 0 0x1000>;
+		interrupts = <0 21 0x004>, <0 22 0x004>;
+		clocks = <&pclk>;
+		clock-names = "apb_pclk";
+	};	
+
+
+4. simple grammers of device tree
+
+  ###################### example 1 ######################
+  
+  / {
+      compatible = "acme,coyotes-revenge";
+  
+      cpus {
+          cpu@0 {
+              compatible = "arm,cortex-a9";
+          };
+          cpu@1 {
+              compatible = "arm,cortex-a9";
+          };
+      };
+  };
+  
+  a. / -> single root node
+
+  b. cpus -> parent node
+  
+  c. cpu@0 {};, cpu@1 {}; -> child node 
+  
+
+  ###################### example 2 ######################
+  
+	s_timer: timer@20026000 {
+		compatible = "arm,sp804", "arm,primecell";
+		reg = <0 0x20026000 0 0x1000>;
+		interrupts = <0 21 0x004>, <0 22 0x004>;
+		clocks = <&pclk>;
+		clock-names = "apb_pclk";
+	};
+	
+	d. s_timer -> node
+	
+	e. timer@20026000 -> name @ unit-address 
+	
+	f. compatible -> system의 name을 나타낸다. 커널에서 of_find_compatible_node() 등의 API를 사용해서 node를 찾을 때 사용 
+	
+  g. interrupts = <0 21 0x004>, 에서 < > 내부의 0, 21, 0x004 -> cell 이라고 부른다. 각 cell마다 address-cells, size-cells 등의 의미를 지닌다. 
+	  
+
+  ###################### example 3 ######################
+  cpus {
+        #address-cells = <1>;
+        #size-cells = <0>;
+        cpu@0 {
+            compatible = "arm,cortex-a9";
+            reg = <0>;
+        };
+        cpu@1 {
+            compatible = "arm,cortex-a9";
+            reg = <1>;
+        };
+  };
+    
+  h.  #address-cells = <1>; -> 는 각각의 child node(cpu@0, cpu@1)는 size는 0인 address-cells를 1개씩 갖는다. cpu@0는 address 0, cpu@1는 address 1을 갖는다. 
+      #size-cells = <0>;
+  
+
+  ###################### example 4 ######################
+   / {
+    #address-cells = <1>;
+    #size-cells = <1>;
+
+    ...
+
+    serial@101f0000 {
+        compatible = "arm,pl011";
+        reg = <0x101f0000 0x1000 >;
+    };
+
+    serial@101f2000 {
+        compatible = "arm,pl011";
+        reg = <0x101f2000 0x1000 >;
+    };
+
+    gpio@101f3000 {
+        compatible = "arm,pl061";
+        reg = <0x101f3000 0x1000
+               0x101f4000 0x0010>;
+    };
+
+    interrupt-controller@10140000 {
+        compatible = "arm,pl190";
+        reg = <0x10140000 0x1000 >;
+    };
+
+    spi@10115000 {
+        compatible = "arm,pl022";
+        reg = <0x10115000 0x1000 >;
+    };
+
+    ...
+
+  };
+
+  i. 각각의 peri는 reg에 address-cell 1개, size-cell 1개를 갖는다. gpio는 64bit라 32bit 2개씩을 갖는것으로 간주된다.
+  
+  
+  ###################### example 5 ######################
+	pdma: pdma@20000000 {
+		compatible = "arm,pl080-pdma", "arm,primecell";
+		reg = <0 0x20000000 0 0x2000>;
+		interrupts = <0 0 4>, <0 1 4>;
+		clocks = <&pclk>;
+		clock-names = "apb_pclk";
+	};
+	
+	j. ARM SMP cores are often associated with a GIC, providing per processor interrupts (PPI), 
+	shared processor interrupts (SPI) and software generated interrupts (SGI).
+	
+	- The 1st cell is the interrupt type; 0 for SPI interrupts, 1 for PPI interrupts.
+  - The 2nd cell contains the interrupt number for the interrupt type. SPI interrupts are in the range [0-987].  PPI interrupts are in the range [0-15].
+  - The 3rd cell is the flags, encoded as follows: bits[3:0] trigger type and level flags. 
+    1 = low-to-high edge triggered 
+    2 = high-to-low edge triggered 
+    4 = active high level-sensitive 
+    8 = active low level-sensitive
+    
+  
+  5. api to related with device tree   
+  \kernel\drivers\of\base.c 이외에 다수 존재 
+
+  6. 참조 reference 
+
+  http://devicetree.org/Device_Tree_Usage#Sample_Machine
+  \kernel\Documentation\devicetree\*.txt

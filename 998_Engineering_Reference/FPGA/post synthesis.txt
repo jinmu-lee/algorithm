@@ -1,0 +1,25 @@
+In Project Navigator, there are several different types of simulation available. The simulation types are selected by navigating to theSimulation tab and selecting the appropriate type from the drop-down menu. The options available are as follows:
+
+?Behavioral 
+?Post - Translate 
+?Post - MAP 
+?Post - Place and Route (Timing) 
+If you want to run a Post - Synthesis simulation, you will not be able to perform it by the GUI options. 
+
+Follow these steps to run simulation:
+
+1.Create the project in ISE Project Navigator and add all the required modules including the testbench. 
+2.Set the module (DUT)you want to perform Post-Synthesis Simulation as the Top Module. 
+3.Run Synthesis. 
+4.Once the design is synthesized. Expand the Synthesize -> XST option and double-click on Generate Post-Synthesis Simulation Model. This runs NetGen to create the simulation netlist. The output is placed inthe "./netgen/synthesis" folderin your project directory. The file generatedis named: <top_module_name>_synthesis.vhd/v. This file would be a VHDL or Verilog file depending on the source file of the synthesized module. Alternately, you can right-click onGenerate Post-Synthesis Simulation Model and change the value of Simulation Model Target (VHDL/Verilog) as per your needs. 
+5.In your "project" directory, create a new ".prj" file. Add the two entries as shown below:
+vhdl/verilog work (or library name)"netgen\synthesis\<top_module_name>_synthesis.vhd/v"
+vhdl/verilog work (or library name) "testbench.vhd/v" 
+
+6.Open the ISE Design Suite Command Prompt and run the following commands (depending on simulation language):
+
+?Verilog: fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o x_synthesis.exe -prj new.prj work.<testbench>work.glbl 
+?VHDL: fuse -intstyle ise -incremental -lib unisim -lib unimacro -lib xilinxcorelib -lib secureip -o x_synthesis.exe -prj new.prj work.<testbench> 
+
+7.Run the generated simulation executable x_synthesis.exe -gui to open ISIM GUI. 
+8.The outputted waveform is the Post-Synthesis Simulation for the design under test. 
