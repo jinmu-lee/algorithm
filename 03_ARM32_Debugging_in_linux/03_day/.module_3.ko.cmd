@@ -1,0 +1,1 @@
+cmd_/root/03_day/module_3.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /root/03_day/module_3.ko /root/03_day/module_3.o /root/03_day/module_3.mod.o ;  true
