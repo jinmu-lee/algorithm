@@ -1,0 +1,36 @@
+RFS 커널에 포함
+
+1. init 프로그램 링크 걸기
+cd ~/work/myrootfs/rootfs
+sudo ln -s sbin/init init
+
+2. rootfs.cpio.gz 만들기
+cd ..
+sudo vim mkinitramfs.sh
+============================
+  #!/bin/sh
+
+  # Copyright 2006 Rob Landley <rob@landley.net> and TimeSys Corporation.
+  # Licensed under GPL version 2
+
+  if [ $# -ne 2 ]
+  then
+    echo "usage: mkinitramfs directory imagename.cpio.gz"
+    exit 1
+  fi
+
+  if [ -d "$1" ]
+  then
+    echo "creating $2 from $1"
+    (cd "$1"; find . | cpio -o -H newc | gzip) > "$2"
+  else
+    echo "First argument must be a directory"
+    exit 1
+  fi
+============================
+sudo ./mkinitramfs.sh rootfs rootfs.cpio.gz
+
+3. 커널 설정
+General setup  --->  
+	(/home/user/work/myrootfs/rootfs.cpio.gz) Initramfs source file(s) 
+	

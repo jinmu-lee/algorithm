@@ -1,0 +1,8 @@
+config MYDEV
+	tristate "mydev platform driver for WT4412"
+	default n
+	help
+	  If you want to enable mydev platform driver
+	  say Y or M here, otherwise say N.
+
+obj-$(CONFIG_MYDEV)             += mydev.o

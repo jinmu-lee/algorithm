@@ -1,0 +1,254 @@
+<패키지 설치>
+sudo apt-get update
+sudo apt-get install vim git-core gnupg flex bison gperf build-essential libc6-dev libncurses5-dev:i386
+sudo apt-get install x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 g++-multilib mingw32
+sudo apt-get install openjdk-6-jdk tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev:i386
+sudo apt-get install libusb-dev:i386 minicom libesd0-dev valgrind autoconf libtool texinfo
+sudo apt-get install nfs-kernel-server tftpd tftp xinetd
+sudo apt-get install device-tree-compiler
+
+<실습자료 준비>
+cd
+sudo cp -rf /media/sf_share/res .
+sudo chown -R user res
+sudo chgrp -R user res
+
+cd
+mkdir work
+
+cd ~/work
+tar zxvf ~/res/practice/practice_yymmdd.tar.gz
+
+<타깃시스템 네트워크 설정>
+setenv gatewayip 192.168.10.1
+setenv ipaddr 192.168.10.3
+setenv netmask 255.255.255.0
+setenv serverip 192.168.10.2
+saveenv
+
+<TFTP 설정>
+sudo mkdir /tftpboot
+sudo chmod 777 /tftpboot
+sudo vim /etc/xinetd.d/tftpd
+==============================================
+service tftp
+{
+        protocol        = udp
+        port            = 69
+        socket_type     = dgram
+        wait            = yes
+        user            = nobody
+        server          = /usr/sbin/in.tftpd
+        server_args     = /tftpboot
+        disable         = no
+}
+==============================================
+sudo /etc/init.d/xinetd restart
+
+<TFTP 테스트>
+cp ~/res/images/zImage_dtb /tftpboot
+cp ~/res/images/ext2img.gz /tftpboot
+chmod 777 /tftpboot/zImage_dtb
+chmod 777 /tftpboot/ext2img.gz
+
+<U-Boot 설정>
+setenv bootcmd 'tftp 41000000 ext2img.gz;tftp 40008000 zImage_dtb;bootm 40008000'
+setenv bootargs 'console=ttySAC1,115200n81'
+saveenv
+
+<bootargs 수정>
+setenv bootargs 'console=ttySAC1,115200n81 rootfstype=ext2 root=/dev/ram0 rw initrd=0x41000000,32M'
+saveenv
+
+<Hello Linux 작성>
+cd ~
+vim Hello_Linux.c
+==============================================
+#include <stdio.h>
+int main(void)
+{
+	printf("Hello Linux!!\n");
+	return 0;
+}
+==============================================
+gcc Hello_Linux.c -o Hello
+ls -l Hello
+file Hello
+./Hello
+
+<크로스 컴파일러 설치>
+cd /opt
+sudo tar jxvf ~/res/tools/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux.tar.bz2
+sudo vim /etc/profile
+==============================================
+PATH=$PATH:/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin
+==============================================
+source /etc/profile
+
+<크로스 컴파일러로 빌드>
+cd
+arm-linux-gnueabihf-gcc Hello_Linux.c -o Hello_ARM
+file Hello_ARM
+
+<NFS 서버 구축>
+sudo mkdir /nfsroot
+sudo chmod 777 /nfsroot
+sudo vim /etc/exports
+==============================================
+/nfsroot *(rw,no_root_squash,no_all_squash,async)
+==============================================
+sudo /etc/init.d/nfs-kernel-server restart
+netstat -a | grep nfs
+
+<Hello_ARM 실행>
+sudo cp Hello_ARM /nfsroot
+
+<커널 빌드>
+cd ~/work
+tar zxvf ~/res/linux/linux-4.11.3_yymmdd.tar.gz
+ln -s linux-4.11.3 linux
+cd linux
+make menuconfig
+make wt4412_linux_defconfig
+time make zImage
+make dtbs
+./zImage_dtb.sh
+
+<루트 파일 시스템 설치>
+cd ~/work
+sudo tar zxvf ~/res/rootfs/myrootfs_yymmdd.tar.gz
+cd myrootfs
+sudo ./mkext2.sh
+cp ext2img.gz /tftpboot
+
+<U-Boot 빌드>
+cd ~/work
+tar zxvf ~/res/uboot/uboot_yymmdd.tar.gz
+cd uboot
+make clean
+make wt4412_config
+make
+
+<독립 시스템 구축>
+tftp 41000000 zImage_dtb
+mmc write 0 41000000 427 2800
+
+tftp 41000000 ext2img.gz
+mmc write 0 41000000 2c27 3800
+
+setenv bootcmd "mmc read 0 40008000 427 2800;mmc read 0 41000000 2c27 3800;bootm 40008000"
+saveenv
+
+<fastboot>
+cd ~/work
+sudo tar zxvf ~/res/fastboot/android-tools.tar.gz
+cd android-tools
+sudo cp 51-android.rules /etc/udev/rules.d/
+sudo chmod a+r /etc/udev/rules.d/51-android.rules
+sudo service udev restart
+sudo dpkg -i android-tools-adb_4.2.2+git20130218-3ubuntu23_i386.deb
+sudo dpkg -i android-tools-fastboot_4.2.2+git20130218-3ubuntu23_i386.deb
+
+cd /tftpboot
+sudo fastboot flash kernel ./zImage_dtb
+sudo fastboot flash ramdisk ./ext2img.gz
+
+setenv bootcmd "movi read kernel 0 40008000;movi read rootfs 0 41000000 700000;bootm 40008000"
+saveenv
+
+setenv bootcmd "mmc read 0 40008000 427 2800;mmc read 0 41000000 2c27 3800;bootm 40008000"
+saveenv
+	
+<루트 파일시스템 구축>
+
+// 작업 디렉터리 만들기
+
+cd ~/work
+mkdir newrootfs
+mkdir newrootfs/rootfs
+
+// 필요한 디렉터리 만들기
+
+cd ~/work/newrootfs/rootfs
+sudo mkdir bin dev etc home lib opt proc root sbin sys tmp usr var
+sudo mkdir mnt mnt/brd mnt/nfs mnt/sd
+
+// 필수 디바이스 파일 만들기
+
+cd ~/work/newrootfs/rootfs/dev
+sudo mknod console c 5 1
+sudo mknod null c 1 3
+
+// 필수 라이브러리 복사
+
+cd ~/work/newrootfs/rootfs/lib
+sudo cp -a /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/* .
+sudo cp -a /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib/libgcc_s* .
+sudo cp -a /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/arm-linux-gnueabihf/lib/libstdc++.so* .
+
+// system V init 설치
+
+cd ~/work
+tar zxvf ~/res/source/sysvinit-2.88.tar.gz
+cd sysvinit-2.88/src
+CC=arm-linux-gnueabihf-gcc make
+sudo ROOT=/home/user/work/newrootfs/rootfs make install
+
+// bash 설치
+
+cd ~/work
+tar zxvf ~/res/source/bash-4.0.tar.gz
+cd bash-4.0
+./configure --prefix=/home/user/work/newrootfs/rootfs --host=arm-linux-gnueabihf
+make all
+sudo make install
+cd ~/work/newrootfs/rootfs/bin
+sudo ln -s bash sh
+
+// busybox 설치
+
+cd ~/work
+tar jxvf ~/res/source/busybox-1.26.2.tar.bz2 
+cd busybox-1.26.2
+
+vim Makefile
+
+CROSS_COMPILE ?= /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin/arm-linux-gnueabihf-
+	
+make menuconfig
+	
+make
+sudo make install
+
+// udev 설치
+
+cd ~/work
+tar zxvf ~/res/source/udev-106.tar.gz
+cd udev-106
+
+vim Makefile
+
+DESTDIR = /home/user/work/newrootfs/rootfs
+CROSS_COMPILE ?= arm-linux-gnueabihf-
+
+install-bin:
+	$(INSTALL_PROGRAM) -D udevstart $(DESTDIR)$(sbindir)/udevstart
+
+make
+sudo make install
+
+// etc 디렉터리 복사
+
+cd ~/work/newrootfs/rootfs
+sudo tar zxvf ~/res/source/etc.tar.gz
+
+// 스크립트 복사
+
+cd ~/work/newrootfs
+cp ~/work/myrootfs/mkext2.sh .
+
+// 이미지 생성 후 /tftpboot로 복사
+
+cd ~/work/newrootfs
+sudo ./mkext2.sh
+cp ext2img.gz /tftpboot

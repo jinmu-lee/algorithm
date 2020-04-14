@@ -1,0 +1,8 @@
+        my_pdev@11000000 {
+                compatible = "my-pdev";
+                reg = <0x11000000 0x1000>;
+                interrupt-parent = <&gpx0>;
+                interrupts = <3 IRQ_TYPE_EDGE_FALLING>;
+                led_status = <0>;
+        };
+

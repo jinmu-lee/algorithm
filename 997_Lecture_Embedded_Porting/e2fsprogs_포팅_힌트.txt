@@ -1,0 +1,31 @@
+~/res/source/e2fsprogs.tar.gz
+
+RFS 에 포함하고 나면 이 시스템 포팅 가능
+
+e2fsprogs 포팅
+
+1. 파티션 나누기 (u-boot에서 실행)
+# fdisk -c 0 100 100 100
+...
+partion #    size(MB)     block start #    block count    partiti
+on_Id 
+   1            56           746496          115668          0x0C
+ 
+   2           100           131220          205092          0x83
+ 
+   3           100           336312          205092          0x83
+ 
+   4           100           541404          205092          0x83
+   
+2. 테스트
+
+# mkfs.ext4 /dev/mmcblk0p1
+
+# mount -t ext4 /dev/mmcblk0p1 /mnt/sd
+
+# df
+...
+/dev/mmcblk0p1           51413       910     46491   2% /mnt/sd
+
+# ls /mnt/sd
+lost+found

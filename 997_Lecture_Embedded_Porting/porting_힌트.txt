@@ -1,0 +1,45 @@
+0. 커널 압축해제
+	cd ~/work
+	tar Jxvf linux-4.14.32.tar.xz
+	
+1.Makefile
+	update ARCH, CROSS_COMPILE
+
+2. arch/arm/configs/wt4412_linux_defconfig
+	기존 커널에서 복사
+
+3. arch/arm/boot/dts/
+	기존 커널로 교체
+
+4. zImage_dtb.sh
+	기존 커널에서 복사
+
+5. build and run
+	make wt4412_linux_defconfig
+	make -j 4 zImage
+	make dtbs
+	./zImage_dtb.sh
+
+	## 아무런 메시지가 나오지 않음
+
+6. low-level debuging
+	make menuconfig
+	Kernel hacking  -->
+		[*] Kernel low-level debugging functions (read help!)
+			Kernel low-level debugging port (Use Samsung S3C UART 1 for low-level debug)  --->
+
+	## printch 사용 예 (arch/arm/kernel/head.S 같은 어셈블리어에서 사용 가능)
+		mov  r0, #65
+		bl printch
+
+7. early_printk
+	make menuconfig
+	Kernel hacking  --->
+		[*] Early printk
+
+	## early_printk() 함수를 사용하기 위해서는 U-Boot에서 bootargs에 "earlyprintk" 를 추가해주어야 함
+	
+	## early_printk() 사용 예 (init/main.c에서 사용 가능, 단 setup_arch(&command_line); 이후에 가능)
+		early_printk("[%s:%d]-%s()\n", __FILE__,__LINE__,__FUNCTION__);
+
+8. initcall_debug를 1로 고쳐서(또는 커널 파라미터에 "initcall_debug"와 "loglevel=8"을 추가해서) 초기화 과정에서 호출되는 함수 중 어떤 함수에서 멈추는지 확인
