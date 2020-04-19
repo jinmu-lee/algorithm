@@ -14,12 +14,12 @@ int main(){
 	LRU list_pages[PAGE_FRAME_MAX_NUM] = {0,};
 	PAGE table_pages[PAGE_FRAME_MAX_NUM] = {0,};
 	int page_count=0;
-	system("cls");
+	system("clear");
 	__display_htable(htable);
 	__display_list(&list);
 	getchar();
 	while(1){
-		system("cls");
+		system("clear");
 		if( page_count >= NUM_OF_PAGES ){
 			__display_removal(htable,&list,&page_count);
 		}
@@ -40,10 +40,10 @@ void __display_removal(struct hlist_head *page_htable,struct list_head *lru_head
 	list_del(&llist->lru_head);
 	if( page = hlist_find_key(&page_htable[key],pfn)) {
 		hlist_del(&page->hnode);
-		printf("page 꽉 참, pfn=%2d 퇴출\n",pfn);
+		printf("page is full, pfn=%2d is out\n",pfn);
 		(*page_count)--;
 	}else{
-		printf("[DEBUG] 삭제 실패\n");
+		printf("[DEBUG] failed to remove a page\n");
 	}			
 }
 void __display_add_newpage(struct hlist_head *page_htable,struct list_head *lru_head,
@@ -51,7 +51,7 @@ void __display_add_newpage(struct hlist_head *page_htable,struct list_head *lru_
 	unsigned int pfn = rand()%PAGE_FRAME_MAX_NUM;
 	unsigned int key = hash_func(pfn);
 	PAGE *page = 0;
-	printf("pfn = %d 접근\n",pfn);
+	printf("New Page Number = [%2d]\n",pfn);
 	if (page = hlist_find_key(&page_htable[key],pfn) ){
 		int data = page->data;
 		struct list_head *ltemp;
@@ -63,9 +63,9 @@ void __display_add_newpage(struct hlist_head *page_htable,struct list_head *lru_
 			}
 		}
 		hlist_del(&page->hnode);
-		printf("기존 페이지 접근, data =%d\n",data);
-	}else{		
-		printf("새로운 page hash에 추가, 현재 page 수= %d\n",++(*page_count));
+		printf("Page Number(%2d) already exists, data=[%2d]\n",pfn,data);
+	}else{	
+		printf("Page Number(%2d) inserted to hash, a number of pages=[%2d]\n",pfn,++(*page_count));
 	}
 	//table setting
 	table_pages[pfn].pfn = pfn;
