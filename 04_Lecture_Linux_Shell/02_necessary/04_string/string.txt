@@ -1,0 +1,31 @@
+text management
+
+sort file 
+-> ls -R /etc | sort
+
+stdin 을 stdout 으로 출력
+-> ls /etc | tee etc.txt
+
+중복 행 제거
+-> ls -R /etc | sort | uniq
+
+stdin 으로 문자 입력받아서 제거
+-> echo "abcdeFGHI" | tr -d cdg
+
+입력 받은 문자를 변경
+-> 명령 | tr 대상문자 변경문자
+-> echo "abcdeFGHI" | tr A-Z a-z
+
+파일 내의 행, 단어, 바이트 수 알아내는 방법
+-> wc /etc/passwd
+
+wc [option]
+-l (행 수) -> 빈 행 포함
+-w (단어 수) -> 빈 행 포함하지 않음
+-c (바이트 수) 
+
+구분자로 구분 된 특정 필드 
+-> date (Wed May 13 14:01:39 KST 2020)
+-> date | cut -d ' ' -f5 (KST)
+-d (delimiter)
+-f (field)

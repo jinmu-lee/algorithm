@@ -1,0 +1,39 @@
+echo $USER
+-> jinmu.lee
+
+echo \$USER
+-> $USER
+
+echo "$USER"
+-> jinmu.lee
+
+echo '$USER'
+-> $USER
+
+*echo 의 -e 옵션 적용하면 \ 가 enable 됨
+echo -e "111\n222\r333\t444" 
+-> \n \r \t 가 의미를 갖게 됨
+
+
+echo$! : 마지막으로 백그라운드에서 실행된 명령어의 PID 값을 출력한다.
+
+echo$? : 마지막으로 종료된 명령어의 종료 상태를 말해주는데, 종료상태란 정상적인 종료0과 비정상적 종료인 0을 제외한 다른 값을 의미한다.
+
+echo$$ : 현재 쉘의 PID값을 출력한다.
+
+
+**************************
+ ./var_sp.sh one two
+
+$# : 2
+$0 : ./var_sp.sh
+$1 : one
+$2 : two
+$$ : 3467
+$? : 0
+ls: cannot access 'xxxx': No such file or directory
+$? : 2
+
+
+1522-1741
+=> 

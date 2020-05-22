@@ -1,0 +1,1228 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Array	5020/array2.cpp	/^template<typename T, int N> struct Array$/;"	s	file:
+Array	STL-master/5020/array2.cpp	/^template<typename T, int N> struct Array$/;"	s	file:
+Car	6010/car.h	/^    Car(int c = 0, int s = 0) : color(c), speed(s) {}$/;"	f	class:Car
+Car	6010/car.h	/^class Car$/;"	c
+Car	6010/sptr1.cpp	/^class Car$/;"	c	file:
+Car	STL-master/6010/car.h	/^    Car(int c = 0, int s = 0) : color(c), speed(s) {}$/;"	f	class:Car
+Car	STL-master/6010/car.h	/^class Car$/;"	c
+Car	STL-master/6010/sptr1.cpp	/^class Car$/;"	c	file:
+Circle	6010/Factory.cpp	/^class Circle : public Shape {};$/;"	c	file:
+Circle	STL-master/6010/Factory.cpp	/^class Circle : public Shape {};$/;"	c	file:
+CreateShape	6010/Factory.cpp	/^unique_ptr<Shape> CreateShape(int type)$/;"	f
+CreateShape	STL-master/6010/Factory.cpp	/^unique_ptr<Shape> CreateShape(int type)$/;"	f
+Deleter	6010/uptr3.cpp	/^struct Deleter$/;"	s	file:
+Deleter	6010/uptr4.cpp	/^struct Deleter$/;"	s	file:
+Deleter	STL-master/6010/uptr3.cpp	/^struct Deleter$/;"	s	file:
+Deleter	STL-master/6010/uptr4.cpp	/^struct Deleter$/;"	s	file:
+FOO	6010/test.cpp	/^struct FOO$/;"	s	file:
+FOO	STL-master/6010/test.cpp	/^struct FOO$/;"	s	file:
+FindChar	5020/vector4.cpp	/^    FindChar( string s) : data(s) {}$/;"	f	struct:FindChar
+FindChar	5020/vector4.cpp	/^struct FindChar$/;"	s	file:
+FindChar	STL-master/5020/vector4.cpp	/^    FindChar( string s) : data(s) {}$/;"	f	struct:FindChar
+FindChar	STL-master/5020/vector4.cpp	/^struct FindChar$/;"	s	file:
+Functor	7010/thread3.cpp	/^struct Functor$/;"	s	file:
+Functor	STL-master/7010/thread3.cpp	/^struct Functor$/;"	s	file:
+Go	6010/car.h	/^    void Go() { std::cout << "Car go" << std::endl;}$/;"	f	class:Car
+Go	6010/sptr1.cpp	/^    void Go() { cout << "Car go" << endl;}$/;"	f	class:Car
+Go	STL-master/6010/car.h	/^    void Go() { std::cout << "Car go" << std::endl;}$/;"	f	class:Car
+Go	STL-master/6010/sptr1.cpp	/^    void Go() { cout << "Car go" << endl;}$/;"	f	class:Car
+List	2030/cpp17.cpp	/^	List(int sz, T initValue) {}$/;"	f	class:List
+List	2030/cpp17.cpp	/^template<typename T> class List$/;"	c	file:
+List	STL-master/2030/cpp17.cpp	/^	List(int sz, T initValue) {}$/;"	f	class:List
+List	STL-master/2030/cpp17.cpp	/^template<typename T> class List$/;"	c	file:
+Main	6010/sptr8.cpp	/^    void Main()$/;"	f	class:Worker
+Main	7010/thread3.cpp	/^    void Main() {}$/;"	f	struct:Worker
+Main	STL-master/6010/sptr8.cpp	/^    void Main()$/;"	f	class:Worker
+Main	STL-master/7010/thread3.cpp	/^    void Main() {}$/;"	f	struct:Worker
+MyAlloc	5020/MyAlloc1.h	/^	MyAlloc() throw() { }$/;"	f	class:MyAlloc
+MyAlloc	5020/MyAlloc1.h	/^	MyAlloc(const MyAlloc&) throw() { }$/;"	f	class:MyAlloc
+MyAlloc	5020/MyAlloc1.h	/^	template <class U> MyAlloc(const MyAlloc<U>&) throw() {}$/;"	f	class:MyAlloc
+MyAlloc	5020/MyAlloc1.h	/^template <class T> class MyAlloc {$/;"	c
+MyAlloc	5020/MyAlloc2.h	/^class MyAlloc$/;"	c
+MyAlloc	6010/MyAlloc2.h	/^class MyAlloc$/;"	c
+MyAlloc	STL-master/5020/MyAlloc1.h	/^	MyAlloc() throw() { }$/;"	f	class:MyAlloc
+MyAlloc	STL-master/5020/MyAlloc1.h	/^	MyAlloc(const MyAlloc&) throw() { }$/;"	f	class:MyAlloc
+MyAlloc	STL-master/5020/MyAlloc1.h	/^	template <class U> MyAlloc(const MyAlloc<U>&) throw() {}$/;"	f	class:MyAlloc
+MyAlloc	STL-master/5020/MyAlloc1.h	/^template <class T> class MyAlloc {$/;"	c
+MyAlloc	STL-master/5020/MyAlloc2.h	/^class MyAlloc$/;"	c
+MyAlloc	STL-master/6010/MyAlloc2.h	/^class MyAlloc$/;"	c
+Node	2020_CONTAINER_ITERATOR/cont1.cpp	/^	Node(const T& a, Node* n) : data(a), next(n) {}$/;"	f	struct:Node
+Node	2020_CONTAINER_ITERATOR/cont1.cpp	/^template<typename T> struct Node$/;"	s	file:
+Node	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	Node(const T& a, Node* n) : data(a), next(n) {}$/;"	f	struct:Node
+Node	2020_CONTAINER_ITERATOR/iterator1.cpp	/^template<typename T> struct Node$/;"	s	file:
+Node	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	Node(const T& a, Node* n) : data(a), next(n) {}$/;"	f	struct:Node
+Node	2020_CONTAINER_ITERATOR/iterator2.cpp	/^template<typename T> struct Node$/;"	s	file:
+Node	3040/member_type.cpp	/^	Node(const T& a, Node* n) : data(a), next(n) {}$/;"	f	struct:Node
+Node	3040/member_type.cpp	/^template<typename T> struct Node$/;"	s	file:
+Node	3040/member_type2.cpp	/^	Node(const T& a, Node* n) : data(a), next(n) {}$/;"	f	struct:Node
+Node	3040/member_type2.cpp	/^template<typename T> struct Node$/;"	s	file:
+Node	STL-master/2020_CONTAINER_ITERATOR/cont1.cpp	/^	Node(const T& a, Node* n) : data(a), next(n) {}$/;"	f	struct:Node
+Node	STL-master/2020_CONTAINER_ITERATOR/cont1.cpp	/^template<typename T> struct Node$/;"	s	file:
+Node	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	Node(const T& a, Node* n) : data(a), next(n) {}$/;"	f	struct:Node
+Node	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^template<typename T> struct Node$/;"	s	file:
+Node	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	Node(const T& a, Node* n) : data(a), next(n) {}$/;"	f	struct:Node
+Node	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^template<typename T> struct Node$/;"	s	file:
+Node	STL-master/3040/member_type.cpp	/^	Node(const T& a, Node* n) : data(a), next(n) {}$/;"	f	struct:Node
+Node	STL-master/3040/member_type.cpp	/^template<typename T> struct Node$/;"	s	file:
+Node	STL-master/3040/member_type2.cpp	/^	Node(const T& a, Node* n) : data(a), next(n) {}$/;"	f	struct:Node
+Node	STL-master/3040/member_type2.cpp	/^template<typename T> struct Node$/;"	s	file:
+NotificationCenter	6040/function4.cpp	/^class NotificationCenter$/;"	c	file:
+NotificationCenter	STL-master/6040/function4.cpp	/^class NotificationCenter$/;"	c	file:
+Notify	6040/function4.cpp	/^    void Notify( string key, void* param)$/;"	f	class:NotificationCenter
+Notify	STL-master/6040/function4.cpp	/^    void Notify( string key, void* param)$/;"	f	class:NotificationCenter
+People	3060/People.h	/^    People( std::string s ) : name(s) {}$/;"	f	class:People
+People	3060/People.h	/^    People(const People& p) : name(p.name)$/;"	f	class:People
+People	3060/People.h	/^class People$/;"	c
+People	6010/wptr1.cpp	/^    People(string s) : name(s) {}$/;"	f	struct:People
+People	6010/wptr1.cpp	/^struct People$/;"	s	file:
+People	6010/wptr3.cpp	/^    People(string s) : name(s) {}$/;"	f	struct:People
+People	6010/wptr3.cpp	/^struct People$/;"	s	file:
+People	STL-master/3060/People.h	/^    People( std::string s ) : name(s) {}$/;"	f	class:People
+People	STL-master/3060/People.h	/^    People(const People& p) : name(p.name)$/;"	f	class:People
+People	STL-master/3060/People.h	/^class People$/;"	c
+People	STL-master/6010/wptr1.cpp	/^    People(string s) : name(s) {}$/;"	f	struct:People
+People	STL-master/6010/wptr1.cpp	/^struct People$/;"	s	file:
+People	STL-master/6010/wptr3.cpp	/^    People(string s) : name(s) {}$/;"	f	struct:People
+People	STL-master/6010/wptr3.cpp	/^struct People$/;"	s	file:
+Plus	4020/functor1.cpp	/^struct Plus$/;"	s	file:
+Plus	STL-master/4020/functor1.cpp	/^struct Plus$/;"	s	file:
+Point	1020_PREVIEW/min.cpp	/^struct Point$/;"	s	file:
+Point	5010/container1.cpp	/^struct Point$/;"	s	file:
+Point	5020/Point.h	/^    Point(int a = 0, int b = 0) : x(a), y(b)$/;"	f	struct:Point
+Point	5020/Point.h	/^struct Point$/;"	s
+Point	5020/usertype1.cpp	/^    Point(int a, int b) : x(a), y(b) {}$/;"	f	class:Point
+Point	5020/usertype1.cpp	/^class Point$/;"	c	file:
+Point	5020/usertype2.cpp	/^    Point(int a, int b) : x(a), y(b) {}$/;"	f	class:Point
+Point	5020/usertype2.cpp	/^class Point$/;"	c	file:
+Point	5020/usertype3.cpp	/^    Point(const Point& ) { cout << "Point(const Point&)" << endl;}$/;"	f	class:Point
+Point	5020/usertype3.cpp	/^    Point(int a, int b) : x(a), y(b){ cout << "Point()" << endl; }$/;"	f	class:Point
+Point	5020/usertype3.cpp	/^class Point$/;"	c	file:
+Point	5050/set3.cpp	/^    Point(int a = 0, int b = 0) : x(a), y(b) {}$/;"	f	struct:Point
+Point	5050/set3.cpp	/^struct Point$/;"	s	file:
+Point	5050/unordered3.cpp	/^    Point(int a = 0, int b = 0) : x(a), y(b) {}$/;"	f	struct:Point
+Point	5050/unordered3.cpp	/^struct Point$/;"	s	file:
+Point	STL-master/1020_PREVIEW/min.cpp	/^struct Point$/;"	s	file:
+Point	STL-master/5010/container1.cpp	/^struct Point$/;"	s	file:
+Point	STL-master/5020/Point.h	/^    Point(int a = 0, int b = 0) : x(a), y(b)$/;"	f	struct:Point
+Point	STL-master/5020/Point.h	/^struct Point$/;"	s
+Point	STL-master/5020/usertype1.cpp	/^    Point(int a, int b) : x(a), y(b) {}$/;"	f	class:Point
+Point	STL-master/5020/usertype1.cpp	/^class Point$/;"	c	file:
+Point	STL-master/5020/usertype2.cpp	/^    Point(int a, int b) : x(a), y(b) {}$/;"	f	class:Point
+Point	STL-master/5020/usertype2.cpp	/^class Point$/;"	c	file:
+Point	STL-master/5020/usertype3.cpp	/^    Point(const Point& ) { cout << "Point(const Point&)" << endl;}$/;"	f	class:Point
+Point	STL-master/5020/usertype3.cpp	/^    Point(int a, int b) : x(a), y(b){ cout << "Point()" << endl; }$/;"	f	class:Point
+Point	STL-master/5020/usertype3.cpp	/^class Point$/;"	c	file:
+Point	STL-master/5050/set3.cpp	/^    Point(int a = 0, int b = 0) : x(a), y(b) {}$/;"	f	struct:Point
+Point	STL-master/5050/set3.cpp	/^struct Point$/;"	s	file:
+Point	STL-master/5050/unordered3.cpp	/^    Point(int a = 0, int b = 0) : x(a), y(b) {}$/;"	f	struct:Point
+Point	STL-master/5050/unordered3.cpp	/^struct Point$/;"	s	file:
+PointEqual	5050/unordered3.cpp	/^struct PointEqual$/;"	s	file:
+PointEqual	STL-master/5050/unordered3.cpp	/^struct PointEqual$/;"	s	file:
+PointHash	5050/unordered3.cpp	/^struct PointHash$/;"	s	file:
+PointHash	STL-master/5050/unordered3.cpp	/^struct PointHash$/;"	s	file:
+Rect	6010/Factory.cpp	/^class Rect   : public Shape {};$/;"	c	file:
+Rect	STL-master/6010/Factory.cpp	/^class Rect   : public Shape {};$/;"	c	file:
+Register	6040/function4.cpp	/^    void Register(string key, HANDLER h)$/;"	f	class:NotificationCenter
+Register	STL-master/6040/function4.cpp	/^    void Register(string key, HANDLER h)$/;"	f	class:NotificationCenter
+Reverse_iterator	3060/adapter2.cpp	/^    Reverse_iterator(ITER i) { iter = i; --iter; }$/;"	f	class:Reverse_iterator
+Reverse_iterator	3060/adapter2.cpp	/^template<typename ITER> class Reverse_iterator$/;"	c	file:
+Reverse_iterator	STL-master/3060/adapter2.cpp	/^    Reverse_iterator(ITER i) { iter = i; --iter; }$/;"	f	class:Reverse_iterator
+Reverse_iterator	STL-master/3060/adapter2.cpp	/^template<typename ITER> class Reverse_iterator$/;"	c	file:
+Run	6010/sptr8.cpp	/^    void Run()$/;"	f	class:Worker
+Run	STL-master/6010/sptr8.cpp	/^    void Run()$/;"	f	class:Worker
+Shape	6010/Factory.cpp	/^class Shape {};$/;"	c	file:
+Shape	STL-master/6010/Factory.cpp	/^class Shape {};$/;"	c	file:
+Show	4020/for_each.cpp	/^    Show( ostream& o = cout, string s = "\\n") : os(o), sep(s) {}$/;"	f	struct:Show
+Show	4020/for_each.cpp	/^struct Show$/;"	s	file:
+Show	STL-master/4020/for_each.cpp	/^    Show( ostream& o = cout, string s = "\\n") : os(o), sep(s) {}$/;"	f	struct:Show
+Show	STL-master/4020/for_each.cpp	/^struct Show$/;"	s	file:
+Test	6040/bind2.cpp	/^class Test$/;"	c	file:
+Test	6040/function2.cpp	/^class Test$/;"	c	file:
+Test	6040/function3.cpp	/^class Test$/;"	c	file:
+Test	6040/testfunction.h	/^class Test$/;"	c
+Test	STL-master/6040/bind2.cpp	/^class Test$/;"	c	file:
+Test	STL-master/6040/function2.cpp	/^class Test$/;"	c	file:
+Test	STL-master/6040/function3.cpp	/^class Test$/;"	c	file:
+Test	STL-master/6040/testfunction.h	/^class Test$/;"	c
+Vector	3030/traits7.cpp	/^	Vector() {}$/;"	f	class:Vector
+Vector	3030/traits7.cpp	/^	Vector(int sz, T value) {}$/;"	f	class:Vector
+Vector	3030/traits7.cpp	/^template<typename T> class Vector$/;"	c	file:
+Vector	STL-master/3030/traits7.cpp	/^	Vector() {}$/;"	f	class:Vector
+Vector	STL-master/3030/traits7.cpp	/^	Vector(int sz, T value) {}$/;"	f	class:Vector
+Vector	STL-master/3030/traits7.cpp	/^template<typename T> class Vector$/;"	c	file:
+Worker	6010/sptr8.cpp	/^class Worker : public enable_shared_from_this<Worker> \/\/ CRTP$/;"	c	file:
+Worker	7010/thread3.cpp	/^struct Worker$/;"	s	file:
+Worker	STL-master/6010/sptr8.cpp	/^class Worker : public enable_shared_from_this<Worker> \/\/ CRTP$/;"	c	file:
+Worker	STL-master/7010/thread3.cpp	/^struct Worker$/;"	s	file:
+Wrangler	6010/shared.cpp	/^struct Wrangler$/;"	s	file:
+Wrangler	STL-master/6010/shared.cpp	/^struct Wrangler$/;"	s	file:
+_Mydelim	3050/test.cpp	/^	const _Elem * _Mydelim;	\/\/ pointer to delimiter string (NB: not freed)$/;"	m	class:ostream_iterator	file:
+_Mydelim	STL-master/3050/test.cpp	/^	const _Elem * _Mydelim;	\/\/ pointer to delimiter string (NB: not freed)$/;"	m	class:ostream_iterator	file:
+_Myostr	3050/test.cpp	/^	ostream_type * _Myostr;	\/\/ pointer to output stream$/;"	m	class:ostream_iterator	file:
+_Myostr	STL-master/3050/test.cpp	/^	ostream_type * _Myostr;	\/\/ pointer to output stream$/;"	m	class:ostream_iterator	file:
+abs_greater	5040/pq.cpp	/^struct abs_greater$/;"	s	file:
+abs_greater	STL-master/5040/pq.cpp	/^struct abs_greater$/;"	s	file:
+address	5020/MyAlloc1.h	/^	const_pointer address(const_reference value) const$/;"	f	class:MyAlloc
+address	5020/MyAlloc1.h	/^	pointer address(reference value) const$/;"	f	class:MyAlloc
+address	STL-master/5020/MyAlloc1.h	/^	const_pointer address(const_reference value) const$/;"	f	class:MyAlloc
+address	STL-master/5020/MyAlloc1.h	/^	pointer address(reference value) const$/;"	f	class:MyAlloc
+allocate	5020/MyAlloc1.h	/^	pointer allocate(size_type num, const void* = 0) {$/;"	f	class:MyAlloc
+allocate	5020/MyAlloc2.h	/^    T* allocate(std::size_t num)$/;"	f	class:MyAlloc
+allocate	6010/MyAlloc2.h	/^    T* allocate(std::size_t num)$/;"	f	class:MyAlloc
+allocate	6010/ecourse_alloc.hpp	/^  [[nodiscard]] T* allocate(std::size_t n)$/;"	f	struct:eallocator
+allocate	STL-master/5020/MyAlloc1.h	/^	pointer allocate(size_type num, const void* = 0) {$/;"	f	class:MyAlloc
+allocate	STL-master/5020/MyAlloc2.h	/^    T* allocate(std::size_t num)$/;"	f	class:MyAlloc
+allocate	STL-master/6010/MyAlloc2.h	/^    T* allocate(std::size_t num)$/;"	f	class:MyAlloc
+allocate	STL-master/6010/ecourse_alloc.hpp	/^  [[nodiscard]] T* allocate(std::size_t n)$/;"	f	struct:eallocator
+ax	5010/policy1.cpp	/^    Allocator ax;$/;"	m	class:vector	file:
+ax	STL-master/5010/policy1.cpp	/^    Allocator ax;$/;"	m	class:vector	file:
+back_insert_iterator	3020/implemetation.cpp	/^	explicit back_insert_iterator(_Container& _Cont)$/;"	f	class:back_insert_iterator
+back_insert_iterator	3020/implemetation.cpp	/^template<class _Container> class back_insert_iterator$/;"	c	file:
+back_insert_iterator	STL-master/3020/implemetation.cpp	/^	explicit back_insert_iterator(_Container& _Cont)$/;"	f	class:back_insert_iterator
+back_insert_iterator	STL-master/3020/implemetation.cpp	/^template<class _Container> class back_insert_iterator$/;"	c	file:
+basic_ostream	2030/char4.cpp	/^class basic_ostream $/;"	c	file:
+basic_ostream	STL-master/2030/char4.cpp	/^class basic_ostream $/;"	c	file:
+basic_string	2030/char4.cpp	/^class basic_string $/;"	c	file:
+basic_string	STL-master/2030/char4.cpp	/^class basic_string $/;"	c	file:
+begin	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	slist_iterator<T> begin()$/;"	f	class:slist
+begin	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	iterator begin() { return iterator(head);}$/;"	f	class:slist
+begin	3040/member_type.cpp	/^	iterator begin() { return iterator(head); }$/;"	f	class:slist
+begin	3040/member_type2.cpp	/^	iterator begin() { return iterator(head); }$/;"	f	class:slist
+begin	5020/array2.cpp	/^    iterator begin() { return buf ;}$/;"	f	struct:Array
+begin	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	slist_iterator<T> begin()$/;"	f	class:slist
+begin	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	iterator begin() { return iterator(head);}$/;"	f	class:slist
+begin	STL-master/3040/member_type.cpp	/^	iterator begin() { return iterator(head); }$/;"	f	class:slist
+begin	STL-master/3040/member_type2.cpp	/^	iterator begin() { return iterator(head); }$/;"	f	class:slist
+begin	STL-master/5020/array2.cpp	/^    iterator begin() { return buf ;}$/;"	f	struct:Array
+bf	6010/wptr1.cpp	/^    People* bf;  \/\/ Raw Pointer : 참조계수가 증가하지 않는다.$/;"	m	struct:People	file:
+bf	6010/wptr3.cpp	/^    weak_ptr<People> bf;$/;"	m	struct:People	file:
+bf	STL-master/6010/wptr1.cpp	/^    People* bf;  \/\/ Raw Pointer : 참조계수가 증가하지 않는다.$/;"	m	struct:People	file:
+bf	STL-master/6010/wptr3.cpp	/^    weak_ptr<People> bf;$/;"	m	struct:People	file:
+buf	5020/array2.cpp	/^    T buf[N];$/;"	m	struct:Array	file:
+buf	STL-master/5020/array2.cpp	/^    T buf[N];$/;"	m	struct:Array	file:
+c	6010/sptr8.cpp	/^    Car c;$/;"	m	class:Worker	file:
+c	STL-master/6010/sptr8.cpp	/^    Car c;$/;"	m	class:Worker	file:
+chronometry	4010/ecourse_stl.hpp	/^decltype(auto) chronometry(F&& f, A&& ... args)$/;"	f
+chronometry	4020/ecourse_stl.hpp	/^decltype(auto) chronometry(F&& f, A&& ... args)$/;"	f
+chronometry	4030/ecourse_stl.hpp	/^decltype(auto) chronometry(F&& f, A&& ... args)$/;"	f
+chronometry	5020/ecourse_stl.hpp	/^decltype(auto) chronometry(F&& f, A&& ... args)$/;"	f
+chronometry	STL-master/4010/ecourse_stl.hpp	/^decltype(auto) chronometry(F&& f, A&& ... args)$/;"	f
+chronometry	STL-master/4020/ecourse_stl.hpp	/^decltype(auto) chronometry(F&& f, A&& ... args)$/;"	f
+chronometry	STL-master/4030/ecourse_stl.hpp	/^decltype(auto) chronometry(F&& f, A&& ... args)$/;"	f
+chronometry	STL-master/5020/ecourse_stl.hpp	/^decltype(auto) chronometry(F&& f, A&& ... args)$/;"	f
+ci_char_traits	5010/policy2.cpp	/^struct ci_char_traits : public std::char_traits<char>$/;"	s	file:
+ci_char_traits	STL-master/5010/policy2.cpp	/^struct ci_char_traits : public std::char_traits<char>$/;"	s	file:
+color	6010/car.h	/^    int color;$/;"	m	class:Car
+color	6010/sptr1.cpp	/^    int color;$/;"	m	class:Car	file:
+color	STL-master/6010/car.h	/^    int color;$/;"	m	class:Car
+color	STL-master/6010/sptr1.cpp	/^    int color;$/;"	m	class:Car	file:
+compare	5010/policy2.cpp	/^    static int compare(const char* s1, const char* s2, size_t n) {$/;"	f	struct:ci_char_traits
+compare	STL-master/5010/policy2.cpp	/^    static int compare(const char* s1, const char* s2, size_t n) {$/;"	f	struct:ci_char_traits
+const_pointer	5020/MyAlloc1.h	/^	typedef const T* const_pointer;$/;"	t	class:MyAlloc
+const_pointer	STL-master/5020/MyAlloc1.h	/^	typedef const T* const_pointer;$/;"	t	class:MyAlloc
+const_reference	5020/MyAlloc1.h	/^	typedef const T& const_reference;$/;"	t	class:MyAlloc
+const_reference	STL-master/5020/MyAlloc1.h	/^	typedef const T& const_reference;$/;"	t	class:MyAlloc
+construct	5020/MyAlloc1.h	/^	void construct(pointer p, const T& value) {$/;"	f	class:MyAlloc
+construct	STL-master/5020/MyAlloc1.h	/^	void construct(pointer p, const T& value) {$/;"	f	class:MyAlloc
+container	3020/implemetation.cpp	/^	_Container * container;	\/\/ pointer to container$/;"	m	class:back_insert_iterator	file:
+container	3020/insert4.cpp	/^	C* container;$/;"	m	class:eback_insert_iterator	file:
+container	3020/insert5.cpp	/^	C* container;$/;"	m	class:eback_insert_iterator	file:
+container	3020/insert6.cpp	/^	C* container;$/;"	m	class:eback_insert_iterator	file:
+container	3020/insert7.cpp	/^	C* container;$/;"	m	class:eback_insert_iterator	file:
+container	STL-master/3020/implemetation.cpp	/^	_Container * container;	\/\/ pointer to container$/;"	m	class:back_insert_iterator	file:
+container	STL-master/3020/insert4.cpp	/^	C* container;$/;"	m	class:eback_insert_iterator	file:
+container	STL-master/3020/insert5.cpp	/^	C* container;$/;"	m	class:eback_insert_iterator	file:
+container	STL-master/3020/insert6.cpp	/^	C* container;$/;"	m	class:eback_insert_iterator	file:
+container	STL-master/3020/insert7.cpp	/^	C* container;$/;"	m	class:eback_insert_iterator	file:
+current	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	Node<T>* current = 0;$/;"	m	class:slist_iterator	file:
+current	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	Node<T>* current = 0;$/;"	m	class:slist_iterator	file:
+current	3040/member_type.cpp	/^	Node<T>* current = 0;$/;"	m	class:slist_iterator	file:
+current	3040/member_type2.cpp	/^	Node<T>* current = 0;$/;"	m	class:slist_iterator	file:
+current	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	Node<T>* current = 0;$/;"	m	class:slist_iterator	file:
+current	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	Node<T>* current = 0;$/;"	m	class:slist_iterator	file:
+current	STL-master/3040/member_type.cpp	/^	Node<T>* current = 0;$/;"	m	class:slist_iterator	file:
+current	STL-master/3040/member_type2.cpp	/^	Node<T>* current = 0;$/;"	m	class:slist_iterator	file:
+data	2020_CONTAINER_ITERATOR/cont1.cpp	/^	T     data;$/;"	m	struct:Node	file:
+data	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	T     data;$/;"	m	struct:Node	file:
+data	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	T     data;$/;"	m	struct:Node	file:
+data	3040/member_type.cpp	/^	T     data;$/;"	m	struct:Node	file:
+data	3040/member_type2.cpp	/^	T     data;$/;"	m	struct:Node	file:
+data	5020/vector4.cpp	/^    string data;$/;"	m	struct:FindChar	file:
+data	6040/bind2.cpp	/^    int data = 0;$/;"	m	class:Test	file:
+data	6040/function2.cpp	/^    int data = 0;$/;"	m	class:Test	file:
+data	6040/function3.cpp	/^    int data = 10;$/;"	m	class:Test	file:
+data	6040/testfunction.h	/^    int data;$/;"	m	class:Test
+data	STL-master/2020_CONTAINER_ITERATOR/cont1.cpp	/^	T     data;$/;"	m	struct:Node	file:
+data	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	T     data;$/;"	m	struct:Node	file:
+data	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	T     data;$/;"	m	struct:Node	file:
+data	STL-master/3040/member_type.cpp	/^	T     data;$/;"	m	struct:Node	file:
+data	STL-master/3040/member_type2.cpp	/^	T     data;$/;"	m	struct:Node	file:
+data	STL-master/5020/vector4.cpp	/^    string data;$/;"	m	struct:FindChar	file:
+data	STL-master/6040/bind2.cpp	/^    int data = 0;$/;"	m	class:Test	file:
+data	STL-master/6040/function2.cpp	/^    int data = 0;$/;"	m	class:Test	file:
+data	STL-master/6040/function3.cpp	/^    int data = 10;$/;"	m	class:Test	file:
+data	STL-master/6040/testfunction.h	/^    int data;$/;"	m	class:Test
+deallocate	5020/MyAlloc1.h	/^	void deallocate(pointer p, size_type num) {$/;"	f	class:MyAlloc
+deallocate	5020/MyAlloc2.h	/^    void deallocate(T* p, std::size_t num)$/;"	f	class:MyAlloc
+deallocate	6010/MyAlloc2.h	/^    void deallocate(T* p, std::size_t num)$/;"	f	class:MyAlloc
+deallocate	STL-master/5020/MyAlloc1.h	/^	void deallocate(pointer p, size_type num) {$/;"	f	class:MyAlloc
+deallocate	STL-master/5020/MyAlloc2.h	/^    void deallocate(T* p, std::size_t num)$/;"	f	class:MyAlloc
+deallocate	STL-master/6010/MyAlloc2.h	/^    void deallocate(T* p, std::size_t num)$/;"	f	class:MyAlloc
+decrement_destruct	6010/shared.cpp	/^    void decrement_destruct()$/;"	f	struct:shared_ptr
+decrement_destruct	6010/shared.cpp	/^    void decrement_destruct()$/;"	f	struct:weak_ptr
+decrement_destruct	STL-master/6010/shared.cpp	/^    void decrement_destruct()$/;"	f	struct:shared_ptr
+decrement_destruct	STL-master/6010/shared.cpp	/^    void decrement_destruct()$/;"	f	struct:weak_ptr
+delimiter	3050/stream6.cpp	/^	const char* delimiter;$/;"	m	class:eostream_iterator	file:
+delimiter	3050/stream7.cpp	/^	const CharT* delimiter;$/;"	m	class:eostream_iterator	file:
+delimiter	3050/stream8.cpp	/^	const CharT* delimiter;$/;"	m	class:eostream_iterator	file:
+delimiter	STL-master/3050/stream6.cpp	/^	const char* delimiter;$/;"	m	class:eostream_iterator	file:
+delimiter	STL-master/3050/stream7.cpp	/^	const CharT* delimiter;$/;"	m	class:eostream_iterator	file:
+delimiter	STL-master/3050/stream8.cpp	/^	const CharT* delimiter;$/;"	m	class:eostream_iterator	file:
+destroy	5020/MyAlloc1.h	/^	void destroy(pointer p) {$/;"	f	class:MyAlloc
+destroy	STL-master/5020/MyAlloc1.h	/^	void destroy(pointer p) {$/;"	f	class:MyAlloc
+difference_type	5020/MyAlloc1.h	/^	typedef std::ptrdiff_t difference_type;$/;"	t	class:MyAlloc
+difference_type	STL-master/5020/MyAlloc1.h	/^	typedef std::ptrdiff_t difference_type;$/;"	t	class:MyAlloc
+eadvance	3030/traits5.cpp	/^void eadvance(T& p, int n)$/;"	f
+eadvance	3040/category6.cpp	/^void eadvance(T& p, int n)$/;"	f
+eadvance	3040/category7.cpp	/^void eadvance(T& p, int n)$/;"	f
+eadvance	3040/category8.cpp	/^eadvance(T& p, int n)$/;"	f
+eadvance	STL-master/3030/traits5.cpp	/^void eadvance(T& p, int n)$/;"	f
+eadvance	STL-master/3040/category6.cpp	/^void eadvance(T& p, int n)$/;"	f
+eadvance	STL-master/3040/category7.cpp	/^void eadvance(T& p, int n)$/;"	f
+eadvance	STL-master/3040/category8.cpp	/^eadvance(T& p, int n)$/;"	f
+eadvance_imp	3030/traits5.cpp	/^void eadvance_imp(T& p, int n,$/;"	f
+eadvance_imp	3030/traits5.cpp	/^void eadvance_imp(T& p, int n,input_iterator_tag)$/;"	f
+eadvance_imp	3040/category7.cpp	/^void eadvance_imp(T& p, int n, $/;"	f
+eadvance_imp	3040/category7.cpp	/^void eadvance_imp(T& p, int n,$/;"	f
+eadvance_imp	STL-master/3030/traits5.cpp	/^void eadvance_imp(T& p, int n,$/;"	f
+eadvance_imp	STL-master/3030/traits5.cpp	/^void eadvance_imp(T& p, int n,input_iterator_tag)$/;"	f
+eadvance_imp	STL-master/3040/category7.cpp	/^void eadvance_imp(T& p, int n, $/;"	f
+eadvance_imp	STL-master/3040/category7.cpp	/^void eadvance_imp(T& p, int n,$/;"	f
+eallocator	6010/ecourse_alloc.hpp	/^struct eallocator$/;"	s
+eallocator	STL-master/6010/ecourse_alloc.hpp	/^struct eallocator$/;"	s
+eback_insert_iterator	3020/insert4.cpp	/^	eback_insert_iterator(C& c) : container(&c) {}$/;"	f	class:eback_insert_iterator
+eback_insert_iterator	3020/insert4.cpp	/^class eback_insert_iterator$/;"	c	file:
+eback_insert_iterator	3020/insert5.cpp	/^	eback_insert_iterator(C& c) : container(&c) {}$/;"	f	class:eback_insert_iterator
+eback_insert_iterator	3020/insert5.cpp	/^template<typename C> class eback_insert_iterator$/;"	c	file:
+eback_insert_iterator	3020/insert6.cpp	/^	explicit eback_insert_iterator(C& c) : container( std::addressof(c) ) {}   \/\/ c.operator&()$/;"	f	class:eback_insert_iterator
+eback_insert_iterator	3020/insert6.cpp	/^template<typename C> class eback_insert_iterator$/;"	c	file:
+eback_insert_iterator	3020/insert7.cpp	/^	explicit eback_insert_iterator(C& c)$/;"	f	class:eback_insert_iterator
+eback_insert_iterator	3020/insert7.cpp	/^template<typename C> class eback_insert_iterator$/;"	c	file:
+eback_insert_iterator	STL-master/3020/insert4.cpp	/^	eback_insert_iterator(C& c) : container(&c) {}$/;"	f	class:eback_insert_iterator
+eback_insert_iterator	STL-master/3020/insert4.cpp	/^class eback_insert_iterator$/;"	c	file:
+eback_insert_iterator	STL-master/3020/insert5.cpp	/^	eback_insert_iterator(C& c) : container(&c) {}$/;"	f	class:eback_insert_iterator
+eback_insert_iterator	STL-master/3020/insert5.cpp	/^template<typename C> class eback_insert_iterator$/;"	c	file:
+eback_insert_iterator	STL-master/3020/insert6.cpp	/^	explicit eback_insert_iterator(C& c) : container( std::addressof(c) ) {}   \/\/ c.operator&()$/;"	f	class:eback_insert_iterator
+eback_insert_iterator	STL-master/3020/insert6.cpp	/^template<typename C> class eback_insert_iterator$/;"	c	file:
+eback_insert_iterator	STL-master/3020/insert7.cpp	/^	explicit eback_insert_iterator(C& c)$/;"	f	class:eback_insert_iterator
+eback_insert_iterator	STL-master/3020/insert7.cpp	/^template<typename C> class eback_insert_iterator$/;"	c	file:
+efind	2010_GENERIC_ALGORITHM/find3.cpp	/^T* efind(T* first, T* last, T value)$/;"	f
+efind	2010_GENERIC_ALGORITHM/find4.cpp	/^T1 efind(T1 first, T1 last, T2 value)$/;"	f
+efind	2010_GENERIC_ALGORITHM/find5.cpp	/^T1 efind(T1 first, T1 last, T2 value)$/;"	f
+efind	2020_CONTAINER_ITERATOR/efind.cpp	/^T1 efind(T1 first, T1 last, T2 value)$/;"	f
+efind	2020_CONTAINER_ITERATOR/iterator2.cpp	/^T1 efind(T1 first, T1 last, T2 value)$/;"	f
+efind	3040/category9.cpp	/^efind(InputIt first, InputIt last, T value)$/;"	f
+efind	STL-master/2010_GENERIC_ALGORITHM/find3.cpp	/^T* efind(T* first, T* last, T value)$/;"	f
+efind	STL-master/2010_GENERIC_ALGORITHM/find4.cpp	/^T1 efind(T1 first, T1 last, T2 value)$/;"	f
+efind	STL-master/2010_GENERIC_ALGORITHM/find5.cpp	/^T1 efind(T1 first, T1 last, T2 value)$/;"	f
+efind	STL-master/2020_CONTAINER_ITERATOR/efind.cpp	/^T1 efind(T1 first, T1 last, T2 value)$/;"	f
+efind	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^T1 efind(T1 first, T1 last, T2 value)$/;"	f
+efind	STL-master/3040/category9.cpp	/^efind(InputIt first, InputIt last, T value)$/;"	f
+end	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	slist_iterator<T> end()$/;"	f	class:slist
+end	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	iterator end()   { return iterator(0);	}$/;"	f	class:slist
+end	3040/member_type.cpp	/^	iterator end() { return iterator(0); }$/;"	f	class:slist
+end	3040/member_type2.cpp	/^	iterator end() { return iterator(0); }$/;"	f	class:slist
+end	5020/array2.cpp	/^    iterator end()   { return buf + N;}$/;"	f	struct:Array
+end	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	slist_iterator<T> end()$/;"	f	class:slist
+end	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	iterator end()   { return iterator(0);	}$/;"	f	class:slist
+end	STL-master/3040/member_type.cpp	/^	iterator end() { return iterator(0); }$/;"	f	class:slist
+end	STL-master/3040/member_type2.cpp	/^	iterator end() { return iterator(0); }$/;"	f	class:slist
+end	STL-master/5020/array2.cpp	/^    iterator end()   { return buf + N;}$/;"	f	struct:Array
+eostream_iterator	3050/stream6.cpp	/^	eostream_iterator(ostream& os, const char* const deli = 0) : stream(&os), delimiter(deli) {}$/;"	f	class:eostream_iterator
+eostream_iterator	3050/stream6.cpp	/^template<typename T> class eostream_iterator$/;"	c	file:
+eostream_iterator	3050/stream7.cpp	/^	eostream_iterator(ostream& os, const CharT* const deli = 0) : stream(&os), delimiter(deli) {}$/;"	f	class:eostream_iterator
+eostream_iterator	3050/stream7.cpp	/^template<typename T, typename CharT = char, typename Traits = char_traits<CharT> > class eostream_iterator$/;"	c	file:
+eostream_iterator	3050/stream8.cpp	/^	eostream_iterator(ostream& os, const CharT* const deli = 0) : stream(&os), delimiter(deli) {}$/;"	f	class:eostream_iterator
+eostream_iterator	3050/stream8.cpp	/^template<typename T, typename CharT = char, typename Traits = char_traits<CharT> > class eostream_iterator$/;"	c	file:
+eostream_iterator	STL-master/3050/stream6.cpp	/^	eostream_iterator(ostream& os, const char* const deli = 0) : stream(&os), delimiter(deli) {}$/;"	f	class:eostream_iterator
+eostream_iterator	STL-master/3050/stream6.cpp	/^template<typename T> class eostream_iterator$/;"	c	file:
+eostream_iterator	STL-master/3050/stream7.cpp	/^	eostream_iterator(ostream& os, const CharT* const deli = 0) : stream(&os), delimiter(deli) {}$/;"	f	class:eostream_iterator
+eostream_iterator	STL-master/3050/stream7.cpp	/^template<typename T, typename CharT = char, typename Traits = char_traits<CharT> > class eostream_iterator$/;"	c	file:
+eostream_iterator	STL-master/3050/stream8.cpp	/^	eostream_iterator(ostream& os, const CharT* const deli = 0) : stream(&os), delimiter(deli) {}$/;"	f	class:eostream_iterator
+eostream_iterator	STL-master/3050/stream8.cpp	/^template<typename T, typename CharT = char, typename Traits = char_traits<CharT> > class eostream_iterator$/;"	c	file:
+eq	5010/policy2.cpp	/^    static bool eq(char c1, char c2) {$/;"	f	struct:ci_char_traits
+eq	STL-master/5010/policy2.cpp	/^    static bool eq(char c1, char c2) {$/;"	f	struct:ci_char_traits
+estrchr	2010_GENERIC_ALGORITHM/find2.cpp	/^char* estrchr(char* first, char* last, char value)$/;"	f
+estrchr	STL-master/2010_GENERIC_ALGORITHM/find2.cpp	/^char* estrchr(char* first, char* last, char value)$/;"	f
+f	6040/bind2.cpp	/^    void f(int a, int b) \/\/ void f( Test* this, int a, int b)$/;"	f	class:Test
+f	6040/function2.cpp	/^    void f(int a, int b)$/;"	f	class:Test
+f	STL-master/6040/bind2.cpp	/^    void f(int a, int b) \/\/ void f( Test* this, int a, int b)$/;"	f	class:Test
+f	STL-master/6040/function2.cpp	/^    void f(int a, int b)$/;"	f	class:Test
+f1	6040/bind1.cpp	/^void f1(int a, int b, int c) { printf("f1 : %d, %d, %d\\n", a,b,c);}$/;"	f
+f1	6040/function1.cpp	/^void f1(int a )              { printf("f1 : %d\\n", a);}$/;"	f
+f1	6040/function4.cpp	/^void f1(void* p) { cout << "f1" << endl;}$/;"	f
+f1	7010/async1.cpp	/^int f1()$/;"	f
+f1	7010/async2.cpp	/^int f1()$/;"	f
+f1	7010/async3.cpp	/^int f1()$/;"	f
+f1	7010/thread3.cpp	/^void f1()      {}$/;"	f
+f1	7010/thread4.cpp	/^void f1(int a, int& b)$/;"	f
+f1	7010/thread5.cpp	/^void f1()$/;"	f
+f1	7010/thread6.cpp	/^void f1( promise<int>& p )$/;"	f
+f1	STL-master/6040/bind1.cpp	/^void f1(int a, int b, int c) { printf("f1 : %d, %d, %d\\n", a,b,c);}$/;"	f
+f1	STL-master/6040/function1.cpp	/^void f1(int a )              { printf("f1 : %d\\n", a);}$/;"	f
+f1	STL-master/6040/function4.cpp	/^void f1(void* p) { cout << "f1" << endl;}$/;"	f
+f1	STL-master/7010/async1.cpp	/^int f1()$/;"	f
+f1	STL-master/7010/async2.cpp	/^int f1()$/;"	f
+f1	STL-master/7010/async3.cpp	/^int f1()$/;"	f
+f1	STL-master/7010/thread3.cpp	/^void f1()      {}$/;"	f
+f1	STL-master/7010/thread4.cpp	/^void f1(int a, int& b)$/;"	f
+f1	STL-master/7010/thread5.cpp	/^void f1()$/;"	f
+f1	STL-master/7010/thread6.cpp	/^void f1( promise<int>& p )$/;"	f
+f2	6040/bind1.cpp	/^void f2(int& a)              { a = 20;}$/;"	f
+f2	6040/function1.cpp	/^void f2(int a, int b, int c) { printf("f2 : %d, %d, %d\\n", a,b,c);}$/;"	f
+f2	6040/function4.cpp	/^void f2(void* p, int a, int b) { cout << "f2" << endl;}$/;"	f
+f2	7010/thread3.cpp	/^void f2(int a) {}$/;"	f
+f2	STL-master/6040/bind1.cpp	/^void f2(int& a)              { a = 20;}$/;"	f
+f2	STL-master/6040/function1.cpp	/^void f2(int a, int b, int c) { printf("f2 : %d, %d, %d\\n", a,b,c);}$/;"	f
+f2	STL-master/6040/function4.cpp	/^void f2(void* p, int a, int b) { cout << "f2" << endl;}$/;"	f
+f2	STL-master/7010/thread3.cpp	/^void f2(int a) {}$/;"	f
+find	5010/policy2.cpp	/^    static const char* find(const char* s, int n, char a) {$/;"	f	struct:ci_char_traits
+find	STL-master/5010/policy2.cpp	/^    static const char* find(const char* s, int n, char a) {$/;"	f	struct:ci_char_traits
+foo	1020_PREVIEW/pair1.cpp	/^pair<int, double> foo() $/;"	f
+foo	1020_PREVIEW/pair2.cpp	/^template<typename T> void foo(T p)$/;"	f
+foo	1020_PREVIEW/string3.cpp	/^void foo(const char* s) { cout << "char*" << endl; }$/;"	f
+foo	1020_PREVIEW/string3.cpp	/^void foo(string s)      { cout << "string" << endl;}$/;"	f
+foo	3030/traits4.cpp	/^template<typename T> void foo(T a)$/;"	f
+foo	3070/iter_func2.cpp	/^int* foo()$/;"	f
+foo	4020/bind1.cpp	/^void foo( int a, int b, int c, int d)$/;"	f
+foo	4020/functor3.cpp	/^int foo( int a, int b) { return a + b;}$/;"	f
+foo	4020/transform1.cpp	/^int foo(int a) { return a + 10;}$/;"	f
+foo	4020/transform2.cpp	/^int foo( int a, int b) { return a + b;}$/;"	f
+foo	4030/bind2.cpp	/^void foo( int a, int b, int c, int d)$/;"	f
+foo	4030/bind3.cpp	/^void foo( int a, int b, int c, int d)$/;"	f
+foo	4030/pred1.cpp	/^bool foo( int a) { return a % 3 == 0;}$/;"	f
+foo	6010/sptr3.cpp	/^void foo( Car* p )$/;"	f
+foo	6010/test2.cpp	/^void foo( Car* p)$/;"	f
+foo	6010/uptr3.cpp	/^void foo(int* p )$/;"	f
+foo	6030/time2.cpp	/^void foo( seconds s) {}  \/\/ seconds s = 3$/;"	f
+foo	7010/thread2.cpp	/^void foo()$/;"	f
+foo	STL-master/1020_PREVIEW/pair1.cpp	/^pair<int, double> foo() $/;"	f
+foo	STL-master/1020_PREVIEW/pair2.cpp	/^template<typename T> void foo(T p)$/;"	f
+foo	STL-master/1020_PREVIEW/string3.cpp	/^void foo(const char* s) { cout << "char*" << endl; }$/;"	f
+foo	STL-master/1020_PREVIEW/string3.cpp	/^void foo(string s)      { cout << "string" << endl;}$/;"	f
+foo	STL-master/3030/traits4.cpp	/^template<typename T> void foo(T a)$/;"	f
+foo	STL-master/3070/iter_func2.cpp	/^int* foo()$/;"	f
+foo	STL-master/4020/bind1.cpp	/^void foo( int a, int b, int c, int d)$/;"	f
+foo	STL-master/4020/functor3.cpp	/^int foo( int a, int b) { return a + b;}$/;"	f
+foo	STL-master/4020/transform1.cpp	/^int foo(int a) { return a + 10;}$/;"	f
+foo	STL-master/4020/transform2.cpp	/^int foo( int a, int b) { return a + b;}$/;"	f
+foo	STL-master/4030/bind2.cpp	/^void foo( int a, int b, int c, int d)$/;"	f
+foo	STL-master/4030/bind3.cpp	/^void foo( int a, int b, int c, int d)$/;"	f
+foo	STL-master/4030/pred1.cpp	/^bool foo( int a) { return a % 3 == 0;}$/;"	f
+foo	STL-master/6010/sptr3.cpp	/^void foo( Car* p )$/;"	f
+foo	STL-master/6010/test2.cpp	/^void foo( Car* p)$/;"	f
+foo	STL-master/6010/uptr3.cpp	/^void foo(int* p )$/;"	f
+foo	STL-master/6030/time2.cpp	/^void foo( seconds s) {}  \/\/ seconds s = 3$/;"	f
+foo	STL-master/7010/thread2.cpp	/^void foo()$/;"	f
+friend_struct	6010/shared.cpp	/^struct friend_struct$/;"	s	file:
+friend_struct	STL-master/6010/shared.cpp	/^struct friend_struct$/;"	s	file:
+func1	6040/testfunction.h	/^void func1(int a, int b, int c, int d)$/;"	f
+func1	STL-master/6040/testfunction.h	/^void func1(int a, int b, int c, int d)$/;"	f
+func2	6040/testfunction.h	/^void func2(int& a)$/;"	f
+func2	STL-master/6040/testfunction.h	/^void func2(int& a)$/;"	f
+get_ref_pointer_control	6010/shared.cpp	/^    shared_ptr_control_base*& get_ref_pointer_control(T& a_r_shared_ptr) { return a_r_shared_ptr.m_control; }$/;"	f	struct:friend_struct
+get_ref_pointer_control	STL-master/6010/shared.cpp	/^    shared_ptr_control_base*& get_ref_pointer_control(T& a_r_shared_ptr) { return a_r_shared_ptr.m_control; }$/;"	f	struct:friend_struct
+get_ref_pointer_shared	6010/shared.cpp	/^    SharedType*& get_ref_pointer_shared(T& a_r_shared_ptr) { return a_r_shared_ptr.m_pointer; }$/;"	f	struct:friend_struct
+get_ref_pointer_shared	STL-master/6010/shared.cpp	/^    SharedType*& get_ref_pointer_shared(T& a_r_shared_ptr) { return a_r_shared_ptr.m_pointer; }$/;"	f	struct:friend_struct
+global	7010/thread5.cpp	/^int global = 0;$/;"	v
+global	STL-master/7010/thread5.cpp	/^int global = 0;$/;"	v
+head	2020_CONTAINER_ITERATOR/cont1.cpp	/^	Node<T>* head = 0;$/;"	m	class:slist	file:
+head	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	Node<T>* head = 0;$/;"	m	class:slist	file:
+head	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	Node<T>* head = 0;$/;"	m	class:slist	file:
+head	3040/member_type.cpp	/^	Node<T>* head = 0;$/;"	m	class:slist	file:
+head	3040/member_type2.cpp	/^	Node<T>* head = 0;$/;"	m	class:slist	file:
+head	STL-master/2020_CONTAINER_ITERATOR/cont1.cpp	/^	Node<T>* head = 0;$/;"	m	class:slist	file:
+head	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	Node<T>* head = 0;$/;"	m	class:slist	file:
+head	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	Node<T>* head = 0;$/;"	m	class:slist	file:
+head	STL-master/3040/member_type.cpp	/^	Node<T>* head = 0;$/;"	m	class:slist	file:
+head	STL-master/3040/member_type2.cpp	/^	Node<T>* head = 0;$/;"	m	class:slist	file:
+holdMe	6010/sptr8.cpp	/^    shared_ptr<Worker> holdMe;$/;"	m	class:Worker	file:
+holdMe	STL-master/6010/sptr8.cpp	/^    shared_ptr<Worker> holdMe;$/;"	m	class:Worker	file:
+iter	3060/adapter2.cpp	/^    ITER iter;  \/\/ list 의 일반 반복자. ++  =>$/;"	m	class:Reverse_iterator	file:
+iter	STL-master/3060/adapter2.cpp	/^    ITER iter;  \/\/ list 의 일반 반복자. ++  =>$/;"	m	class:Reverse_iterator	file:
+iterator	5020/array2.cpp	/^    typedef T* iterator;$/;"	t	struct:Array	file:
+iterator	STL-master/5020/array2.cpp	/^    typedef T* iterator;$/;"	t	struct:Array	file:
+lt	5010/policy2.cpp	/^    static bool lt(char c1, char c2) {$/;"	f	struct:ci_char_traits
+lt	STL-master/5010/policy2.cpp	/^    static bool lt(char c1, char c2) {$/;"	f	struct:ci_char_traits
+m	7010/thread5.cpp	/^mutex m;$/;"	v
+m	STL-master/7010/thread5.cpp	/^mutex m;$/;"	v
+m_allocator	6010/shared.cpp	/^    T<shared_ptr_control_derived<Wrangler, AllocatorTypeShared, SharedType>> m_allocator;$/;"	m	struct:Wrangler	file:
+m_allocator	STL-master/6010/shared.cpp	/^    T<shared_ptr_control_derived<Wrangler, AllocatorTypeShared, SharedType>> m_allocator;$/;"	m	struct:Wrangler	file:
+m_allocatorControl	6010/shared.cpp	/^    mutable AllocatorTypeControl m_allocatorControl;$/;"	m	struct:shared_ptr_control_derived	file:
+m_allocatorControl	STL-master/6010/shared.cpp	/^    mutable AllocatorTypeControl m_allocatorControl;$/;"	m	struct:shared_ptr_control_derived	file:
+m_allocatorShared	6010/shared.cpp	/^    mutable AllocatorTypeShared  m_allocatorShared;$/;"	m	struct:shared_ptr_control_derived	file:
+m_allocatorShared	STL-master/6010/shared.cpp	/^    mutable AllocatorTypeShared  m_allocatorShared;$/;"	m	struct:shared_ptr_control_derived	file:
+m_control	6010/shared.cpp	/^    shared_ptr_control_base* m_control;$/;"	m	struct:shared_ptr	file:
+m_control	6010/shared.cpp	/^    shared_ptr_control_base* m_control;$/;"	m	struct:weak_ptr	file:
+m_control	STL-master/6010/shared.cpp	/^    shared_ptr_control_base* m_control;$/;"	m	struct:shared_ptr	file:
+m_control	STL-master/6010/shared.cpp	/^    shared_ptr_control_base* m_control;$/;"	m	struct:weak_ptr	file:
+m_pointer	6010/shared.cpp	/^    SharedType* m_pointer;$/;"	m	struct:shared_ptr	file:
+m_pointer	6010/shared.cpp	/^    SharedType* m_pointer;$/;"	m	struct:weak_ptr	file:
+m_pointer	STL-master/6010/shared.cpp	/^    SharedType* m_pointer;$/;"	m	struct:shared_ptr	file:
+m_pointer	STL-master/6010/shared.cpp	/^    SharedType* m_pointer;$/;"	m	struct:weak_ptr	file:
+m_shared	6010/shared.cpp	/^    uint32_t m_shared = 1;$/;"	m	struct:shared_ptr_control_base	file:
+m_shared	STL-master/6010/shared.cpp	/^    uint32_t m_shared = 1;$/;"	m	struct:shared_ptr_control_base	file:
+m_weak	6010/shared.cpp	/^    uint32_t m_weak   = 0;$/;"	m	struct:shared_ptr_control_base	file:
+m_weak	STL-master/6010/shared.cpp	/^    uint32_t m_weak   = 0;$/;"	m	struct:shared_ptr_control_base	file:
+main	1020_PREVIEW/bitset1.cpp	/^int main()$/;"	f
+main	1020_PREVIEW/char4.cpp	/^int main() {$/;"	f
+main	1020_PREVIEW/complex1.cpp	/^int main()$/;"	f
+main	1020_PREVIEW/min.cpp	/^int main()$/;"	f
+main	1020_PREVIEW/pair1.cpp	/^int main()$/;"	f
+main	1020_PREVIEW/pair2.cpp	/^int main()$/;"	f
+main	1020_PREVIEW/string1.cpp	/^int main()$/;"	f
+main	1020_PREVIEW/string2.cpp	/^int main()$/;"	f
+main	1020_PREVIEW/string3.cpp	/^int main()$/;"	f
+main	2010_GENERIC_ALGORITHM/find1.cpp	/^int main()$/;"	f
+main	2010_GENERIC_ALGORITHM/find2.cpp	/^int main()$/;"	f
+main	2010_GENERIC_ALGORITHM/find3.cpp	/^int main()$/;"	f
+main	2010_GENERIC_ALGORITHM/find4.cpp	/^int main()$/;"	f
+main	2010_GENERIC_ALGORITHM/find5.cpp	/^int main()$/;"	f
+main	2020_CONTAINER_ITERATOR/cont1.cpp	/^int main()$/;"	f
+main	2020_CONTAINER_ITERATOR/iterator1.cpp	/^int main()$/;"	f
+main	2020_CONTAINER_ITERATOR/iterator2.cpp	/^int main()$/;"	f
+main	2030/char1.cpp	/^int main()$/;"	f
+main	2030/char2.cpp	/^int main()$/;"	f
+main	2030/char3.cpp	/^int main()$/;"	f
+main	2030/char4.cpp	/^int main()$/;"	f
+main	2030/cpp17.cpp	/^int main()$/;"	f
+main	2030/sample.cpp	/^int main()$/;"	f
+main	2030/type1.cpp	/^int main()$/;"	f
+main	2030/type2.cpp	/^int main()$/;"	f
+main	2030/typedef1.cpp	/^int main()$/;"	f
+main	2030/typedef2.cpp	/^int main()$/;"	f
+main	3010/copy.cpp	/^int main()$/;"	f
+main	3010/iterator1.cpp	/^int main()$/;"	f
+main	3010/iterator2.cpp	/^int main()$/;"	f
+main	3010/iterator3.cpp	/^int main()$/;"	f
+main	3010/iterator4.cpp	/^int main()$/;"	f
+main	3010/range1.cpp	/^int main()$/;"	f
+main	3020/insert1.cpp	/^int main(int argc, char** argv)$/;"	f
+main	3020/insert2.cpp	/^int main(int argc, char** argv)$/;"	f
+main	3020/insert3.cpp	/^int main(int argc, char** argv)$/;"	f
+main	3020/insert4.cpp	/^int main()$/;"	f
+main	3020/insert5.cpp	/^int main()$/;"	f
+main	3020/insert6.cpp	/^int main()$/;"	f
+main	3020/insert7.cpp	/^int main()$/;"	f
+main	3030/traits1.cpp	/^int main()$/;"	f
+main	3030/traits2.cpp	/^int main()$/;"	f
+main	3030/traits3.cpp	/^int main()$/;"	f
+main	3030/traits5.cpp	/^int main()$/;"	f
+main	3030/traits6.cpp	/^int main()$/;"	f
+main	3030/traits7.cpp	/^int main()$/;"	f
+main	3040/category1.cpp	/^int main()$/;"	f
+main	3040/category2.cpp	/^int main()$/;"	f
+main	3040/category3.cpp	/^int main()$/;"	f
+main	3040/category4.cpp	/^int main()$/;"	f
+main	3040/category5.cpp	/^int main()$/;"	f
+main	3040/category6.cpp	/^int main()$/;"	f
+main	3040/category7.cpp	/^int main()$/;"	f
+main	3040/category8.cpp	/^int main()$/;"	f
+main	3040/category9.cpp	/^int main()$/;"	f
+main	3040/member_type.cpp	/^int main()$/;"	f
+main	3040/member_type2.cpp	/^int main()$/;"	f
+main	3050/stream1.cpp	/^int main()$/;"	f
+main	3050/stream10.cpp	/^int main()$/;"	f
+main	3050/stream11.cpp	/^int main()$/;"	f
+main	3050/stream2.cpp	/^int main()$/;"	f
+main	3050/stream3.cpp	/^int main()$/;"	f
+main	3050/stream4.cpp	/^int main()$/;"	f
+main	3050/stream5.cpp	/^int main()$/;"	f
+main	3050/stream6.cpp	/^int main()$/;"	f
+main	3050/stream7.cpp	/^int main()$/;"	f
+main	3050/stream8.cpp	/^int main()$/;"	f
+main	3050/stream9.cpp	/^int main()$/;"	f
+main	3060/adapter1.cpp	/^int main()$/;"	f
+main	3060/adapter2.cpp	/^int main()$/;"	f
+main	3060/adapter3.cpp	/^int main()$/;"	f
+main	3060/adapter4.cpp	/^int main()$/;"	f
+main	3060/adapter5.cpp	/^int main()$/;"	f
+main	3070/iter_func1.cpp	/^int main()$/;"	f
+main	3070/iter_func2.cpp	/^int main()$/;"	f
+main	4010/algo1.cpp	/^int main()$/;"	f
+main	4010/algo2.cpp	/^int main()$/;"	f
+main	4010/algo3.cpp	/^int main()$/;"	f
+main	4020/bind1.cpp	/^int main()$/;"	f
+main	4020/bind2.cpp	/^int main()$/;"	f
+main	4020/for_each.cpp	/^int main()$/;"	f
+main	4020/for_each2.cpp	/^int main()$/;"	f
+main	4020/functor1.cpp	/^int main()$/;"	f
+main	4020/functor2.cpp	/^int main()$/;"	f
+main	4020/functor3.cpp	/^int main()$/;"	f
+main	4020/transform1.cpp	/^int main()$/;"	f
+main	4020/transform2.cpp	/^int main()$/;"	f
+main	4030/bind1.cpp	/^int main()$/;"	f
+main	4030/bind2.cpp	/^int main()$/;"	f
+main	4030/bind3.cpp	/^int main()$/;"	f
+main	4030/pred1.cpp	/^int main()$/;"	f
+main	4030/pred2.cpp	/^int main()$/;"	f
+main	4030/pred3.cpp	/^int main()$/;"	f
+main	5010/container1.cpp	/^int main()$/;"	f
+main	5010/policy1.cpp	/^int main()$/;"	f
+main	5010/policy2.cpp	/^int main()$/;"	f
+main	5020/allocator1.cpp	/^int main()$/;"	f
+main	5020/allocator2.cpp	/^int main()$/;"	f
+main	5020/array.cpp	/^int main()$/;"	f
+main	5020/array2.cpp	/^int main()$/;"	f
+main	5020/sequence1.cpp	/^int main()$/;"	f
+main	5020/usertype1.cpp	/^int main()$/;"	f
+main	5020/usertype2.cpp	/^int main()$/;"	f
+main	5020/usertype3.cpp	/^int main()$/;"	f
+main	5020/vector1.cpp	/^int main()$/;"	f
+main	5020/vector2.cpp	/^int main()$/;"	f
+main	5020/vector3.cpp	/^int main()$/;"	f
+main	5020/vector4.cpp	/^int main()$/;"	f
+main	5040/adapter.cpp	/^int main()$/;"	f
+main	5040/pq.cpp	/^int main()$/;"	f
+main	5040/stack.cpp	/^int main()$/;"	f
+main	5050/map1.cpp	/^int main()$/;"	f
+main	5050/map2.cpp	/^int main()$/;"	f
+main	5050/map3.cpp	/^int main()$/;"	f
+main	5050/set1.cpp	/^int main()$/;"	f
+main	5050/set2.cpp	/^int main()$/;"	f
+main	5050/set3.cpp	/^int main()$/;"	f
+main	5050/stream1.cpp	/^int main()$/;"	f
+main	5050/stream2.cpp	/^int main()$/;"	f
+main	5050/unordered1.cpp	/^int main()$/;"	f
+main	5050/unordered2.cpp	/^int main()$/;"	f
+main	5050/unordered3.cpp	/^int main()$/;"	f
+main	6010/Factory.cpp	/^int main()$/;"	f
+main	6010/shared.cpp	/^int main()$/;"	f
+main	6010/sptr1.cpp	/^int main()$/;"	f
+main	6010/sptr2.cpp	/^int main()$/;"	f
+main	6010/sptr3.cpp	/^int main()$/;"	f
+main	6010/sptr4.cpp	/^int main()$/;"	f
+main	6010/sptr5.cpp	/^int main()$/;"	f
+main	6010/sptr6.cpp	/^int main()$/;"	f
+main	6010/sptr7.cpp	/^int main()$/;"	f
+main	6010/sptr8.cpp	/^int main()$/;"	f
+main	6010/test.cpp	/^int main()$/;"	f
+main	6010/test2.cpp	/^int main()$/;"	f
+main	6010/uptr1.cpp	/^int main()$/;"	f
+main	6010/uptr2.cpp	/^int main()$/;"	f
+main	6010/uptr3.cpp	/^int main()$/;"	f
+main	6010/uptr4.cpp	/^int main()$/;"	f
+main	6010/uptr5.cpp	/^int main()$/;"	f
+main	6010/wptr1.cpp	/^int main()$/;"	f
+main	6010/wptr2.cpp	/^int main()$/;"	f
+main	6010/wptr3.cpp	/^int main()$/;"	f
+main	6010/wptr4.cpp	/^int main()$/;"	f
+main	6030/clock1.cpp	/^int main()$/;"	f
+main	6030/duration1.cpp	/^int main()$/;"	f
+main	6030/duration2.cpp	/^int main()$/;"	f
+main	6030/ratio1.cpp	/^int main()$/;"	f
+main	6030/ratio2.cpp	/^int main()$/;"	f
+main	6030/time1.cpp	/^int main()$/;"	f
+main	6030/time2.cpp	/^int main()$/;"	f
+main	6040/bind1.cpp	/^int main()$/;"	f
+main	6040/bind2.cpp	/^int main()$/;"	f
+main	6040/function1.cpp	/^int main()$/;"	f
+main	6040/function2.cpp	/^int main()$/;"	f
+main	6040/function3.cpp	/^int main()$/;"	f
+main	6040/function4.cpp	/^int main()$/;"	f
+main	7010/async1.cpp	/^int main()$/;"	f
+main	7010/async2.cpp	/^int main()$/;"	f
+main	7010/async3.cpp	/^int main()$/;"	f
+main	7010/thread1.cpp	/^int main()$/;"	f
+main	7010/thread2.cpp	/^int main()$/;"	f
+main	7010/thread3.cpp	/^int main()$/;"	f
+main	7010/thread4.cpp	/^int main()$/;"	f
+main	7010/thread5.cpp	/^int main()$/;"	f
+main	7010/thread6.cpp	/^int main()$/;"	f
+main	STL-master/1020_PREVIEW/bitset1.cpp	/^int main()$/;"	f
+main	STL-master/1020_PREVIEW/char4.cpp	/^int main() {$/;"	f
+main	STL-master/1020_PREVIEW/complex1.cpp	/^int main()$/;"	f
+main	STL-master/1020_PREVIEW/min.cpp	/^int main()$/;"	f
+main	STL-master/1020_PREVIEW/pair1.cpp	/^int main()$/;"	f
+main	STL-master/1020_PREVIEW/pair2.cpp	/^int main()$/;"	f
+main	STL-master/1020_PREVIEW/string1.cpp	/^int main()$/;"	f
+main	STL-master/1020_PREVIEW/string2.cpp	/^int main()$/;"	f
+main	STL-master/1020_PREVIEW/string3.cpp	/^int main()$/;"	f
+main	STL-master/2010_GENERIC_ALGORITHM/find1.cpp	/^int main()$/;"	f
+main	STL-master/2010_GENERIC_ALGORITHM/find2.cpp	/^int main()$/;"	f
+main	STL-master/2010_GENERIC_ALGORITHM/find3.cpp	/^int main()$/;"	f
+main	STL-master/2010_GENERIC_ALGORITHM/find4.cpp	/^int main()$/;"	f
+main	STL-master/2010_GENERIC_ALGORITHM/find5.cpp	/^int main()$/;"	f
+main	STL-master/2020_CONTAINER_ITERATOR/cont1.cpp	/^int main()$/;"	f
+main	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^int main()$/;"	f
+main	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^int main()$/;"	f
+main	STL-master/2030/char1.cpp	/^int main()$/;"	f
+main	STL-master/2030/char2.cpp	/^int main()$/;"	f
+main	STL-master/2030/char3.cpp	/^int main()$/;"	f
+main	STL-master/2030/char4.cpp	/^int main()$/;"	f
+main	STL-master/2030/cpp17.cpp	/^int main()$/;"	f
+main	STL-master/2030/sample.cpp	/^int main()$/;"	f
+main	STL-master/2030/type1.cpp	/^int main()$/;"	f
+main	STL-master/2030/type2.cpp	/^int main()$/;"	f
+main	STL-master/2030/typedef1.cpp	/^int main()$/;"	f
+main	STL-master/2030/typedef2.cpp	/^int main()$/;"	f
+main	STL-master/3010/copy.cpp	/^int main()$/;"	f
+main	STL-master/3010/iterator1.cpp	/^int main()$/;"	f
+main	STL-master/3010/iterator2.cpp	/^int main()$/;"	f
+main	STL-master/3010/iterator3.cpp	/^int main()$/;"	f
+main	STL-master/3010/iterator4.cpp	/^int main()$/;"	f
+main	STL-master/3010/range1.cpp	/^int main()$/;"	f
+main	STL-master/3020/insert1.cpp	/^int main(int argc, char** argv)$/;"	f
+main	STL-master/3020/insert2.cpp	/^int main(int argc, char** argv)$/;"	f
+main	STL-master/3020/insert3.cpp	/^int main(int argc, char** argv)$/;"	f
+main	STL-master/3020/insert4.cpp	/^int main()$/;"	f
+main	STL-master/3020/insert5.cpp	/^int main()$/;"	f
+main	STL-master/3020/insert6.cpp	/^int main()$/;"	f
+main	STL-master/3020/insert7.cpp	/^int main()$/;"	f
+main	STL-master/3030/traits1.cpp	/^int main()$/;"	f
+main	STL-master/3030/traits2.cpp	/^int main()$/;"	f
+main	STL-master/3030/traits3.cpp	/^int main()$/;"	f
+main	STL-master/3030/traits5.cpp	/^int main()$/;"	f
+main	STL-master/3030/traits6.cpp	/^int main()$/;"	f
+main	STL-master/3030/traits7.cpp	/^int main()$/;"	f
+main	STL-master/3040/category1.cpp	/^int main()$/;"	f
+main	STL-master/3040/category2.cpp	/^int main()$/;"	f
+main	STL-master/3040/category3.cpp	/^int main()$/;"	f
+main	STL-master/3040/category4.cpp	/^int main()$/;"	f
+main	STL-master/3040/category5.cpp	/^int main()$/;"	f
+main	STL-master/3040/category6.cpp	/^int main()$/;"	f
+main	STL-master/3040/category7.cpp	/^int main()$/;"	f
+main	STL-master/3040/category8.cpp	/^int main()$/;"	f
+main	STL-master/3040/category9.cpp	/^int main()$/;"	f
+main	STL-master/3040/member_type.cpp	/^int main()$/;"	f
+main	STL-master/3040/member_type2.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream1.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream10.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream11.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream2.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream3.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream4.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream5.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream6.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream7.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream8.cpp	/^int main()$/;"	f
+main	STL-master/3050/stream9.cpp	/^int main()$/;"	f
+main	STL-master/3060/adapter1.cpp	/^int main()$/;"	f
+main	STL-master/3060/adapter2.cpp	/^int main()$/;"	f
+main	STL-master/3060/adapter3.cpp	/^int main()$/;"	f
+main	STL-master/3060/adapter4.cpp	/^int main()$/;"	f
+main	STL-master/3060/adapter5.cpp	/^int main()$/;"	f
+main	STL-master/3070/iter_func1.cpp	/^int main()$/;"	f
+main	STL-master/3070/iter_func2.cpp	/^int main()$/;"	f
+main	STL-master/4010/algo1.cpp	/^int main()$/;"	f
+main	STL-master/4010/algo2.cpp	/^int main()$/;"	f
+main	STL-master/4010/algo3.cpp	/^int main()$/;"	f
+main	STL-master/4020/bind1.cpp	/^int main()$/;"	f
+main	STL-master/4020/bind2.cpp	/^int main()$/;"	f
+main	STL-master/4020/for_each.cpp	/^int main()$/;"	f
+main	STL-master/4020/for_each2.cpp	/^int main()$/;"	f
+main	STL-master/4020/functor1.cpp	/^int main()$/;"	f
+main	STL-master/4020/functor2.cpp	/^int main()$/;"	f
+main	STL-master/4020/functor3.cpp	/^int main()$/;"	f
+main	STL-master/4020/transform1.cpp	/^int main()$/;"	f
+main	STL-master/4020/transform2.cpp	/^int main()$/;"	f
+main	STL-master/4030/bind1.cpp	/^int main()$/;"	f
+main	STL-master/4030/bind2.cpp	/^int main()$/;"	f
+main	STL-master/4030/bind3.cpp	/^int main()$/;"	f
+main	STL-master/4030/pred1.cpp	/^int main()$/;"	f
+main	STL-master/4030/pred2.cpp	/^int main()$/;"	f
+main	STL-master/4030/pred3.cpp	/^int main()$/;"	f
+main	STL-master/5010/container1.cpp	/^int main()$/;"	f
+main	STL-master/5010/policy1.cpp	/^int main()$/;"	f
+main	STL-master/5010/policy2.cpp	/^int main()$/;"	f
+main	STL-master/5020/allocator1.cpp	/^int main()$/;"	f
+main	STL-master/5020/allocator2.cpp	/^int main()$/;"	f
+main	STL-master/5020/array.cpp	/^int main()$/;"	f
+main	STL-master/5020/array2.cpp	/^int main()$/;"	f
+main	STL-master/5020/sequence1.cpp	/^int main()$/;"	f
+main	STL-master/5020/usertype1.cpp	/^int main()$/;"	f
+main	STL-master/5020/usertype2.cpp	/^int main()$/;"	f
+main	STL-master/5020/usertype3.cpp	/^int main()$/;"	f
+main	STL-master/5020/vector1.cpp	/^int main()$/;"	f
+main	STL-master/5020/vector2.cpp	/^int main()$/;"	f
+main	STL-master/5020/vector3.cpp	/^int main()$/;"	f
+main	STL-master/5020/vector4.cpp	/^int main()$/;"	f
+main	STL-master/5040/adapter.cpp	/^int main()$/;"	f
+main	STL-master/5040/pq.cpp	/^int main()$/;"	f
+main	STL-master/5040/stack.cpp	/^int main()$/;"	f
+main	STL-master/5050/map1.cpp	/^int main()$/;"	f
+main	STL-master/5050/map2.cpp	/^int main()$/;"	f
+main	STL-master/5050/map3.cpp	/^int main()$/;"	f
+main	STL-master/5050/set1.cpp	/^int main()$/;"	f
+main	STL-master/5050/set2.cpp	/^int main()$/;"	f
+main	STL-master/5050/set3.cpp	/^int main()$/;"	f
+main	STL-master/5050/stream1.cpp	/^int main()$/;"	f
+main	STL-master/5050/stream2.cpp	/^int main()$/;"	f
+main	STL-master/5050/unordered1.cpp	/^int main()$/;"	f
+main	STL-master/5050/unordered2.cpp	/^int main()$/;"	f
+main	STL-master/5050/unordered3.cpp	/^int main()$/;"	f
+main	STL-master/6010/Factory.cpp	/^int main()$/;"	f
+main	STL-master/6010/shared.cpp	/^int main()$/;"	f
+main	STL-master/6010/sptr1.cpp	/^int main()$/;"	f
+main	STL-master/6010/sptr2.cpp	/^int main()$/;"	f
+main	STL-master/6010/sptr3.cpp	/^int main()$/;"	f
+main	STL-master/6010/sptr4.cpp	/^int main()$/;"	f
+main	STL-master/6010/sptr5.cpp	/^int main()$/;"	f
+main	STL-master/6010/sptr6.cpp	/^int main()$/;"	f
+main	STL-master/6010/sptr7.cpp	/^int main()$/;"	f
+main	STL-master/6010/sptr8.cpp	/^int main()$/;"	f
+main	STL-master/6010/test.cpp	/^int main()$/;"	f
+main	STL-master/6010/test2.cpp	/^int main()$/;"	f
+main	STL-master/6010/uptr1.cpp	/^int main()$/;"	f
+main	STL-master/6010/uptr2.cpp	/^int main()$/;"	f
+main	STL-master/6010/uptr3.cpp	/^int main()$/;"	f
+main	STL-master/6010/uptr4.cpp	/^int main()$/;"	f
+main	STL-master/6010/uptr5.cpp	/^int main()$/;"	f
+main	STL-master/6010/wptr1.cpp	/^int main()$/;"	f
+main	STL-master/6010/wptr2.cpp	/^int main()$/;"	f
+main	STL-master/6010/wptr3.cpp	/^int main()$/;"	f
+main	STL-master/6010/wptr4.cpp	/^int main()$/;"	f
+main	STL-master/6030/clock1.cpp	/^int main()$/;"	f
+main	STL-master/6030/duration1.cpp	/^int main()$/;"	f
+main	STL-master/6030/duration2.cpp	/^int main()$/;"	f
+main	STL-master/6030/ratio1.cpp	/^int main()$/;"	f
+main	STL-master/6030/ratio2.cpp	/^int main()$/;"	f
+main	STL-master/6030/time1.cpp	/^int main()$/;"	f
+main	STL-master/6030/time2.cpp	/^int main()$/;"	f
+main	STL-master/6040/bind1.cpp	/^int main()$/;"	f
+main	STL-master/6040/bind2.cpp	/^int main()$/;"	f
+main	STL-master/6040/function1.cpp	/^int main()$/;"	f
+main	STL-master/6040/function2.cpp	/^int main()$/;"	f
+main	STL-master/6040/function3.cpp	/^int main()$/;"	f
+main	STL-master/6040/function4.cpp	/^int main()$/;"	f
+main	STL-master/7010/async1.cpp	/^int main()$/;"	f
+main	STL-master/7010/async2.cpp	/^int main()$/;"	f
+main	STL-master/7010/async3.cpp	/^int main()$/;"	f
+main	STL-master/7010/thread1.cpp	/^int main()$/;"	f
+main	STL-master/7010/thread2.cpp	/^int main()$/;"	f
+main	STL-master/7010/thread3.cpp	/^int main()$/;"	f
+main	STL-master/7010/thread4.cpp	/^int main()$/;"	f
+main	STL-master/7010/thread5.cpp	/^int main()$/;"	f
+main	STL-master/7010/thread6.cpp	/^int main()$/;"	f
+make_shared	6010/shared.cpp	/^shared_ptr<SharedType> make_shared(Args&&... args)$/;"	f
+make_shared	STL-master/6010/shared.cpp	/^shared_ptr<SharedType> make_shared(Args&&... args)$/;"	f
+max_size	5020/MyAlloc1.h	/^	size_type max_size() const throw() {$/;"	f	class:MyAlloc
+max_size	STL-master/5020/MyAlloc1.h	/^	size_type max_size() const throw() {$/;"	f	class:MyAlloc
+message	4010/ecourse_stl.hpp	/^	std::string message;$/;"	m	class:stop_watch
+message	4020/ecourse_stl.hpp	/^	std::string message;$/;"	m	class:stop_watch
+message	4030/ecourse_stl.hpp	/^	std::string message;$/;"	m	class:stop_watch
+message	5020/ecourse_stl.hpp	/^	std::string message;$/;"	m	class:stop_watch
+message	STL-master/4010/ecourse_stl.hpp	/^	std::string message;$/;"	m	class:stop_watch
+message	STL-master/4020/ecourse_stl.hpp	/^	std::string message;$/;"	m	class:stop_watch
+message	STL-master/4030/ecourse_stl.hpp	/^	std::string message;$/;"	m	class:stop_watch
+message	STL-master/5020/ecourse_stl.hpp	/^	std::string message;$/;"	m	class:stop_watch
+mfunc	6040/testfunction.h	/^    void mfunc(int a, int b, int c, int d)$/;"	f	class:Test
+mfunc	STL-master/6040/testfunction.h	/^    void mfunc(int a, int b, int c, int d)$/;"	f	class:Test
+move	3060/People.h	/^    People(People&& p) noexcept : name( std::move(p.name))$/;"	f	class:People
+move	STL-master/3060/People.h	/^    People(People&& p) noexcept : name( std::move(p.name))$/;"	f	class:People
+n1	6010/test.cpp	/^    int n1;$/;"	m	struct:FOO	file:
+n1	STL-master/6010/test.cpp	/^    int n1;$/;"	m	struct:FOO	file:
+n2	6010/test.cpp	/^    int n2;$/;"	m	struct:FOO	file:
+n2	STL-master/6010/test.cpp	/^    int n2;$/;"	m	struct:FOO	file:
+name	3060/People.h	/^    std::string name;$/;"	m	class:People
+name	6010/wptr1.cpp	/^    string name;$/;"	m	struct:People	file:
+name	6010/wptr3.cpp	/^    string name;$/;"	m	struct:People	file:
+name	STL-master/3060/People.h	/^    std::string name;$/;"	m	class:People
+name	STL-master/6010/wptr1.cpp	/^    string name;$/;"	m	struct:People	file:
+name	STL-master/6010/wptr3.cpp	/^    string name;$/;"	m	struct:People	file:
+next	2020_CONTAINER_ITERATOR/cont1.cpp	/^	Node* next;$/;"	m	struct:Node	file:
+next	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	Node* next;$/;"	m	struct:Node	file:
+next	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	Node* next;$/;"	m	struct:Node	file:
+next	3040/member_type.cpp	/^	Node* next;$/;"	m	struct:Node	file:
+next	3040/member_type2.cpp	/^	Node* next;$/;"	m	struct:Node	file:
+next	STL-master/2020_CONTAINER_ITERATOR/cont1.cpp	/^	Node* next;$/;"	m	struct:Node	file:
+next	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	Node* next;$/;"	m	struct:Node	file:
+next	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	Node* next;$/;"	m	struct:Node	file:
+next	STL-master/3040/member_type.cpp	/^	Node* next;$/;"	m	struct:Node	file:
+next	STL-master/3040/member_type2.cpp	/^	Node* next;$/;"	m	struct:Node	file:
+noexcept	6010/shared.cpp	/^    virtual void destroy_shared(void*) noexcept = 0;$/;"	m	struct:shared_ptr_control_base	file:
+noexcept	6010/shared.cpp	/^    virtual void destruct()            noexcept = 0;$/;"	m	struct:shared_ptr_control_base	file:
+noexcept	STL-master/6010/shared.cpp	/^    virtual void destroy_shared(void*) noexcept = 0;$/;"	m	struct:shared_ptr_control_base	file:
+noexcept	STL-master/6010/shared.cpp	/^    virtual void destruct()            noexcept = 0;$/;"	m	struct:shared_ptr_control_base	file:
+operator !=	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	bool operator !=(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator !=	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	bool operator !=(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator !=	3040/member_type.cpp	/^	bool operator !=(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator !=	3040/member_type2.cpp	/^	bool operator !=(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator !=	5020/MyAlloc1.h	/^bool operator!= (const MyAlloc<T1>&, const MyAlloc<T2>&) throw() {$/;"	f
+operator !=	6010/ecourse_alloc.hpp	/^bool operator!=(const eallocator<T>&, const eallocator<U>&)$/;"	f
+operator !=	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	bool operator !=(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator !=	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	bool operator !=(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator !=	STL-master/3040/member_type.cpp	/^	bool operator !=(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator !=	STL-master/3040/member_type2.cpp	/^	bool operator !=(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator !=	STL-master/5020/MyAlloc1.h	/^bool operator!= (const MyAlloc<T1>&, const MyAlloc<T2>&) throw() {$/;"	f
+operator !=	STL-master/6010/ecourse_alloc.hpp	/^bool operator!=(const eallocator<T>&, const eallocator<U>&)$/;"	f
+operator ()	4020/for_each.cpp	/^    void operator()(int a) const$/;"	f	struct:Show
+operator ()	4020/functor1.cpp	/^    int operator()(int a, int b) const$/;"	f	struct:Plus
+operator ()	5020/vector4.cpp	/^    bool operator()(char c) const$/;"	f	struct:FindChar
+operator ()	5040/pq.cpp	/^    bool operator()(int a, int b) const$/;"	f	struct:abs_greater
+operator ()	5050/unordered3.cpp	/^    bool operator()(const Point& p1, const Point& p2) const$/;"	f	struct:PointEqual
+operator ()	5050/unordered3.cpp	/^    size_t operator()(const Point& p) const$/;"	f	struct:PointHash
+operator ()	6010/uptr3.cpp	/^    void operator()(int* p ) const$/;"	f	struct:Deleter
+operator ()	6010/uptr4.cpp	/^    void operator()(int* p ) const$/;"	f	struct:Deleter
+operator ()	7010/thread3.cpp	/^    void operator()() {}$/;"	f	struct:Functor
+operator ()	STL-master/4020/for_each.cpp	/^    void operator()(int a) const$/;"	f	struct:Show
+operator ()	STL-master/4020/functor1.cpp	/^    int operator()(int a, int b) const$/;"	f	struct:Plus
+operator ()	STL-master/5020/vector4.cpp	/^    bool operator()(char c) const$/;"	f	struct:FindChar
+operator ()	STL-master/5040/pq.cpp	/^    bool operator()(int a, int b) const$/;"	f	struct:abs_greater
+operator ()	STL-master/5050/unordered3.cpp	/^    bool operator()(const Point& p1, const Point& p2) const$/;"	f	struct:PointEqual
+operator ()	STL-master/5050/unordered3.cpp	/^    size_t operator()(const Point& p) const$/;"	f	struct:PointHash
+operator ()	STL-master/6010/uptr3.cpp	/^    void operator()(int* p ) const$/;"	f	struct:Deleter
+operator ()	STL-master/6010/uptr4.cpp	/^    void operator()(int* p ) const$/;"	f	struct:Deleter
+operator ()	STL-master/7010/thread3.cpp	/^    void operator()() {}$/;"	f	struct:Functor
+operator *	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	T& operator*() { return current->data; }$/;"	f	class:slist_iterator
+operator *	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	T& operator*() { return current->data; }$/;"	f	class:slist_iterator
+operator *	3020/implemetation.cpp	/^	back_insert_iterator& operator*()$/;"	f	class:back_insert_iterator
+operator *	3020/insert4.cpp	/^	eback_insert_iterator& operator*() { return *this ; }$/;"	f	class:eback_insert_iterator
+operator *	3020/insert5.cpp	/^	eback_insert_iterator& operator*()     { return *this; }$/;"	f	class:eback_insert_iterator
+operator *	3020/insert6.cpp	/^	eback_insert_iterator& operator*()     { return *this; }$/;"	f	class:eback_insert_iterator
+operator *	3020/insert7.cpp	/^	eback_insert_iterator& operator*()$/;"	f	class:eback_insert_iterator
+operator *	3040/member_type.cpp	/^	T& operator*() { return current->data; }$/;"	f	class:slist_iterator
+operator *	3040/member_type2.cpp	/^	T& operator*() { return current->data; }$/;"	f	class:slist_iterator
+operator *	3050/stream6.cpp	/^	eostream_iterator& operator*() { return *this; }$/;"	f	class:eostream_iterator
+operator *	3050/stream7.cpp	/^	eostream_iterator& operator*() { return *this; }$/;"	f	class:eostream_iterator
+operator *	3050/stream8.cpp	/^	eostream_iterator& operator*() { return *this; }$/;"	f	class:eostream_iterator
+operator *	3050/test.cpp	/^	ostream_iterator& operator*()$/;"	f	class:ostream_iterator
+operator *	3060/adapter2.cpp	/^    typename ITER::value_type operator*()$/;"	f	class:Reverse_iterator
+operator *	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	T& operator*() { return current->data; }$/;"	f	class:slist_iterator
+operator *	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	T& operator*() { return current->data; }$/;"	f	class:slist_iterator
+operator *	STL-master/3020/implemetation.cpp	/^	back_insert_iterator& operator*()$/;"	f	class:back_insert_iterator
+operator *	STL-master/3020/insert4.cpp	/^	eback_insert_iterator& operator*() { return *this ; }$/;"	f	class:eback_insert_iterator
+operator *	STL-master/3020/insert5.cpp	/^	eback_insert_iterator& operator*()     { return *this; }$/;"	f	class:eback_insert_iterator
+operator *	STL-master/3020/insert6.cpp	/^	eback_insert_iterator& operator*()     { return *this; }$/;"	f	class:eback_insert_iterator
+operator *	STL-master/3020/insert7.cpp	/^	eback_insert_iterator& operator*()$/;"	f	class:eback_insert_iterator
+operator *	STL-master/3040/member_type.cpp	/^	T& operator*() { return current->data; }$/;"	f	class:slist_iterator
+operator *	STL-master/3040/member_type2.cpp	/^	T& operator*() { return current->data; }$/;"	f	class:slist_iterator
+operator *	STL-master/3050/stream6.cpp	/^	eostream_iterator& operator*() { return *this; }$/;"	f	class:eostream_iterator
+operator *	STL-master/3050/stream7.cpp	/^	eostream_iterator& operator*() { return *this; }$/;"	f	class:eostream_iterator
+operator *	STL-master/3050/stream8.cpp	/^	eostream_iterator& operator*() { return *this; }$/;"	f	class:eostream_iterator
+operator *	STL-master/3050/test.cpp	/^	ostream_iterator& operator*()$/;"	f	class:ostream_iterator
+operator *	STL-master/3060/adapter2.cpp	/^    typename ITER::value_type operator*()$/;"	f	class:Reverse_iterator
+operator ++	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	slist_iterator& operator++()$/;"	f	class:slist_iterator
+operator ++	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	slist_iterator& operator++()$/;"	f	class:slist_iterator
+operator ++	3020/implemetation.cpp	/^	back_insert_iterator operator++(int)$/;"	f	class:back_insert_iterator
+operator ++	3020/implemetation.cpp	/^	back_insert_iterator& operator++()$/;"	f	class:back_insert_iterator
+operator ++	3020/insert5.cpp	/^	eback_insert_iterator& operator++()    { return *this; }$/;"	f	class:eback_insert_iterator
+operator ++	3020/insert5.cpp	/^	eback_insert_iterator& operator++(int) { return *this; }$/;"	f	class:eback_insert_iterator
+operator ++	3020/insert6.cpp	/^	eback_insert_iterator& operator++()    { return *this; }$/;"	f	class:eback_insert_iterator
+operator ++	3020/insert6.cpp	/^	eback_insert_iterator& operator++(int) { return *this; }$/;"	f	class:eback_insert_iterator
+operator ++	3020/insert7.cpp	/^	eback_insert_iterator& operator++()$/;"	f	class:eback_insert_iterator
+operator ++	3020/insert7.cpp	/^	eback_insert_iterator& operator++(int)$/;"	f	class:eback_insert_iterator
+operator ++	3040/member_type.cpp	/^	slist_iterator& operator++()$/;"	f	class:slist_iterator
+operator ++	3040/member_type2.cpp	/^	slist_iterator& operator++()$/;"	f	class:slist_iterator
+operator ++	3050/stream6.cpp	/^	eostream_iterator& operator++() { return *this; }$/;"	f	class:eostream_iterator
+operator ++	3050/stream6.cpp	/^	eostream_iterator& operator++(int) { return *this; }$/;"	f	class:eostream_iterator
+operator ++	3050/stream7.cpp	/^	eostream_iterator& operator++() { return *this; }$/;"	f	class:eostream_iterator
+operator ++	3050/stream7.cpp	/^	eostream_iterator& operator++(int) { return *this; }$/;"	f	class:eostream_iterator
+operator ++	3050/stream8.cpp	/^	eostream_iterator& operator++() { return *this; }$/;"	f	class:eostream_iterator
+operator ++	3050/stream8.cpp	/^	eostream_iterator& operator++(int) { return *this; }$/;"	f	class:eostream_iterator
+operator ++	3050/test.cpp	/^	ostream_iterator& operator++()$/;"	f	class:ostream_iterator
+operator ++	3050/test.cpp	/^	ostream_iterator& operator++(int)$/;"	f	class:ostream_iterator
+operator ++	3060/adapter2.cpp	/^    Reverse_iterator& operator++()$/;"	f	class:Reverse_iterator
+operator ++	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	slist_iterator& operator++()$/;"	f	class:slist_iterator
+operator ++	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	slist_iterator& operator++()$/;"	f	class:slist_iterator
+operator ++	STL-master/3020/implemetation.cpp	/^	back_insert_iterator operator++(int)$/;"	f	class:back_insert_iterator
+operator ++	STL-master/3020/implemetation.cpp	/^	back_insert_iterator& operator++()$/;"	f	class:back_insert_iterator
+operator ++	STL-master/3020/insert5.cpp	/^	eback_insert_iterator& operator++()    { return *this; }$/;"	f	class:eback_insert_iterator
+operator ++	STL-master/3020/insert5.cpp	/^	eback_insert_iterator& operator++(int) { return *this; }$/;"	f	class:eback_insert_iterator
+operator ++	STL-master/3020/insert6.cpp	/^	eback_insert_iterator& operator++()    { return *this; }$/;"	f	class:eback_insert_iterator
+operator ++	STL-master/3020/insert6.cpp	/^	eback_insert_iterator& operator++(int) { return *this; }$/;"	f	class:eback_insert_iterator
+operator ++	STL-master/3020/insert7.cpp	/^	eback_insert_iterator& operator++()$/;"	f	class:eback_insert_iterator
+operator ++	STL-master/3020/insert7.cpp	/^	eback_insert_iterator& operator++(int)$/;"	f	class:eback_insert_iterator
+operator ++	STL-master/3040/member_type.cpp	/^	slist_iterator& operator++()$/;"	f	class:slist_iterator
+operator ++	STL-master/3040/member_type2.cpp	/^	slist_iterator& operator++()$/;"	f	class:slist_iterator
+operator ++	STL-master/3050/stream6.cpp	/^	eostream_iterator& operator++() { return *this; }$/;"	f	class:eostream_iterator
+operator ++	STL-master/3050/stream6.cpp	/^	eostream_iterator& operator++(int) { return *this; }$/;"	f	class:eostream_iterator
+operator ++	STL-master/3050/stream7.cpp	/^	eostream_iterator& operator++() { return *this; }$/;"	f	class:eostream_iterator
+operator ++	STL-master/3050/stream7.cpp	/^	eostream_iterator& operator++(int) { return *this; }$/;"	f	class:eostream_iterator
+operator ++	STL-master/3050/stream8.cpp	/^	eostream_iterator& operator++() { return *this; }$/;"	f	class:eostream_iterator
+operator ++	STL-master/3050/stream8.cpp	/^	eostream_iterator& operator++(int) { return *this; }$/;"	f	class:eostream_iterator
+operator ++	STL-master/3050/test.cpp	/^	ostream_iterator& operator++()$/;"	f	class:ostream_iterator
+operator ++	STL-master/3050/test.cpp	/^	ostream_iterator& operator++(int)$/;"	f	class:ostream_iterator
+operator ++	STL-master/3060/adapter2.cpp	/^    Reverse_iterator& operator++()$/;"	f	class:Reverse_iterator
+operator <	5020/usertype1.cpp	/^    bool operator<(const Point& p) const$/;"	f	class:Point
+operator <	5020/usertype2.cpp	/^    bool operator<(const Point& p) const { return x < p.x;  }$/;"	f	class:Point
+operator <	5050/set3.cpp	/^    bool operator<(const Point& p) const {  return x < p.x;    }$/;"	f	struct:Point
+operator <	STL-master/5020/usertype1.cpp	/^    bool operator<(const Point& p) const$/;"	f	class:Point
+operator <	STL-master/5020/usertype2.cpp	/^    bool operator<(const Point& p) const { return x < p.x;  }$/;"	f	class:Point
+operator <	STL-master/5050/set3.cpp	/^    bool operator<(const Point& p) const {  return x < p.x;    }$/;"	f	struct:Point
+operator =	3020/implemetation.cpp	/^	back_insert_iterator& operator=(const typename _Container::value_type& _Val)$/;"	f	class:back_insert_iterator
+operator =	3020/implemetation.cpp	/^	back_insert_iterator& operator=(typename _Container::value_type&& _Val)$/;"	f	class:back_insert_iterator
+operator =	3020/insert4.cpp	/^	operator=(const typename C::value_type& a)$/;"	f	class:eback_insert_iterator
+operator =	3020/insert5.cpp	/^	eback_insert_iterator& operator=(const typename C::value_type& a)$/;"	f	class:eback_insert_iterator
+operator =	3020/insert5.cpp	/^	eback_insert_iterator& operator=(const typename C::value_type&& a)$/;"	f	class:eback_insert_iterator
+operator =	3020/insert6.cpp	/^	eback_insert_iterator& operator=(const typename C::value_type& a)$/;"	f	class:eback_insert_iterator
+operator =	3020/insert6.cpp	/^	eback_insert_iterator& operator=(const typename C::value_type&& a)$/;"	f	class:eback_insert_iterator
+operator =	3020/insert7.cpp	/^	operator=(const typename C::value_type& a)$/;"	f	class:eback_insert_iterator
+operator =	3020/insert7.cpp	/^	operator=(const typename C::value_type&& a)$/;"	f	class:eback_insert_iterator
+operator =	3050/stream6.cpp	/^	eostream_iterator& operator=(const T& v)$/;"	f	class:eostream_iterator
+operator =	3050/stream7.cpp	/^	eostream_iterator& operator=(const T& v)$/;"	f	class:eostream_iterator
+operator =	3050/stream8.cpp	/^	eostream_iterator& operator=(const T& v)$/;"	f	class:eostream_iterator
+operator =	3050/test.cpp	/^	ostream_iterator& operator=(const _Ty& _Val)$/;"	f	class:ostream_iterator
+operator =	3060/People.h	/^    People& operator=(const People& p)$/;"	f	class:People
+operator =	6010/shared.cpp	/^    shared_ptr<SharedType>& operator=(const shared_ptr<SharedType>& a_rhs)$/;"	f	struct:shared_ptr
+operator =	6010/shared.cpp	/^    weak_ptr<SharedType>& operator=(const shared_ptr<SharedType>& a_rhs)$/;"	f	struct:weak_ptr
+operator =	6010/shared.cpp	/^    weak_ptr<SharedType>& operator=(const weak_ptr<SharedType>& a_rhs)$/;"	f	struct:weak_ptr
+operator =	6010/shared.cpp	/^    weak_ptr<SharedType>& operator=(weak_ptr<SharedType>&& a_rhs)$/;"	f	struct:weak_ptr
+operator =	STL-master/3020/implemetation.cpp	/^	back_insert_iterator& operator=(const typename _Container::value_type& _Val)$/;"	f	class:back_insert_iterator
+operator =	STL-master/3020/implemetation.cpp	/^	back_insert_iterator& operator=(typename _Container::value_type&& _Val)$/;"	f	class:back_insert_iterator
+operator =	STL-master/3020/insert4.cpp	/^	operator=(const typename C::value_type& a)$/;"	f	class:eback_insert_iterator
+operator =	STL-master/3020/insert5.cpp	/^	eback_insert_iterator& operator=(const typename C::value_type& a)$/;"	f	class:eback_insert_iterator
+operator =	STL-master/3020/insert5.cpp	/^	eback_insert_iterator& operator=(const typename C::value_type&& a)$/;"	f	class:eback_insert_iterator
+operator =	STL-master/3020/insert6.cpp	/^	eback_insert_iterator& operator=(const typename C::value_type& a)$/;"	f	class:eback_insert_iterator
+operator =	STL-master/3020/insert6.cpp	/^	eback_insert_iterator& operator=(const typename C::value_type&& a)$/;"	f	class:eback_insert_iterator
+operator =	STL-master/3020/insert7.cpp	/^	operator=(const typename C::value_type& a)$/;"	f	class:eback_insert_iterator
+operator =	STL-master/3020/insert7.cpp	/^	operator=(const typename C::value_type&& a)$/;"	f	class:eback_insert_iterator
+operator =	STL-master/3050/stream6.cpp	/^	eostream_iterator& operator=(const T& v)$/;"	f	class:eostream_iterator
+operator =	STL-master/3050/stream7.cpp	/^	eostream_iterator& operator=(const T& v)$/;"	f	class:eostream_iterator
+operator =	STL-master/3050/stream8.cpp	/^	eostream_iterator& operator=(const T& v)$/;"	f	class:eostream_iterator
+operator =	STL-master/3050/test.cpp	/^	ostream_iterator& operator=(const _Ty& _Val)$/;"	f	class:ostream_iterator
+operator =	STL-master/3060/People.h	/^    People& operator=(const People& p)$/;"	f	class:People
+operator =	STL-master/6010/shared.cpp	/^    shared_ptr<SharedType>& operator=(const shared_ptr<SharedType>& a_rhs)$/;"	f	struct:shared_ptr
+operator =	STL-master/6010/shared.cpp	/^    weak_ptr<SharedType>& operator=(const shared_ptr<SharedType>& a_rhs)$/;"	f	struct:weak_ptr
+operator =	STL-master/6010/shared.cpp	/^    weak_ptr<SharedType>& operator=(const weak_ptr<SharedType>& a_rhs)$/;"	f	struct:weak_ptr
+operator =	STL-master/6010/shared.cpp	/^    weak_ptr<SharedType>& operator=(weak_ptr<SharedType>&& a_rhs)$/;"	f	struct:weak_ptr
+operator ==	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	bool operator ==(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator ==	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	bool operator ==(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator ==	3040/member_type.cpp	/^	bool operator ==(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator ==	3040/member_type2.cpp	/^	bool operator ==(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator ==	5020/MyAlloc1.h	/^bool operator== (const MyAlloc<T1>&, const MyAlloc<T2>&) throw() {$/;"	f
+operator ==	5020/usertype1.cpp	/^    bool operator==(const Point& p) const$/;"	f	class:Point
+operator ==	5020/usertype2.cpp	/^    bool operator==(const Point& p) const { return x == p.x; }$/;"	f	class:Point
+operator ==	6010/ecourse_alloc.hpp	/^bool operator==(const eallocator<T>&, const eallocator<U>&)$/;"	f
+operator ==	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	bool operator ==(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator ==	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	bool operator ==(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator ==	STL-master/3040/member_type.cpp	/^	bool operator ==(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator ==	STL-master/3040/member_type2.cpp	/^	bool operator ==(const slist_iterator& it)$/;"	f	class:slist_iterator
+operator ==	STL-master/5020/MyAlloc1.h	/^bool operator== (const MyAlloc<T1>&, const MyAlloc<T2>&) throw() {$/;"	f
+operator ==	STL-master/5020/usertype1.cpp	/^    bool operator==(const Point& p) const$/;"	f	class:Point
+operator ==	STL-master/5020/usertype2.cpp	/^    bool operator==(const Point& p) const { return x == p.x; }$/;"	f	class:Point
+operator ==	STL-master/6010/ecourse_alloc.hpp	/^bool operator==(const eallocator<T>&, const eallocator<U>&)$/;"	f
+operator []	5020/array2.cpp	/^    T& operator[](int n) { return buf[n];}$/;"	f	struct:Array
+operator []	STL-master/5020/array2.cpp	/^    T& operator[](int n) { return buf[n];}$/;"	f	struct:Array
+operator new	6010/sptr6.cpp	/^void* operator new( size_t sz)$/;"	f
+operator new	STL-master/6010/sptr6.cpp	/^void* operator new( size_t sz)$/;"	f
+os	4020/for_each.cpp	/^    ostream& os;$/;"	m	struct:Show	file:
+os	STL-master/4020/for_each.cpp	/^    ostream& os;$/;"	m	struct:Show	file:
+ostream_iterator	3050/test.cpp	/^	class ostream_iterator$/;"	c	file:
+ostream_iterator	3050/test.cpp	/^	ostream_iterator(ostream_type& _Ostr, const _Elem * const _Delim = 0)$/;"	f	class:ostream_iterator
+ostream_iterator	STL-master/3050/test.cpp	/^	class ostream_iterator$/;"	c	file:
+ostream_iterator	STL-master/3050/test.cpp	/^	ostream_iterator(ostream_type& _Ostr, const _Elem * const _Delim = 0)$/;"	f	class:ostream_iterator
+other	5020/MyAlloc1.h	/^		typedef MyAlloc<U> other;$/;"	t	struct:MyAlloc::rebind
+other	STL-master/5020/MyAlloc1.h	/^		typedef MyAlloc<U> other;$/;"	t	struct:MyAlloc::rebind
+pointer	5020/MyAlloc1.h	/^	typedef T*       pointer;$/;"	t	class:MyAlloc
+pointer	STL-master/5020/MyAlloc1.h	/^	typedef T*       pointer;$/;"	t	class:MyAlloc
+print	2030/type1.cpp	/^void print(T& c)$/;"	f
+print	5020/vector3.cpp	/^void print( int* arr, int sz)$/;"	f
+print	STL-master/2030/type1.cpp	/^void print(T& c)$/;"	f
+print	STL-master/5020/vector3.cpp	/^void print( int* arr, int sz)$/;"	f
+push_back	5010/policy1.cpp	/^    void push_back(const T& a)$/;"	f	class:vector
+push_back	STL-master/5010/policy1.cpp	/^    void push_back(const T& a)$/;"	f	class:vector
+push_front	2020_CONTAINER_ITERATOR/cont1.cpp	/^	void push_front(const T& a)$/;"	f	class:slist
+push_front	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	void push_front(const T& a)$/;"	f	class:slist
+push_front	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	void push_front(const T& a)$/;"	f	class:slist
+push_front	3040/member_type.cpp	/^	void push_front(const T& a)$/;"	f	class:slist
+push_front	3040/member_type2.cpp	/^	void push_front(const T& a)$/;"	f	class:slist
+push_front	STL-master/2020_CONTAINER_ITERATOR/cont1.cpp	/^	void push_front(const T& a)$/;"	f	class:slist
+push_front	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	void push_front(const T& a)$/;"	f	class:slist
+push_front	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	void push_front(const T& a)$/;"	f	class:slist
+push_front	STL-master/3040/member_type.cpp	/^	void push_front(const T& a)$/;"	f	class:slist
+push_front	STL-master/3040/member_type2.cpp	/^	void push_front(const T& a)$/;"	f	class:slist
+rebind	5020/MyAlloc1.h	/^	template <class U> struct rebind {$/;"	s	class:MyAlloc
+rebind	STL-master/5020/MyAlloc1.h	/^	template <class U> struct rebind {$/;"	s	class:MyAlloc
+reference	5020/MyAlloc1.h	/^	typedef T&       reference;$/;"	t	class:MyAlloc
+reference	STL-master/5020/MyAlloc1.h	/^	typedef T&       reference;$/;"	t	class:MyAlloc
+sep	4020/for_each.cpp	/^    string sep;$/;"	m	struct:Show	file:
+sep	STL-master/4020/for_each.cpp	/^    string sep;$/;"	m	struct:Show	file:
+shared_ptr	6010/shared.cpp	/^    shared_ptr() : m_pointer(nullptr), m_control(nullptr) { }$/;"	f	struct:shared_ptr
+shared_ptr	6010/shared.cpp	/^    shared_ptr(const shared_ptr<SharedType>& a_that) :$/;"	f	struct:shared_ptr
+shared_ptr	6010/shared.cpp	/^template <typename SharedType> struct shared_ptr$/;"	s	file:
+shared_ptr	STL-master/6010/shared.cpp	/^    shared_ptr() : m_pointer(nullptr), m_control(nullptr) { }$/;"	f	struct:shared_ptr
+shared_ptr	STL-master/6010/shared.cpp	/^    shared_ptr(const shared_ptr<SharedType>& a_that) :$/;"	f	struct:shared_ptr
+shared_ptr	STL-master/6010/shared.cpp	/^template <typename SharedType> struct shared_ptr$/;"	s	file:
+shared_ptr_control_base	6010/shared.cpp	/^struct shared_ptr_control_base$/;"	s	file:
+shared_ptr_control_base	STL-master/6010/shared.cpp	/^struct shared_ptr_control_base$/;"	s	file:
+shared_ptr_control_derived	6010/shared.cpp	/^    shared_ptr_control_derived(AllocatorTypeControl&& a_allocatorC,$/;"	f	struct:shared_ptr_control_derived
+shared_ptr_control_derived	6010/shared.cpp	/^    shared_ptr_control_derived(shared_ptr_control_derived<AllocatorTypeControl, AllocatorTypeShared, SharedType>&& a_that) :$/;"	f	struct:shared_ptr_control_derived
+shared_ptr_control_derived	6010/shared.cpp	/^struct shared_ptr_control_derived : shared_ptr_control_base$/;"	s	file:
+shared_ptr_control_derived	STL-master/6010/shared.cpp	/^    shared_ptr_control_derived(AllocatorTypeControl&& a_allocatorC,$/;"	f	struct:shared_ptr_control_derived
+shared_ptr_control_derived	STL-master/6010/shared.cpp	/^    shared_ptr_control_derived(shared_ptr_control_derived<AllocatorTypeControl, AllocatorTypeShared, SharedType>&& a_that) :$/;"	f	struct:shared_ptr_control_derived
+shared_ptr_control_derived	STL-master/6010/shared.cpp	/^struct shared_ptr_control_derived : shared_ptr_control_base$/;"	s	file:
+show	4010/ecourse_stl.hpp	/^template<typename Container> void show(Container&& c)$/;"	f
+show	4010/ecourse_stl.hpp	/^void show(InputIter first, InputIter last )$/;"	f
+show	4020/ecourse_stl.hpp	/^template<typename Container> void show(Container&& c)$/;"	f
+show	4020/ecourse_stl.hpp	/^void show(InputIter first, InputIter last )$/;"	f
+show	4030/ecourse_stl.hpp	/^template<typename Container> void show(Container&& c)$/;"	f
+show	4030/ecourse_stl.hpp	/^void show(InputIter first, InputIter last )$/;"	f
+show	5020/ecourse_stl.hpp	/^template<typename Container> void show(Container&& c)$/;"	f
+show	5020/ecourse_stl.hpp	/^void show(InputIter first, InputIter last )$/;"	f
+show	STL-master/4010/ecourse_stl.hpp	/^template<typename Container> void show(Container&& c)$/;"	f
+show	STL-master/4010/ecourse_stl.hpp	/^void show(InputIter first, InputIter last )$/;"	f
+show	STL-master/4020/ecourse_stl.hpp	/^template<typename Container> void show(Container&& c)$/;"	f
+show	STL-master/4020/ecourse_stl.hpp	/^void show(InputIter first, InputIter last )$/;"	f
+show	STL-master/4030/ecourse_stl.hpp	/^template<typename Container> void show(Container&& c)$/;"	f
+show	STL-master/4030/ecourse_stl.hpp	/^void show(InputIter first, InputIter last )$/;"	f
+show	STL-master/5020/ecourse_stl.hpp	/^template<typename Container> void show(Container&& c)$/;"	f
+show	STL-master/5020/ecourse_stl.hpp	/^void show(InputIter first, InputIter last )$/;"	f
+size	5020/array2.cpp	/^    int size() const { return N;}$/;"	f	struct:Array
+size	STL-master/5020/array2.cpp	/^    int size() const { return N;}$/;"	f	struct:Array
+size_type	5020/MyAlloc1.h	/^	typedef std::size_t    size_type;$/;"	t	class:MyAlloc
+size_type	STL-master/5020/MyAlloc1.h	/^	typedef std::size_t    size_type;$/;"	t	class:MyAlloc
+slist	2020_CONTAINER_ITERATOR/cont1.cpp	/^template<typename T> class slist$/;"	c	file:
+slist	2020_CONTAINER_ITERATOR/iterator1.cpp	/^template<typename T> class slist$/;"	c	file:
+slist	2020_CONTAINER_ITERATOR/iterator2.cpp	/^template<typename T> class slist$/;"	c	file:
+slist	3040/member_type.cpp	/^template<typename T> class slist$/;"	c	file:
+slist	3040/member_type2.cpp	/^template<typename T> class slist$/;"	c	file:
+slist	STL-master/2020_CONTAINER_ITERATOR/cont1.cpp	/^template<typename T> class slist$/;"	c	file:
+slist	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^template<typename T> class slist$/;"	c	file:
+slist	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^template<typename T> class slist$/;"	c	file:
+slist	STL-master/3040/member_type.cpp	/^template<typename T> class slist$/;"	c	file:
+slist	STL-master/3040/member_type2.cpp	/^template<typename T> class slist$/;"	c	file:
+slist_iterator	2020_CONTAINER_ITERATOR/iterator1.cpp	/^	slist_iterator(Node<T>* p = 0) : current(p) {}$/;"	f	class:slist_iterator
+slist_iterator	2020_CONTAINER_ITERATOR/iterator1.cpp	/^template<typename T> class slist_iterator$/;"	c	file:
+slist_iterator	2020_CONTAINER_ITERATOR/iterator2.cpp	/^	slist_iterator(Node<T>* p = 0) : current(p) {}$/;"	f	class:slist_iterator
+slist_iterator	2020_CONTAINER_ITERATOR/iterator2.cpp	/^template<typename T> class slist_iterator$/;"	c	file:
+slist_iterator	3040/member_type.cpp	/^	slist_iterator(Node<T>* p = 0) : current(p) {}$/;"	f	class:slist_iterator
+slist_iterator	3040/member_type.cpp	/^class slist_iterator :$/;"	c	file:
+slist_iterator	3040/member_type2.cpp	/^	slist_iterator(Node<T>* p = 0) : current(p) {}$/;"	f	class:slist_iterator
+slist_iterator	3040/member_type2.cpp	/^class slist_iterator :$/;"	c	file:
+slist_iterator	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^	slist_iterator(Node<T>* p = 0) : current(p) {}$/;"	f	class:slist_iterator
+slist_iterator	STL-master/2020_CONTAINER_ITERATOR/iterator1.cpp	/^template<typename T> class slist_iterator$/;"	c	file:
+slist_iterator	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^	slist_iterator(Node<T>* p = 0) : current(p) {}$/;"	f	class:slist_iterator
+slist_iterator	STL-master/2020_CONTAINER_ITERATOR/iterator2.cpp	/^template<typename T> class slist_iterator$/;"	c	file:
+slist_iterator	STL-master/3040/member_type.cpp	/^	slist_iterator(Node<T>* p = 0) : current(p) {}$/;"	f	class:slist_iterator
+slist_iterator	STL-master/3040/member_type.cpp	/^class slist_iterator :$/;"	c	file:
+slist_iterator	STL-master/3040/member_type2.cpp	/^	slist_iterator(Node<T>* p = 0) : current(p) {}$/;"	f	class:slist_iterator
+slist_iterator	STL-master/3040/member_type2.cpp	/^class slist_iterator :$/;"	c	file:
+speed	6010/car.h	/^    int speed;$/;"	m	class:Car
+speed	STL-master/6010/car.h	/^    int speed;$/;"	m	class:Car
+start	4010/ecourse_stl.hpp	/^	std::chrono::high_resolution_clock::time_point start;$/;"	m	class:stop_watch
+start	4020/ecourse_stl.hpp	/^	std::chrono::high_resolution_clock::time_point start;$/;"	m	class:stop_watch
+start	4030/ecourse_stl.hpp	/^	std::chrono::high_resolution_clock::time_point start;$/;"	m	class:stop_watch
+start	5020/ecourse_stl.hpp	/^	std::chrono::high_resolution_clock::time_point start;$/;"	m	class:stop_watch
+start	STL-master/4010/ecourse_stl.hpp	/^	std::chrono::high_resolution_clock::time_point start;$/;"	m	class:stop_watch
+start	STL-master/4020/ecourse_stl.hpp	/^	std::chrono::high_resolution_clock::time_point start;$/;"	m	class:stop_watch
+start	STL-master/4030/ecourse_stl.hpp	/^	std::chrono::high_resolution_clock::time_point start;$/;"	m	class:stop_watch
+start	STL-master/5020/ecourse_stl.hpp	/^	std::chrono::high_resolution_clock::time_point start;$/;"	m	class:stop_watch
+stop_watch	4010/ecourse_stl.hpp	/^	inline stop_watch(std::string msg = "") : message(msg) { start = std::chrono::high_resolution_clock::now(); }$/;"	f	class:stop_watch
+stop_watch	4010/ecourse_stl.hpp	/^class stop_watch$/;"	c
+stop_watch	4020/ecourse_stl.hpp	/^	inline stop_watch(std::string msg = "") : message(msg) { start = std::chrono::high_resolution_clock::now(); }$/;"	f	class:stop_watch
+stop_watch	4020/ecourse_stl.hpp	/^class stop_watch$/;"	c
+stop_watch	4030/ecourse_stl.hpp	/^	inline stop_watch(std::string msg = "") : message(msg) { start = std::chrono::high_resolution_clock::now(); }$/;"	f	class:stop_watch
+stop_watch	4030/ecourse_stl.hpp	/^class stop_watch$/;"	c
+stop_watch	5020/ecourse_stl.hpp	/^	inline stop_watch(std::string msg = "") : message(msg) { start = std::chrono::high_resolution_clock::now(); }$/;"	f	class:stop_watch
+stop_watch	5020/ecourse_stl.hpp	/^class stop_watch$/;"	c
+stop_watch	STL-master/4010/ecourse_stl.hpp	/^	inline stop_watch(std::string msg = "") : message(msg) { start = std::chrono::high_resolution_clock::now(); }$/;"	f	class:stop_watch
+stop_watch	STL-master/4010/ecourse_stl.hpp	/^class stop_watch$/;"	c
+stop_watch	STL-master/4020/ecourse_stl.hpp	/^	inline stop_watch(std::string msg = "") : message(msg) { start = std::chrono::high_resolution_clock::now(); }$/;"	f	class:stop_watch
+stop_watch	STL-master/4020/ecourse_stl.hpp	/^class stop_watch$/;"	c
+stop_watch	STL-master/4030/ecourse_stl.hpp	/^	inline stop_watch(std::string msg = "") : message(msg) { start = std::chrono::high_resolution_clock::now(); }$/;"	f	class:stop_watch
+stop_watch	STL-master/4030/ecourse_stl.hpp	/^class stop_watch$/;"	c
+stop_watch	STL-master/5020/ecourse_stl.hpp	/^	inline stop_watch(std::string msg = "") : message(msg) { start = std::chrono::high_resolution_clock::now(); }$/;"	f	class:stop_watch
+stop_watch	STL-master/5020/ecourse_stl.hpp	/^class stop_watch$/;"	c
+stream	3050/stream6.cpp	/^	ostream*    stream;$/;"	m	class:eostream_iterator	file:
+stream	3050/stream7.cpp	/^	basic_ostream<CharT, Traits>* stream;$/;"	m	class:eostream_iterator	file:
+stream	3050/stream8.cpp	/^	basic_ostream<CharT, Traits>* stream;$/;"	m	class:eostream_iterator	file:
+stream	STL-master/3050/stream6.cpp	/^	ostream*    stream;$/;"	m	class:eostream_iterator	file:
+stream	STL-master/3050/stream7.cpp	/^	basic_ostream<CharT, Traits>* stream;$/;"	m	class:eostream_iterator	file:
+stream	STL-master/3050/stream8.cpp	/^	basic_ostream<CharT, Traits>* stream;$/;"	m	class:eostream_iterator	file:
+sum	2030/type2.cpp	/^void sum(T first, T last)$/;"	f
+sum	3030/traits1.cpp	/^typename T::value_type sum(T first, T last)$/;"	f
+sum	3030/traits2.cpp	/^typename T::value_type sum(T first, T last)$/;"	f
+sum	3030/traits3.cpp	/^sum(T first, T last)$/;"	f
+sum	3030/traits6.cpp	/^sum(T first, T last)$/;"	f
+sum	STL-master/2030/type2.cpp	/^void sum(T first, T last)$/;"	f
+sum	STL-master/3030/traits1.cpp	/^typename T::value_type sum(T first, T last)$/;"	f
+sum	STL-master/3030/traits2.cpp	/^typename T::value_type sum(T first, T last)$/;"	f
+sum	STL-master/3030/traits3.cpp	/^sum(T first, T last)$/;"	f
+sum	STL-master/3030/traits6.cpp	/^sum(T first, T last)$/;"	f
+to_upper	5010/policy2.cpp	/^    static char to_upper(char ch)$/;"	f	struct:ci_char_traits
+to_upper	STL-master/5010/policy2.cpp	/^    static char to_upper(char ch)$/;"	f	struct:ci_char_traits
+value_type	5020/MyAlloc1.h	/^	typedef T        value_type;$/;"	t	class:MyAlloc
+value_type	6010/ecourse_alloc.hpp	/^  typedef T value_type;$/;"	t	struct:eallocator
+value_type	STL-master/5020/MyAlloc1.h	/^	typedef T        value_type;$/;"	t	class:MyAlloc
+value_type	STL-master/6010/ecourse_alloc.hpp	/^  typedef T value_type;$/;"	t	struct:eallocator
+vector	5010/policy1.cpp	/^         typename Allocator = allocator<T> > class vector$/;"	c	file:
+vector	STL-master/5010/policy1.cpp	/^         typename Allocator = allocator<T> > class vector$/;"	c	file:
+weak_ptr	6010/shared.cpp	/^    weak_ptr() : m_pointer(nullptr), m_control(nullptr) { }$/;"	f	struct:weak_ptr
+weak_ptr	6010/shared.cpp	/^    weak_ptr(const shared_ptr<SharedType>& a_that) :$/;"	f	struct:weak_ptr
+weak_ptr	6010/shared.cpp	/^    weak_ptr(const weak_ptr<SharedType>& a_that) :$/;"	f	struct:weak_ptr
+weak_ptr	6010/shared.cpp	/^    weak_ptr(weak_ptr<SharedType>&& a_that) :$/;"	f	struct:weak_ptr
+weak_ptr	6010/shared.cpp	/^template <typename SharedType> struct weak_ptr$/;"	s	file:
+weak_ptr	STL-master/6010/shared.cpp	/^    weak_ptr() : m_pointer(nullptr), m_control(nullptr) { }$/;"	f	struct:weak_ptr
+weak_ptr	STL-master/6010/shared.cpp	/^    weak_ptr(const shared_ptr<SharedType>& a_that) :$/;"	f	struct:weak_ptr
+weak_ptr	STL-master/6010/shared.cpp	/^    weak_ptr(const weak_ptr<SharedType>& a_that) :$/;"	f	struct:weak_ptr
+weak_ptr	STL-master/6010/shared.cpp	/^    weak_ptr(weak_ptr<SharedType>&& a_that) :$/;"	f	struct:weak_ptr
+weak_ptr	STL-master/6010/shared.cpp	/^template <typename SharedType> struct weak_ptr$/;"	s	file:
+x	1020_PREVIEW/min.cpp	/^	int x, y;$/;"	m	struct:Point	file:
+x	5010/container1.cpp	/^     int x;$/;"	m	struct:Point	file:
+x	5020/Point.h	/^    int x;$/;"	m	struct:Point
+x	5020/usertype1.cpp	/^    int x, y;$/;"	m	class:Point	file:
+x	5020/usertype2.cpp	/^    int x, y;$/;"	m	class:Point	file:
+x	5020/usertype3.cpp	/^    int x, y;$/;"	m	class:Point	file:
+x	5050/set3.cpp	/^    int x, y;$/;"	m	struct:Point	file:
+x	5050/unordered3.cpp	/^    int x, y;$/;"	m	struct:Point	file:
+x	STL-master/1020_PREVIEW/min.cpp	/^	int x, y;$/;"	m	struct:Point	file:
+x	STL-master/5010/container1.cpp	/^     int x;$/;"	m	struct:Point	file:
+x	STL-master/5020/Point.h	/^    int x;$/;"	m	struct:Point
+x	STL-master/5020/usertype1.cpp	/^    int x, y;$/;"	m	class:Point	file:
+x	STL-master/5020/usertype2.cpp	/^    int x, y;$/;"	m	class:Point	file:
+x	STL-master/5020/usertype3.cpp	/^    int x, y;$/;"	m	class:Point	file:
+x	STL-master/5050/set3.cpp	/^    int x, y;$/;"	m	struct:Point	file:
+x	STL-master/5050/unordered3.cpp	/^    int x, y;$/;"	m	struct:Point	file:
+y	1020_PREVIEW/min.cpp	/^	int x, y;$/;"	m	struct:Point	file:
+y	5010/container1.cpp	/^     int y;$/;"	m	struct:Point	file:
+y	5020/Point.h	/^    int y;$/;"	m	struct:Point
+y	5020/usertype1.cpp	/^    int x, y;$/;"	m	class:Point	file:
+y	5020/usertype2.cpp	/^    int x, y;$/;"	m	class:Point	file:
+y	5020/usertype3.cpp	/^    int x, y;$/;"	m	class:Point	file:
+y	5050/set3.cpp	/^    int x, y;$/;"	m	struct:Point	file:
+y	5050/unordered3.cpp	/^    int x, y;$/;"	m	struct:Point	file:
+y	STL-master/1020_PREVIEW/min.cpp	/^	int x, y;$/;"	m	struct:Point	file:
+y	STL-master/5010/container1.cpp	/^     int y;$/;"	m	struct:Point	file:
+y	STL-master/5020/Point.h	/^    int y;$/;"	m	struct:Point
+y	STL-master/5020/usertype1.cpp	/^    int x, y;$/;"	m	class:Point	file:
+y	STL-master/5020/usertype2.cpp	/^    int x, y;$/;"	m	class:Point	file:
+y	STL-master/5020/usertype3.cpp	/^    int x, y;$/;"	m	class:Point	file:
+y	STL-master/5050/set3.cpp	/^    int x, y;$/;"	m	struct:Point	file:
+y	STL-master/5050/unordered3.cpp	/^    int x, y;$/;"	m	struct:Point	file:
+~Car	6010/car.h	/^    ~Car()    { std::cout << "~Car()" << std::endl;}$/;"	f	class:Car
+~Car	6010/sptr1.cpp	/^    ~Car() { cout << "~Car()" << endl;}$/;"	f	class:Car
+~Car	STL-master/6010/car.h	/^    ~Car()    { std::cout << "~Car()" << std::endl;}$/;"	f	class:Car
+~Car	STL-master/6010/sptr1.cpp	/^    ~Car() { cout << "~Car()" << endl;}$/;"	f	class:Car
+~FOO	6010/test.cpp	/^    ~FOO() { cout << "~FOO" << endl;}$/;"	f	struct:FOO
+~FOO	STL-master/6010/test.cpp	/^    ~FOO() { cout << "~FOO" << endl;}$/;"	f	struct:FOO
+~MyAlloc	5020/MyAlloc1.h	/^	~MyAlloc() throw() { }$/;"	f	class:MyAlloc
+~MyAlloc	STL-master/5020/MyAlloc1.h	/^	~MyAlloc() throw() { }$/;"	f	class:MyAlloc
+~People	6010/wptr1.cpp	/^    ~People() { cout << "~People : " << name << endl;}$/;"	f	struct:People
+~People	6010/wptr3.cpp	/^    ~People() { cout << "~People : " << name << endl;}$/;"	f	struct:People
+~People	STL-master/6010/wptr1.cpp	/^    ~People() { cout << "~People : " << name << endl;}$/;"	f	struct:People
+~People	STL-master/6010/wptr3.cpp	/^    ~People() { cout << "~People : " << name << endl;}$/;"	f	struct:People
+~Point	5020/Point.h	/^    ~Point() { std::cout << "~Point()" << std::endl;}$/;"	f	struct:Point
+~Point	5020/usertype3.cpp	/^    ~Point() { cout << "~Point()" << endl;}$/;"	f	class:Point
+~Point	STL-master/5020/Point.h	/^    ~Point() { std::cout << "~Point()" << std::endl;}$/;"	f	struct:Point
+~Point	STL-master/5020/usertype3.cpp	/^    ~Point() { cout << "~Point()" << endl;}$/;"	f	class:Point
+~shared_ptr	6010/shared.cpp	/^    ~shared_ptr()$/;"	f	struct:shared_ptr
+~shared_ptr	STL-master/6010/shared.cpp	/^    ~shared_ptr()$/;"	f	struct:shared_ptr
+~shared_ptr_control_base	6010/shared.cpp	/^    virtual ~shared_ptr_control_base() { }$/;"	f	struct:shared_ptr_control_base
+~shared_ptr_control_base	STL-master/6010/shared.cpp	/^    virtual ~shared_ptr_control_base() { }$/;"	f	struct:shared_ptr_control_base
+~stop_watch	4010/ecourse_stl.hpp	/^	inline ~stop_watch()$/;"	f	class:stop_watch
+~stop_watch	4020/ecourse_stl.hpp	/^	inline ~stop_watch()$/;"	f	class:stop_watch
+~stop_watch	4030/ecourse_stl.hpp	/^	inline ~stop_watch()$/;"	f	class:stop_watch
+~stop_watch	5020/ecourse_stl.hpp	/^	inline ~stop_watch()$/;"	f	class:stop_watch
+~stop_watch	STL-master/4010/ecourse_stl.hpp	/^	inline ~stop_watch()$/;"	f	class:stop_watch
+~stop_watch	STL-master/4020/ecourse_stl.hpp	/^	inline ~stop_watch()$/;"	f	class:stop_watch
+~stop_watch	STL-master/4030/ecourse_stl.hpp	/^	inline ~stop_watch()$/;"	f	class:stop_watch
+~stop_watch	STL-master/5020/ecourse_stl.hpp	/^	inline ~stop_watch()$/;"	f	class:stop_watch
+~weak_ptr	6010/shared.cpp	/^    ~weak_ptr()$/;"	f	struct:weak_ptr
+~weak_ptr	STL-master/6010/shared.cpp	/^    ~weak_ptr()$/;"	f	struct:weak_ptr

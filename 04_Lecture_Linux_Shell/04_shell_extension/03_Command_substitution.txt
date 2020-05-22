@@ -1,0 +1,22 @@
+${#NAME} : NAME에 저장된 문자열의 길이
+${NAME:-STR} : NAME이 NULL이면 STR을, 아니면 NAME을 선택
+${NAME:+STR} : NAME이 NULL이면 NULL을, 아니면 STR을 선택
+${NAME:=STR} : NAME이 NULL이면 생성 후 STR을 대입
+${NAME:OFFSET} : OFFSET 위치부터 모든 문자를 선택, 맨 앞이 0번 위치임
+${NAME/PATTERN/STR} : 처음 나오는 PATTERN을 STR로 교체
+${NAME#PATTERN} : 앞에서부터 PATTERN과 일치하는 가장 짧은 부분 제거
+${NAME%PATTERN} : 뒤에서부터 PATTERN과 일치하는 가장 짧은 부분 제거
+
+$() : ''과 돌일한 기능을 함. var=name_$(date+%F)
+
+()  : 서브 쉘을 만들고 여러 명령을 하나로 묶음
+
+
+() : 서브 쉘
+-> 서브 쉘에서 사용한 변수는 외부에 영향을 주지 않음
+-> exit 명령은 서브 쉘만 종료 함
+
+{} : 블록
+-> 블록에서 사용한 변수는 외부에 영향을 줌
+-> exit 명령은 스크립트를 종료 함
+

@@ -83,10 +83,12 @@ int main()
 	//slist_iterator<int> p = s.begin();
 
 	slist<int>::iterator p = s.begin();
-
+#if 0
 	slist<int>::iterator p2 =
 				efind(s.begin(), s.end(), 120);
-
+#endif
+	slist<int>::iterator p2 =
+				efind(s.begin(), s.end(), 20);
 	if (p2 == s.end())
 		cout << "fail" << endl;
 	else

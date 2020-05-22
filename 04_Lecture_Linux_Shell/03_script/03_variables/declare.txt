@@ -1,0 +1,6 @@
+declare OPTION(s) NAME=value
+
+-p 변수 속성, 값 출력
+-i 정수형 속성 부여
+-r readonly 
+-a 배열 속성

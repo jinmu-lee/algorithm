@@ -62,8 +62,8 @@ void eadvance(T& p, int n)
 
 int main()
 {
-	//list<int> s = { 1,2,3,4,5,6,7,8,9,10 };
-	vector<int> s = { 1,2,3,4,5,6,7,8,9,10 };
+	list<int> s = { 1,2,3,4,5,6,7,8,9,10 };
+	//vector<int> s = { 1,2,3,4,5,6,7,8,9,10 };
 
 	auto p = begin(s);
 

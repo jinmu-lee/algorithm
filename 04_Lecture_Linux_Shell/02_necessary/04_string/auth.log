@@ -1,0 +1,671 @@
+May 11 08:17:01 ADAS-BSP CRON[19551]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 08:17:01 ADAS-BSP CRON[19551]: pam_unix(cron:session): session closed for user root
+May 11 08:17:43 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 09:17:01 ADAS-BSP CRON[19706]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 09:17:01 ADAS-BSP CRON[19706]: pam_unix(cron:session): session closed for user root
+May 11 09:17:50 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 09:22:11 ADAS-BSP sshd[19722]: Accepted password for jjh.jang from 10.157.145.13 port 49820 ssh2
+May 11 09:22:11 ADAS-BSP sshd[19722]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 11 09:22:11 ADAS-BSP systemd-logind[1123]: New session 3647 of user jjh.jang.
+May 11 09:22:11 ADAS-BSP sshd[19855]: Accepted password for jjh.jang from 10.157.145.13 port 49824 ssh2
+May 11 09:22:11 ADAS-BSP sshd[19855]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 11 09:22:11 ADAS-BSP systemd-logind[1123]: New session 3648 of user jjh.jang.
+May 11 09:22:12 ADAS-BSP sshd[19722]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 09:22:12 ADAS-BSP sshd[19722]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 09:23:04 ADAS-BSP smbd: pam_unix(samba:session): session opened for user jjh.jang by (uid=0)
+May 11 09:23:06 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 09:23:16 ADAS-BSP smbd: message repeated 30 times: [ pam_unix(samba:session): session closed for user nobody]
+May 11 09:39:06 ADAS-BSP sshd[19722]: pam_unix(sshd:session): session closed for user jjh.jang
+May 11 09:39:06 ADAS-BSP systemd-logind[1123]: Removed session 3647.
+May 11 09:39:06 ADAS-BSP sshd[19855]: pam_unix(sshd:session): session closed for user jjh.jang
+May 11 09:39:06 ADAS-BSP systemd-logind[1123]: Removed session 3648.
+May 11 09:39:57 ADAS-BSP smbd: pam_unix(samba:session): session closed for user jjh.jang
+May 11 09:40:13 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 11 09:45:26 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sk.cho by (uid=0)
+May 11 10:17:01 ADAS-BSP CRON[20294]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 10:17:01 ADAS-BSP CRON[20294]: pam_unix(cron:session): session closed for user root
+May 11 10:17:57 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 10:32:04 ADAS-BSP sshd[20415]: Accepted password for jinmu.lee from 10.157.144.101 port 52648 ssh2
+May 11 10:32:04 ADAS-BSP sshd[20415]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 11 10:32:04 ADAS-BSP systemd-logind[1123]: New session 3650 of user jinmu.lee.
+May 11 10:32:04 ADAS-BSP systemd: pam_unix(systemd-user:session): session opened for user jinmu.lee by (uid=0)
+May 11 10:32:04 ADAS-BSP sshd[20417]: Accepted password for jinmu.lee from 10.157.144.101 port 52649 ssh2
+May 11 10:32:04 ADAS-BSP sshd[20417]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 11 10:32:04 ADAS-BSP systemd-logind[1123]: New session 3651 of user jinmu.lee.
+May 11 10:32:05 ADAS-BSP sshd[20415]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 10:32:05 ADAS-BSP sshd[20415]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 10:39:10 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sk.cho by (uid=0)
+May 11 11:17:01 ADAS-BSP CRON[20836]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 11:17:01 ADAS-BSP CRON[20836]: pam_unix(cron:session): session closed for user root
+May 11 11:18:13 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 11:23:19 ADAS-BSP sshd[20881]: Accepted password for sunghwan2.park from 10.159.108.185 port 58847 ssh2
+May 11 11:23:19 ADAS-BSP sshd[20881]: pam_unix(sshd:session): session opened for user sunghwan2.park by (uid=0)
+May 11 11:23:19 ADAS-BSP systemd-logind[1123]: New session 3653 of user sunghwan2.park.
+May 11 11:23:19 ADAS-BSP systemd: pam_unix(systemd-user:session): session opened for user sunghwan2.park by (uid=0)
+May 11 11:23:19 ADAS-BSP sshd[20883]: Accepted password for sunghwan2.park from 10.159.108.185 port 58850 ssh2
+May 11 11:23:19 ADAS-BSP sshd[20883]: pam_unix(sshd:session): session opened for user sunghwan2.park by (uid=0)
+May 11 11:23:19 ADAS-BSP systemd-logind[1123]: New session 3654 of user sunghwan2.park.
+May 11 11:23:22 ADAS-BSP sshd[20881]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 11:23:22 ADAS-BSP sshd[20881]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 11:24:21 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 11 11:24:25 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 11:40:16 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 11 12:17:01 ADAS-BSP CRON[21341]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 12:17:01 ADAS-BSP CRON[21341]: pam_unix(cron:session): session closed for user root
+May 11 12:18:21 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 13:17:01 ADAS-BSP CRON[21778]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 13:17:01 ADAS-BSP CRON[21778]: pam_unix(cron:session): session closed for user root
+May 11 13:18:30 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 13:23:20 ADAS-BSP sshd[20883]: pam_unix(sshd:session): session closed for user sunghwan2.park
+May 11 13:23:20 ADAS-BSP systemd-logind[1123]: Removed session 3654.
+May 11 13:28:25 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 13:28:41 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 11 13:35:01 ADAS-BSP sshd[20881]: pam_unix(sshd:session): session closed for user sunghwan2.park
+May 11 13:35:01 ADAS-BSP systemd-logind[1123]: Removed session 3653.
+May 11 13:35:01 ADAS-BSP systemd: pam_unix(systemd-user:session): session closed for user sunghwan2.park
+May 11 13:37:27 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 14:07:20 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sungman.hong
+May 11 14:07:20 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 11 14:07:43 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 14:17:01 ADAS-BSP CRON[22030]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 14:17:01 ADAS-BSP CRON[22030]: pam_unix(cron:session): session closed for user root
+May 11 14:18:39 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 15:02:01 ADAS-BSP CRON[22256]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 15:02:01 ADAS-BSP CRON[22256]: pam_unix(cron:session): session closed for user root
+May 11 15:02:03 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sk.cho by (uid=0)
+May 11 15:02:03 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sk.cho
+May 11 15:02:11 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 15:02:11 ADAS-BSP smbd: message repeated 27 times: [ pam_unix(samba:session): session closed for user nobody]
+May 11 15:15:28 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 11 15:15:28 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sungman.hong
+May 11 15:17:01 ADAS-BSP CRON[22297]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 15:17:01 ADAS-BSP CRON[22297]: pam_unix(cron:session): session closed for user root
+May 11 15:18:48 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 15:25:51 ADAS-BSP smbd: pam_unix(samba:session): session opened for user jinmu.lee by (uid=0)
+May 11 15:26:44 ADAS-BSP sshd[22363]: Accepted password for jinmu.lee from 10.157.144.101 port 59399 ssh2
+May 11 15:26:44 ADAS-BSP sshd[22363]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 11 15:26:44 ADAS-BSP systemd-logind[1123]: New session 3660 of user jinmu.lee.
+May 11 15:26:44 ADAS-BSP sshd[22367]: Accepted password for jinmu.lee from 10.157.144.101 port 59401 ssh2
+May 11 15:26:44 ADAS-BSP sshd[22367]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 11 15:26:44 ADAS-BSP systemd-logind[1123]: New session 3661 of user jinmu.lee.
+May 11 15:26:45 ADAS-BSP sshd[22363]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 15:26:45 ADAS-BSP sshd[22363]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 15:48:30 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 15:48:30 ADAS-BSP smbd: message repeated 10 times: [ pam_unix(samba:session): session closed for user nobody]
+May 11 15:49:00 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sk.cho
+May 11 15:49:00 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sk.cho by (uid=0)
+May 11 15:51:16 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sk.cho by (uid=0)
+May 11 15:51:16 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sk.cho
+May 11 15:57:21 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 11 16:17:01 ADAS-BSP CRON[23340]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 16:17:01 ADAS-BSP CRON[23340]: pam_unix(cron:session): session closed for user root
+May 11 16:18:56 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 16:27:11 ADAS-BSP smbd: pam_unix(samba:session): session opened for user jjh.jang by (uid=0)
+May 11 17:03:39 ADAS-BSP sshd[23519]: Accepted password for sk.cho from 10.157.145.5 port 2809 ssh2
+May 11 17:03:39 ADAS-BSP sshd[23519]: pam_unix(sshd:session): session opened for user sk.cho by (uid=0)
+May 11 17:03:39 ADAS-BSP systemd: pam_unix(systemd-user:session): session opened for user sk.cho by (uid=0)
+May 11 17:03:39 ADAS-BSP systemd-logind[1123]: New session 3663 of user sk.cho.
+May 11 17:03:40 ADAS-BSP sshd[23523]: Accepted password for sk.cho from 10.157.145.5 port 2815 ssh2
+May 11 17:03:40 ADAS-BSP sshd[23523]: pam_unix(sshd:session): session opened for user sk.cho by (uid=0)
+May 11 17:03:40 ADAS-BSP systemd-logind[1123]: New session 3664 of user sk.cho.
+May 11 17:03:40 ADAS-BSP sshd[23519]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 17:03:40 ADAS-BSP sshd[23519]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 17:17:01 ADAS-BSP CRON[23753]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 17:17:01 ADAS-BSP CRON[23753]: pam_unix(cron:session): session closed for user root
+May 11 17:19:03 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 17:32:28 ADAS-BSP sshd[23795]: Accepted password for jjh.jang from 10.157.145.13 port 61671 ssh2
+May 11 17:32:28 ADAS-BSP sshd[23795]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 11 17:32:28 ADAS-BSP systemd-logind[1123]: New session 3666 of user jjh.jang.
+May 11 17:32:31 ADAS-BSP sshd[23829]: Accepted password for jjh.jang from 10.157.145.13 port 61675 ssh2
+May 11 17:32:31 ADAS-BSP sshd[23829]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 11 17:32:31 ADAS-BSP systemd-logind[1123]: New session 3667 of user jjh.jang.
+May 11 17:32:32 ADAS-BSP sshd[23795]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 17:32:32 ADAS-BSP sshd[23795]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 17:33:10 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 17:33:10 ADAS-BSP smbd: message repeated 4 times: [ pam_unix(samba:session): session closed for user nobody]
+May 11 17:44:29 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 17:44:29 ADAS-BSP smbd: message repeated 4 times: [ pam_unix(samba:session): session closed for user nobody]
+May 11 17:58:19 ADAS-BSP sshd[26626]: Accepted password for kyeonghyeon.kim from 10.157.145.30 port 51318 ssh2
+May 11 17:58:19 ADAS-BSP sshd[26626]: pam_unix(sshd:session): session opened for user kyeonghyeon.kim by (uid=0)
+May 11 17:58:19 ADAS-BSP systemd: pam_unix(systemd-user:session): session opened for user kyeonghyeon.kim by (uid=0)
+May 11 17:58:19 ADAS-BSP systemd-logind[1123]: New session 3668 of user kyeonghyeon.kim.
+May 11 17:58:19 ADAS-BSP sshd[26628]: Accepted password for kyeonghyeon.kim from 10.157.145.30 port 51319 ssh2
+May 11 17:58:19 ADAS-BSP sshd[26628]: pam_unix(sshd:session): session opened for user kyeonghyeon.kim by (uid=0)
+May 11 17:58:19 ADAS-BSP systemd-logind[1123]: New session 3669 of user kyeonghyeon.kim.
+May 11 17:58:20 ADAS-BSP sshd[26626]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 17:58:20 ADAS-BSP sshd[26626]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 18:04:28 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 18:04:28 ADAS-BSP smbd: message repeated 4 times: [ pam_unix(samba:session): session closed for user nobody]
+May 11 18:07:22 ADAS-BSP sshd[26626]: pam_unix(sshd:session): session closed for user kyeonghyeon.kim
+May 11 18:07:22 ADAS-BSP systemd-logind[1123]: Removed session 3668.
+May 11 18:07:23 ADAS-BSP sshd[26628]: pam_unix(sshd:session): session closed for user kyeonghyeon.kim
+May 11 18:07:23 ADAS-BSP systemd-logind[1123]: Removed session 3669.
+May 11 18:07:23 ADAS-BSP systemd: pam_unix(systemd-user:session): session closed for user kyeonghyeon.kim
+May 11 18:08:07 ADAS-BSP sshd[20415]: pam_unix(sshd:session): session closed for user jinmu.lee
+May 11 18:08:07 ADAS-BSP sshd[22363]: pam_unix(sshd:session): session closed for user jinmu.lee
+May 11 18:08:07 ADAS-BSP systemd-logind[1123]: Removed session 3650.
+May 11 18:08:07 ADAS-BSP systemd-logind[1123]: Removed session 3660.
+May 11 18:08:07 ADAS-BSP sshd[22367]: pam_unix(sshd:session): session closed for user jinmu.lee
+May 11 18:08:07 ADAS-BSP systemd-logind[1123]: Removed session 3661.
+May 11 18:08:07 ADAS-BSP sshd[20417]: pam_unix(sshd:session): session closed for user jinmu.lee
+May 11 18:08:07 ADAS-BSP systemd-logind[1123]: Removed session 3651.
+May 11 18:08:07 ADAS-BSP systemd: pam_unix(systemd-user:session): session closed for user jinmu.lee
+May 11 18:09:34 ADAS-BSP sshd[23795]: pam_unix(sshd:session): session closed for user jjh.jang
+May 11 18:09:34 ADAS-BSP systemd-logind[1123]: Removed session 3666.
+May 11 18:09:35 ADAS-BSP sshd[23829]: pam_unix(sshd:session): session closed for user jjh.jang
+May 11 18:09:35 ADAS-BSP systemd-logind[1123]: Removed session 3667.
+May 11 18:11:29 ADAS-BSP smbd: pam_unix(samba:session): session closed for user jjh.jang
+May 11 18:17:01 ADAS-BSP CRON[31851]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 18:17:02 ADAS-BSP CRON[31851]: pam_unix(cron:session): session closed for user root
+May 11 18:19:05 ADAS-BSP sshd[31859]: Accepted password for kyeonghyeon.kim from 10.157.145.30 port 53016 ssh2
+May 11 18:19:05 ADAS-BSP sshd[31859]: pam_unix(sshd:session): session opened for user kyeonghyeon.kim by (uid=0)
+May 11 18:19:05 ADAS-BSP systemd: pam_unix(systemd-user:session): session opened for user kyeonghyeon.kim by (uid=0)
+May 11 18:19:05 ADAS-BSP systemd-logind[1123]: New session 3671 of user kyeonghyeon.kim.
+May 11 18:19:05 ADAS-BSP sshd[31861]: Accepted password for kyeonghyeon.kim from 10.157.145.30 port 53018 ssh2
+May 11 18:19:05 ADAS-BSP sshd[31861]: pam_unix(sshd:session): session opened for user kyeonghyeon.kim by (uid=0)
+May 11 18:19:05 ADAS-BSP systemd-logind[1123]: New session 3672 of user kyeonghyeon.kim.
+May 11 18:19:05 ADAS-BSP sshd[31859]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 18:19:05 ADAS-BSP sshd[31859]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 11 18:19:09 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 18:26:30 ADAS-BSP smbd: pam_unix(samba:session): session closed for user jinmu.lee
+May 11 19:03:25 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 11 19:03:44 ADAS-BSP sshd[23523]: pam_unix(sshd:session): session closed for user sk.cho
+May 11 19:03:44 ADAS-BSP systemd-logind[1123]: Removed session 3664.
+May 11 19:17:01 ADAS-BSP CRON[2028]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 19:17:01 ADAS-BSP CRON[2028]: pam_unix(cron:session): session closed for user root
+May 11 19:19:14 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 19:30:55 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sungman.hong
+May 11 19:32:24 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 11 19:54:12 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sungman.hong
+May 11 20:17:01 ADAS-BSP CRON[2246]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 20:17:01 ADAS-BSP CRON[2246]: pam_unix(cron:session): session closed for user root
+May 11 20:19:23 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 20:53:59 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 11 21:17:01 ADAS-BSP CRON[2409]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 21:17:01 ADAS-BSP CRON[2409]: pam_unix(cron:session): session closed for user root
+May 11 21:19:30 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 22:17:01 ADAS-BSP CRON[2583]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 22:17:01 ADAS-BSP CRON[2583]: pam_unix(cron:session): session closed for user root
+May 11 22:19:37 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 22:54:14 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sungman.hong
+May 11 23:17:01 ADAS-BSP CRON[2817]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 23:17:01 ADAS-BSP CRON[2817]: pam_unix(cron:session): session closed for user root
+May 11 23:19:42 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 11 23:32:22 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 12 00:17:01 ADAS-BSP CRON[3111]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 00:17:01 ADAS-BSP CRON[3111]: pam_unix(cron:session): session closed for user root
+May 12 00:19:49 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 00:53:59 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 12 01:17:01 ADAS-BSP CRON[3267]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 01:17:01 ADAS-BSP CRON[3267]: pam_unix(cron:session): session closed for user root
+May 12 01:19:56 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 02:17:01 ADAS-BSP CRON[3872]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 02:17:01 ADAS-BSP CRON[3872]: pam_unix(cron:session): session closed for user root
+May 12 02:20:02 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 02:54:15 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sungman.hong
+May 12 03:17:01 ADAS-BSP CRON[4023]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 03:17:01 ADAS-BSP CRON[4023]: pam_unix(cron:session): session closed for user root
+May 12 03:20:09 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 04:17:01 ADAS-BSP CRON[4174]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 04:17:01 ADAS-BSP CRON[4174]: pam_unix(cron:session): session closed for user root
+May 12 04:20:15 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 04:53:59 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 12 05:17:01 ADAS-BSP CRON[4325]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 05:17:01 ADAS-BSP CRON[4325]: pam_unix(cron:session): session closed for user root
+May 12 05:20:22 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 06:17:01 ADAS-BSP CRON[4540]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 06:17:01 ADAS-BSP CRON[4540]: pam_unix(cron:session): session closed for user root
+May 12 06:20:29 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 06:25:01 ADAS-BSP CRON[4562]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 06:25:01 ADAS-BSP CRON[4562]: pam_unix(cron:session): session closed for user root
+May 12 06:54:21 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sungman.hong
+May 12 07:17:01 ADAS-BSP CRON[4701]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 07:17:01 ADAS-BSP CRON[4701]: pam_unix(cron:session): session closed for user root
+May 12 07:20:35 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 07:30:01 ADAS-BSP CRON[4736]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 07:30:01 ADAS-BSP CRON[4736]: pam_unix(cron:session): session closed for user root
+May 12 07:48:00 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 12 08:17:01 ADAS-BSP CRON[5150]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 08:17:01 ADAS-BSP CRON[5150]: pam_unix(cron:session): session closed for user root
+May 12 08:20:42 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 09:17:01 ADAS-BSP CRON[5352]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 09:17:01 ADAS-BSP CRON[5352]: pam_unix(cron:session): session closed for user root
+May 12 09:20:50 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 09:46:28 ADAS-BSP smbd: pam_unix(samba:session): session opened for user jinmu.lee by (uid=0)
+May 12 09:47:33 ADAS-BSP sshd[5486]: Accepted password for jinmu.lee from 10.157.144.101 port 63338 ssh2
+May 12 09:47:33 ADAS-BSP sshd[5486]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 12 09:47:33 ADAS-BSP systemd-logind[1123]: New session 3690 of user jinmu.lee.
+May 12 09:47:33 ADAS-BSP systemd: pam_unix(systemd-user:session): session opened for user jinmu.lee by (uid=0)
+May 12 09:47:33 ADAS-BSP sshd[5488]: Accepted password for jinmu.lee from 10.157.144.101 port 63340 ssh2
+May 12 09:47:33 ADAS-BSP sshd[5488]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 12 09:47:33 ADAS-BSP systemd-logind[1123]: New session 3691 of user jinmu.lee.
+May 12 09:47:34 ADAS-BSP sshd[5486]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 09:47:34 ADAS-BSP sshd[5486]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 09:49:42 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 10:00:18 ADAS-BSP smbd: message repeated 3 times: [ pam_unix(samba:session): session closed for user nobody]
+May 12 10:02:41 ADAS-BSP sshd[5486]: pam_unix(sshd:session): session closed for user jinmu.lee
+May 12 10:02:41 ADAS-BSP systemd-logind[1123]: Removed session 3690.
+May 12 10:02:41 ADAS-BSP sshd[5488]: pam_unix(sshd:session): session closed for user jinmu.lee
+May 12 10:02:41 ADAS-BSP systemd-logind[1123]: Removed session 3691.
+May 12 10:02:41 ADAS-BSP systemd: pam_unix(systemd-user:session): session closed for user jinmu.lee
+May 12 10:04:47 ADAS-BSP sshd[5855]: Accepted password for jinmu.lee from 10.157.144.101 port 64015 ssh2
+May 12 10:04:47 ADAS-BSP sshd[5855]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 12 10:04:47 ADAS-BSP systemd: pam_unix(systemd-user:session): session opened for user jinmu.lee by (uid=0)
+May 12 10:04:47 ADAS-BSP systemd-logind[1123]: New session 3692 of user jinmu.lee.
+May 12 10:04:47 ADAS-BSP sshd[5857]: Accepted password for jinmu.lee from 10.157.144.101 port 64016 ssh2
+May 12 10:04:47 ADAS-BSP sshd[5857]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 12 10:04:47 ADAS-BSP systemd-logind[1123]: New session 3693 of user jinmu.lee.
+May 12 10:04:48 ADAS-BSP sshd[5855]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 10:04:48 ADAS-BSP sshd[5855]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 10:05:16 ADAS-BSP smbd: pam_unix(samba:session): session opened for user jinmu.lee by (uid=0)
+May 12 10:06:28 ADAS-BSP smbd: pam_unix(samba:session): session closed for user jinmu.lee
+May 12 10:08:58 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 10:13:50 ADAS-BSP smbd: message repeated 2 times: [ pam_unix(samba:session): session closed for user nobody]
+May 12 10:17:01 ADAS-BSP CRON[7919]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 10:17:01 ADAS-BSP CRON[7919]: pam_unix(cron:session): session closed for user root
+May 12 10:19:03 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 10:20:56 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 10:34:32 ADAS-BSP sudo: kyeonghyeon.kim : TTY=pts/2 ; PWD=/home/kyeonghyeon.kim/01_git/test/Fmain ; USER=root ; COMMAND=./Fmain_Client_edit.sh
+May 12 10:34:32 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by kyeonghyeon.kim(uid=0)
+May 12 10:37:34 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 11:17:01 ADAS-BSP CRON[18370]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 11:17:01 ADAS-BSP CRON[18370]: pam_unix(cron:session): session closed for user root
+May 12 11:21:07 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 11:32:49 ADAS-BSP smbd: message repeated 3 times: [ pam_unix(samba:session): session closed for user nobody]
+May 12 11:35:55 ADAS-BSP sshd[18484]: Accepted password for kyeonghyeon.kim from 10.157.145.30 port 56913 ssh2
+May 12 11:35:55 ADAS-BSP sshd[18484]: pam_unix(sshd:session): session opened for user kyeonghyeon.kim by (uid=0)
+May 12 11:35:55 ADAS-BSP systemd-logind[1123]: New session 3696 of user kyeonghyeon.kim.
+May 12 11:35:55 ADAS-BSP sshd[18486]: Accepted password for kyeonghyeon.kim from 10.157.145.30 port 56914 ssh2
+May 12 11:35:55 ADAS-BSP sshd[18486]: pam_unix(sshd:session): session opened for user kyeonghyeon.kim by (uid=0)
+May 12 11:35:55 ADAS-BSP systemd-logind[1123]: New session 3697 of user kyeonghyeon.kim.
+May 12 11:35:56 ADAS-BSP sshd[18484]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 11:35:56 ADAS-BSP sshd[18484]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 11:37:07 ADAS-BSP sudo: kyeonghyeon.kim : TTY=pts/2 ; PWD=/home/kyeonghyeon.kim/01_git/test/Fmain ; USER=root ; COMMAND=./Fmain_Client_edit.sh
+May 12 11:37:07 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by kyeonghyeon.kim(uid=0)
+May 12 11:37:07 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 11:39:12 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sungman.hong
+May 12 11:41:07 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 12 11:41:57 ADAS-BSP sudo: kyeonghyeon.kim : TTY=pts/2 ; PWD=/home/kyeonghyeon.kim/01_git/test/Fmain ; USER=root ; COMMAND=./Fmain_Client_edit.sh
+May 12 11:41:57 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by kyeonghyeon.kim(uid=0)
+May 12 11:41:57 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 11:47:34 ADAS-BSP sudo: kyeonghyeon.kim : TTY=pts/2 ; PWD=/home/kyeonghyeon.kim/01_git/test/Fmain ; USER=root ; COMMAND=./Fmain_Client_edit.sh
+May 12 11:47:34 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by kyeonghyeon.kim(uid=0)
+May 12 11:47:52 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 11:47:59 ADAS-BSP sudo: kyeonghyeon.kim : TTY=pts/2 ; PWD=/home/kyeonghyeon.kim/01_git/test/Fmain ; USER=root ; COMMAND=./Fmain_Client_edit.sh
+May 12 11:47:59 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by kyeonghyeon.kim(uid=0)
+May 12 11:48:33 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 12:17:01 ADAS-BSP CRON[4633]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 12:17:01 ADAS-BSP CRON[4633]: pam_unix(cron:session): session closed for user root
+May 12 12:21:19 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 13:17:01 ADAS-BSP CRON[4786]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 13:17:01 ADAS-BSP CRON[4786]: pam_unix(cron:session): session closed for user root
+May 12 13:21:29 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 13:34:52 ADAS-BSP sudo: kyeonghyeon.kim : TTY=pts/2 ; PWD=/home/kyeonghyeon.kim/01_git/test/Fmain ; USER=root ; COMMAND=./Fmain_Client_edit.sh
+May 12 13:34:52 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by kyeonghyeon.kim(uid=0)
+May 12 13:35:27 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 13:57:37 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 14:05:53 ADAS-BSP smbd: message repeated 8 times: [ pam_unix(samba:session): session closed for user nobody]
+May 12 14:06:00 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 12 14:11:46 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sungman.hong
+May 12 14:15:58 ADAS-BSP sshd[20560]: Accepted password for jinmu.lee from 10.157.144.101 port 52969 ssh2
+May 12 14:15:58 ADAS-BSP sshd[20560]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 12 14:15:58 ADAS-BSP systemd-logind[1123]: New session 3700 of user jinmu.lee.
+May 12 14:15:58 ADAS-BSP sshd[20562]: Accepted password for jinmu.lee from 10.157.144.101 port 52970 ssh2
+May 12 14:15:58 ADAS-BSP sshd[20562]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 12 14:15:58 ADAS-BSP systemd-logind[1123]: New session 3701 of user jinmu.lee.
+May 12 14:15:59 ADAS-BSP sshd[20560]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 14:15:59 ADAS-BSP sshd[20560]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 14:17:01 ADAS-BSP CRON[20799]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 14:17:01 ADAS-BSP CRON[20799]: pam_unix(cron:session): session closed for user root
+May 12 14:21:37 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 14:39:09 ADAS-BSP smbd: message repeated 2 times: [ pam_unix(samba:session): session closed for user nobody]
+May 12 15:02:01 ADAS-BSP CRON[23626]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 15:02:01 ADAS-BSP CRON[23626]: pam_unix(cron:session): session closed for user root
+May 12 15:05:10 ADAS-BSP sudo: kyeonghyeon.kim : TTY=pts/2 ; PWD=/home/kyeonghyeon.kim/01_git/test/Fmain ; USER=root ; COMMAND=./Fmain_Client_edit.sh
+May 12 15:05:10 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by kyeonghyeon.kim(uid=0)
+May 12 15:05:43 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 15:09:23 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 15:14:58 ADAS-BSP sshd[32539]: Accepted password for jjh.jang from 10.157.145.13 port 52556 ssh2
+May 12 15:14:58 ADAS-BSP sshd[32539]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 12 15:14:58 ADAS-BSP systemd-logind[1123]: New session 3704 of user jjh.jang.
+May 12 15:14:58 ADAS-BSP sshd[32571]: Accepted password for jjh.jang from 10.157.145.13 port 62476 ssh2
+May 12 15:14:58 ADAS-BSP sshd[32571]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 12 15:14:58 ADAS-BSP systemd-logind[1123]: New session 3705 of user jjh.jang.
+May 12 15:14:58 ADAS-BSP sshd[32539]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 15:14:58 ADAS-BSP sshd[32539]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 15:17:01 ADAS-BSP CRON[329]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 15:17:01 ADAS-BSP CRON[329]: pam_unix(cron:session): session closed for user root
+May 12 15:18:25 ADAS-BSP sshd[413]: Accepted password for jjh.jang from 10.157.145.13 port 54097 ssh2
+May 12 15:18:25 ADAS-BSP sshd[413]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 12 15:18:25 ADAS-BSP systemd-logind[1123]: New session 3707 of user jjh.jang.
+May 12 15:18:25 ADAS-BSP sshd[415]: Accepted password for jjh.jang from 10.157.145.13 port 54103 ssh2
+May 12 15:18:25 ADAS-BSP sshd[415]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 12 15:18:25 ADAS-BSP systemd-logind[1123]: New session 3708 of user jjh.jang.
+May 12 15:18:26 ADAS-BSP sshd[413]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 15:18:26 ADAS-BSP sshd[413]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 15:19:12 ADAS-BSP sshd[646]: Accepted password for jjh.jang from 10.157.145.13 port 54118 ssh2
+May 12 15:19:12 ADAS-BSP sshd[646]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 12 15:19:12 ADAS-BSP systemd-logind[1123]: New session 3709 of user jjh.jang.
+May 12 15:19:12 ADAS-BSP sshd[648]: Accepted password for jjh.jang from 10.157.145.13 port 54119 ssh2
+May 12 15:19:12 ADAS-BSP sshd[648]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 12 15:19:12 ADAS-BSP systemd-logind[1123]: New session 3710 of user jjh.jang.
+May 12 15:19:13 ADAS-BSP sshd[646]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 15:19:13 ADAS-BSP sshd[646]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 15:21:45 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 15:28:10 ADAS-BSP smbd: pam_unix(samba:session): session opened for user jjh.jang by (uid=0)
+May 12 15:33:04 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 15:50:07 ADAS-BSP smbd: message repeated 9 times: [ pam_unix(samba:session): session closed for user nobody]
+May 12 16:13:01 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sungman.hong
+May 12 16:15:11 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary ; USER=root ; COMMAND=/bin/cp /etc/services .
+May 12 16:15:11 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 12 16:15:11 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 16:17:01 ADAS-BSP CRON[2305]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 16:17:01 ADAS-BSP CRON[2305]: pam_unix(cron:session): session closed for user root
+May 12 16:17:20 ADAS-BSP su[2310]: Successful su for kyeonghyeon.kim by jinmu.lee
+May 12 16:17:20 ADAS-BSP su[2310]: + /dev/pts/21 jinmu.lee:kyeonghyeon.kim
+May 12 16:17:20 ADAS-BSP su[2310]: pam_unix(su:session): session opened for user kyeonghyeon.kim by jinmu.lee(uid=1008)
+May 12 16:17:20 ADAS-BSP su[2310]: pam_systemd(su:session): Cannot create session: Already running in a session
+May 12 16:17:40 ADAS-BSP su[2310]: pam_unix(su:session): session closed for user kyeonghyeon.kim
+May 12 16:17:47 ADAS-BSP su[2328]: Successful su for kyeonghyeon.kim by jinmu.lee
+May 12 16:17:47 ADAS-BSP su[2328]: + /dev/pts/21 jinmu.lee:kyeonghyeon.kim
+May 12 16:17:47 ADAS-BSP su[2328]: pam_unix(su:session): session opened for user kyeonghyeon.kim by jinmu.lee(uid=1008)
+May 12 16:17:47 ADAS-BSP su[2328]: pam_systemd(su:session): Cannot create session: Already running in a session
+May 12 16:17:54 ADAS-BSP su[2328]: pam_unix(su:session): session closed for user kyeonghyeon.kim
+May 12 16:18:00 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary ; USER=root ; COMMAND=/bin/su -
+May 12 16:18:00 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 12 16:18:00 ADAS-BSP su[2350]: Successful su for root by root
+May 12 16:18:00 ADAS-BSP su[2350]: + /dev/pts/21 root:root
+May 12 16:18:00 ADAS-BSP su[2350]: pam_unix(su:session): session opened for user root by jinmu.lee(uid=0)
+May 12 16:18:00 ADAS-BSP su[2350]: pam_systemd(su:session): Cannot create session: Already running in a session
+May 12 16:18:09 ADAS-BSP su[2350]: pam_unix(su:session): session closed for user root
+May 12 16:18:09 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 16:21:55 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 16:27:50 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 17:08:07 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary ; USER=root ; COMMAND=/bin/cat /etc/shadow
+May 12 17:08:07 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 12 17:08:07 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 17:17:01 ADAS-BSP CRON[4015]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 17:17:01 ADAS-BSP CRON[4015]: pam_unix(cron:session): session closed for user root
+May 12 17:22:07 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 17:35:03 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary ; USER=root ; COMMAND=/bin/cat /etc/gshadow
+May 12 17:35:03 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 12 17:35:03 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 17:35:10 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary ; USER=root ; COMMAND=/bin/cat /etc/gshadow
+May 12 17:35:10 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 12 17:35:10 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 17:35:37 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary ; USER=root ; COMMAND=/usr/bin/gpasswd -a user jinmu.lee
+May 12 17:35:37 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 12 17:35:37 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 12 18:17:01 ADAS-BSP CRON[4249]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 18:17:01 ADAS-BSP CRON[4249]: pam_unix(cron:session): session closed for user root
+May 12 18:20:42 ADAS-BSP sshd[20560]: pam_unix(sshd:session): session closed for user jinmu.lee
+May 12 18:20:42 ADAS-BSP sshd[5855]: pam_unix(sshd:session): session closed for user jinmu.lee
+May 12 18:20:42 ADAS-BSP systemd-logind[1123]: Removed session 3700.
+May 12 18:20:42 ADAS-BSP systemd-logind[1123]: Removed session 3692.
+May 12 18:20:43 ADAS-BSP sshd[20562]: pam_unix(sshd:session): session closed for user jinmu.lee
+May 12 18:20:43 ADAS-BSP systemd-logind[1123]: Removed session 3701.
+May 12 18:20:43 ADAS-BSP sshd[5857]: pam_unix(sshd:session): session closed for user jinmu.lee
+May 12 18:20:43 ADAS-BSP systemd-logind[1123]: Removed session 3693.
+May 12 18:20:43 ADAS-BSP systemd: pam_unix(systemd-user:session): session closed for user jinmu.lee
+May 12 18:22:08 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 18:23:58 ADAS-BSP sshd[646]: pam_unix(sshd:session): session closed for user jjh.jang
+May 12 18:23:58 ADAS-BSP sshd[32539]: pam_unix(sshd:session): session closed for user jjh.jang
+May 12 18:23:58 ADAS-BSP sshd[413]: pam_unix(sshd:session): session closed for user jjh.jang
+May 12 18:23:58 ADAS-BSP systemd-logind[1123]: Removed session 3709.
+May 12 18:23:58 ADAS-BSP systemd-logind[1123]: Removed session 3704.
+May 12 18:23:58 ADAS-BSP systemd-logind[1123]: Removed session 3707.
+May 12 18:23:59 ADAS-BSP sshd[648]: pam_unix(sshd:session): session closed for user jjh.jang
+May 12 18:23:59 ADAS-BSP systemd-logind[1123]: Removed session 3710.
+May 12 18:23:59 ADAS-BSP sshd[415]: pam_unix(sshd:session): session closed for user jjh.jang
+May 12 18:23:59 ADAS-BSP systemd-logind[1123]: Removed session 3708.
+May 12 18:23:59 ADAS-BSP sshd[32571]: pam_unix(sshd:session): session closed for user jjh.jang
+May 12 18:23:59 ADAS-BSP systemd-logind[1123]: Removed session 3705.
+May 12 18:27:37 ADAS-BSP smbd: pam_unix(samba:session): session closed for user jjh.jang
+May 12 18:40:51 ADAS-BSP smbd: pam_unix(samba:session): session closed for user jinmu.lee
+May 12 19:07:20 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 12 19:09:02 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 12 19:10:22 ADAS-BSP sshd[4472]: Accepted password for taeyol.kim from 10.159.127.143 port 54706 ssh2
+May 12 19:10:22 ADAS-BSP sshd[4472]: pam_unix(sshd:session): session opened for user taeyol.kim by (uid=0)
+May 12 19:10:22 ADAS-BSP systemd: pam_unix(systemd-user:session): session opened for user taeyol.kim by (uid=0)
+May 12 19:10:22 ADAS-BSP systemd-logind[1123]: New session 3714 of user taeyol.kim.
+May 12 19:10:23 ADAS-BSP sshd[4472]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 19:10:23 ADAS-BSP sshd[4472]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 12 19:17:01 ADAS-BSP CRON[4820]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 19:17:01 ADAS-BSP CRON[4820]: pam_unix(cron:session): session closed for user root
+May 12 19:22:13 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 19:51:33 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 12 19:51:33 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 12 19:53:02 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 12 19:54:25 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 12 19:55:54 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 12 20:06:18 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 12 20:17:01 ADAS-BSP CRON[5539]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 20:17:01 ADAS-BSP CRON[5539]: pam_unix(cron:session): session closed for user root
+May 12 20:22:20 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 21:17:01 ADAS-BSP CRON[5691]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 21:17:01 ADAS-BSP CRON[5691]: pam_unix(cron:session): session closed for user root
+May 12 21:22:27 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 21:51:49 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 12 21:52:53 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 12 21:54:53 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 12 21:55:29 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 12 22:17:01 ADAS-BSP CRON[5903]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 22:17:01 ADAS-BSP CRON[5903]: pam_unix(cron:session): session closed for user root
+May 12 22:22:34 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 22:29:39 ADAS-BSP sshd[23519]: pam_unix(sshd:session): session closed for user sk.cho
+May 12 22:29:39 ADAS-BSP systemd-logind[1123]: Removed session 3663.
+May 12 22:29:39 ADAS-BSP systemd: pam_unix(systemd-user:session): session closed for user sk.cho
+May 12 23:17:01 ADAS-BSP CRON[6069]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 12 23:17:01 ADAS-BSP CRON[6069]: pam_unix(cron:session): session closed for user root
+May 12 23:22:41 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 12 23:51:46 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 12 23:52:18 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 12 23:54:43 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 12 23:55:42 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 00:03:02 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 00:17:01 ADAS-BSP CRON[6236]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 00:17:01 ADAS-BSP CRON[6236]: pam_unix(cron:session): session closed for user root
+May 13 00:22:48 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 00:41:32 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sk.cho
+May 13 00:41:32 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 00:41:33 ADAS-BSP smbd: message repeated 9 times: [ pam_unix(samba:session): session closed for user nobody]
+May 13 00:41:49 ADAS-BSP smbd: pam_unix(samba:session): session closed for user sk.cho
+May 13 01:17:01 ADAS-BSP CRON[6390]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 01:17:01 ADAS-BSP CRON[6390]: pam_unix(cron:session): session closed for user root
+May 13 01:22:54 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 01:52:21 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 01:52:35 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 01:53:40 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 01:55:38 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 02:04:51 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 02:04:51 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 02:04:51 ADAS-BSP smbd: message repeated 6 times: [ pam_unix(samba:session): session closed for user nobody]
+May 13 02:06:57 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 02:17:01 ADAS-BSP CRON[6546]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 02:17:01 ADAS-BSP CRON[6546]: pam_unix(cron:session): session closed for user root
+May 13 02:23:01 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 03:17:01 ADAS-BSP CRON[6694]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 03:17:01 ADAS-BSP CRON[6694]: pam_unix(cron:session): session closed for user root
+May 13 03:23:08 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 03:51:54 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 03:52:10 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 03:52:49 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 03:53:03 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 03:54:21 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 03:54:46 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 03:54:48 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 03:55:12 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 04:15:46 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 04:17:01 ADAS-BSP CRON[6852]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 04:17:01 ADAS-BSP CRON[6852]: pam_unix(cron:session): session closed for user root
+May 13 04:17:50 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 04:23:14 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 05:17:01 ADAS-BSP CRON[7001]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 05:17:01 ADAS-BSP CRON[7001]: pam_unix(cron:session): session closed for user root
+May 13 05:23:21 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 05:52:07 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 05:52:17 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 05:53:49 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 05:54:04 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 05:54:44 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 05:55:35 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 06:17:01 ADAS-BSP CRON[7160]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 06:17:01 ADAS-BSP CRON[7160]: pam_unix(cron:session): session closed for user root
+May 13 06:23:28 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 06:25:01 ADAS-BSP CRON[7183]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 06:25:01 ADAS-BSP CRON[7183]: pam_unix(cron:session): session closed for user root
+May 13 06:54:53 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 06:55:03 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 06:57:11 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 06:57:44 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 06:57:53 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 06:58:22 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 07:17:01 ADAS-BSP CRON[7382]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 07:17:01 ADAS-BSP CRON[7382]: pam_unix(cron:session): session closed for user root
+May 13 07:23:34 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 07:30:01 ADAS-BSP CRON[7417]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 07:30:01 ADAS-BSP CRON[7417]: pam_unix(cron:session): session closed for user root
+May 13 07:52:10 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 07:52:22 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 07:54:24 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 08:00:36 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 08:16:00 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 08:17:01 ADAS-BSP CRON[7828]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 08:17:01 ADAS-BSP CRON[7828]: pam_unix(cron:session): session closed for user root
+May 13 08:18:04 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 08:23:43 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 09:17:01 ADAS-BSP CRON[8150]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 09:17:01 ADAS-BSP CRON[8150]: pam_unix(cron:session): session closed for user root
+May 13 09:20:49 ADAS-BSP smbd: pam_unix(samba:session): session opened for user taeyol.kim by (uid=0)
+May 13 09:23:49 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 09:40:02 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sk.cho by (uid=0)
+May 13 10:00:03 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sk.cho by (uid=0)
+May 13 10:17:01 ADAS-BSP CRON[8402]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 10:17:01 ADAS-BSP CRON[8402]: pam_unix(cron:session): session closed for user root
+May 13 10:23:55 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 10:33:31 ADAS-BSP smbd: pam_unix(samba:session): session opened for user jjh.jang by (uid=0)
+May 13 10:34:02 ADAS-BSP sshd[8475]: Accepted password for jjh.jang from 10.157.145.13 port 52803 ssh2
+May 13 10:34:02 ADAS-BSP sshd[8475]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 13 10:34:02 ADAS-BSP systemd-logind[1123]: New session 3733 of user jjh.jang.
+May 13 10:34:02 ADAS-BSP sshd[8491]: Accepted password for jjh.jang from 10.157.145.13 port 52807 ssh2
+May 13 10:34:02 ADAS-BSP sshd[8491]: pam_unix(sshd:session): session opened for user jjh.jang by (uid=0)
+May 13 10:34:02 ADAS-BSP systemd-logind[1123]: New session 3734 of user jjh.jang.
+May 13 10:34:03 ADAS-BSP sshd[8475]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 13 10:34:03 ADAS-BSP sshd[8475]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 13 10:42:39 ADAS-BSP sshd[9352]: Accepted password for jinmu.lee from 10.157.144.101 port 60541 ssh2
+May 13 10:42:39 ADAS-BSP sshd[9352]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 13 10:42:39 ADAS-BSP systemd: pam_unix(systemd-user:session): session opened for user jinmu.lee by (uid=0)
+May 13 10:42:39 ADAS-BSP systemd-logind[1123]: New session 3735 of user jinmu.lee.
+May 13 10:42:39 ADAS-BSP sshd[9354]: Accepted password for jinmu.lee from 10.157.144.101 port 60544 ssh2
+May 13 10:42:39 ADAS-BSP sshd[9354]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 13 10:42:39 ADAS-BSP systemd-logind[1123]: New session 3736 of user jinmu.lee.
+May 13 10:42:40 ADAS-BSP sshd[9352]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 13 10:42:40 ADAS-BSP sshd[9352]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 13 10:48:49 ADAS-BSP sudo: kyeonghyeon.kim : TTY=pts/2 ; PWD=/home/kyeonghyeon.kim/01_git/test/Fmain ; USER=root ; COMMAND=./Fmain_Client_edit.sh
+May 13 10:48:49 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by kyeonghyeon.kim(uid=0)
+May 13 10:49:22 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 10:51:46 ADAS-BSP sudo: kyeonghyeon.kim : TTY=pts/2 ; PWD=/home/kyeonghyeon.kim/01_git/test/Fmain ; USER=root ; COMMAND=./Fmain_Client_edit.sh
+May 13 10:51:46 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by kyeonghyeon.kim(uid=0)
+May 13 10:52:20 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 11:17:01 ADAS-BSP CRON[28078]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 11:17:01 ADAS-BSP CRON[28078]: pam_unix(cron:session): session closed for user root
+May 13 11:24:07 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 11:29:02 ADAS-BSP sshd[28466]: Accepted password for jinmu.lee from 10.157.144.101 port 62503 ssh2
+May 13 11:29:02 ADAS-BSP sshd[28466]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 13 11:29:02 ADAS-BSP systemd-logind[1123]: New session 3738 of user jinmu.lee.
+May 13 11:29:02 ADAS-BSP sshd[28468]: Accepted password for jinmu.lee from 10.157.144.101 port 62505 ssh2
+May 13 11:29:02 ADAS-BSP sshd[28468]: pam_unix(sshd:session): session opened for user jinmu.lee by (uid=0)
+May 13 11:29:02 ADAS-BSP systemd-logind[1123]: New session 3739 of user jinmu.lee.
+May 13 11:29:03 ADAS-BSP sshd[28466]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 13 11:29:03 ADAS-BSP sshd[28466]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 13 11:32:16 ADAS-BSP smbd: pam_unix(samba:session): session closed for user taeyol.kim
+May 13 12:17:01 ADAS-BSP CRON[28917]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 12:17:01 ADAS-BSP CRON[28917]: pam_unix(cron:session): session closed for user root
+May 13 12:24:19 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 13:09:24 ADAS-BSP smbd: pam_unix(samba:session): session opened for user sungman.hong by (uid=0)
+May 13 13:17:01 ADAS-BSP CRON[29081]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 13:17:01 ADAS-BSP CRON[29081]: pam_unix(cron:session): session closed for user root
+May 13 13:24:28 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 13:39:08 ADAS-BSP smbd: pam_unix(samba:session): session opened for user jinmu.lee by (uid=0)
+May 13 13:51:02 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 14:03:37 ADAS-BSP smbd: message repeated 2 times: [ pam_unix(samba:session): session closed for user nobody]
+May 13 14:17:01 ADAS-BSP CRON[31235]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 14:17:01 ADAS-BSP CRON[31235]: pam_unix(cron:session): session closed for user root
+May 13 14:24:36 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 14:58:18 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -mtime -5 -exec true {} ;
+May 13 14:58:18 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 14:58:18 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 14:58:20 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -mtime -5 -exec true {} ;
+May 13 14:58:20 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 14:58:20 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 14:58:25 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -mtime -5 -exec true {} ;
+May 13 14:58:25 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 14:58:25 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 14:58:34 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -mtime -5 -exec file {} ;
+May 13 14:58:34 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 14:58:34 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 14:59:14 ADAS-BSP sshd[3618]: Accepted password for sungman.hong from 10.159.143.34 port 50398 ssh2
+May 13 14:59:14 ADAS-BSP sshd[3618]: pam_unix(sshd:session): session opened for user sungman.hong by (uid=0)
+May 13 14:59:14 ADAS-BSP systemd-logind[1123]: New session 3743 of user sungman.hong.
+May 13 14:59:14 ADAS-BSP systemd: pam_unix(systemd-user:session): session opened for user sungman.hong by (uid=0)
+May 13 14:59:14 ADAS-BSP sshd[3618]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 13 14:59:14 ADAS-BSP sshd[3618]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 13 15:02:01 ADAS-BSP CRON[3812]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 15:02:01 ADAS-BSP CRON[3812]: pam_unix(cron:session): session closed for user root
+May 13 15:04:15 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 15:08:05 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/bin/ls -R /etc
+May 13 15:08:05 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:08:05 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:17:01 ADAS-BSP CRON[8703]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 15:17:01 ADAS-BSP CRON[8703]: pam_unix(cron:session): session closed for user root
+May 13 15:24:45 ADAS-BSP smbd: pam_unix(samba:session): session closed for user nobody
+May 13 15:43:42 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -size +512c
+May 13 15:43:42 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:43:42 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:43:47 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -size +512c
+May 13 15:43:47 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:43:47 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:47:24 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -size 512c
+May 13 15:47:24 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:47:24 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:47:29 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -size +512c
+May 13 15:47:29 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:47:29 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:47:41 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -size -512c
+May 13 15:47:41 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:47:41 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:47:45 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -size +512c
+May 13 15:47:45 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:47:45 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:48:45 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -size +512
+May 13 15:48:45 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:48:45 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:48:57 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -size +512c
+May 13 15:48:57 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:48:57 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:49:05 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /etc -size +512c
+May 13 15:49:05 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:49:05 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:52:58 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /var/log -mtime 10
+May 13 15:52:58 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:52:58 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:53:16 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /var/log -mtime 10
+May 13 15:53:16 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:53:16 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:54:01 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /var/log -mmin -10 -exec cp {} backup ;
+May 13 15:54:01 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:54:01 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 15:54:17 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /var/log -mmin -10 -exec cp {} backup ;
+May 13 15:54:17 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 15:54:17 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 16:02:52 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /var/log -mmin -10 -exec cp {} backup ;
+May 13 16:02:52 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 16:02:52 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 16:03:15 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /var/log -mmin -10 -exec cp {} . ;
+May 13 16:03:15 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 16:03:15 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 16:03:24 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/bin/cat auth.log
+May 13 16:03:24 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)
+May 13 16:03:24 ADAS-BSP sudo: pam_unix(sudo:session): session closed for user root
+May 13 16:03:31 ADAS-BSP sudo: jinmu.lee : TTY=pts/21 ; PWD=/data2/jinmu.lee/etc/gpio_test_app/algorithm/mygit/algorithm/04_Lecture_Linux_Shell/02_necessary/04_string ; USER=root ; COMMAND=/usr/bin/find /var/log -mmin -10 -exec cp {} . ;
+May 13 16:03:31 ADAS-BSP sudo: pam_unix(sudo:session): session opened for user root by jinmu.lee(uid=0)

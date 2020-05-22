@@ -1,0 +1,83 @@
+awk
+
+awk [옵션] [조작명령] [텍스트파일] 명령
+awk [옵션] [조작명령]
+
+- 옵션 : -f 조작 명령을 파일로 지정
+- 조작 명령 : '[패턴]{{동작}}' 으로 구성 -> [패턴]{동작} 으로만 구성 가능, 여러개 가능
+- 조작 명령에 사용되는 문자열 패턴 " "  에 정규 표현식 사용됨
+
+- $0 (필드 번호)
+- FS=":" (필드 구분자)
+- OFS=":" (출력 필드 구분자)
+
+- NR=특수 변수, 처리하는 행의 수 
+
+- 외부 변수 접근은 ls -l | awk '/'$var'/{print "'"$var"'"$9}' 와 같은 quote 연결을 사용
+
+
+ex1)
+ps -ef | awk '/root// { print $8 " is owned by " $1 }'
+
+ex2)
+ls -l /etc | awk ' BEGIN { print "files in /etc -->" } \
+/\.conf/ { print $5 " " $9 } END { print "--> finished" }'
+
+ex3)
+ls -l /etc | awk 'BEGIN { FS=":" } { print $1 " " $6 }' /etc/passwd
+
+ex4)
+ls -l /etc | awk '{ print NR, $5, $9 } END { print "--> found " NR "files" }'
+
+ex5) total : 사용자 정의 변수, + 연산자
+ls -l /etc | awk '/^-/ { total = total + $5 } END { print "total size is " total }'
+
+ps -ef | awk '/jinmu.lee/ {print $8 "is owned by "$1}'
+
+ls -l /etc | awk ' BEGIN { print "files in /etc -->" } \
+/\.conf/ { print $5 " " $9 } END { print "--> finished" }'
+
+ls -l /etc | awk ' BEGIN { print "files in /etc -->" } \
+/\.conf/ { print $5 " " $9 } END { print "--> finished" }'
+
+awk 'BEGIN { FS=":" } { print $1 " " $6 }' /etc/passwd
+ls -l /etc | awk '{ print NR, $5, $9 } \ END { print "--> found " NR "files" }'
+ls -l /etc | awk '{ print NR, $5, $9 } \
+{ print "--> found " NR " files" }'
+ ls -l /etc | awk '{ print NR, $5, $9 } END { print "--> found " NR "files" }'
+
+ls -l /etc | awk '/^-/ { total = total + $5 } END { print "total size is " total }'
+
+ls -l /etc | awk '/conf/'
+ls -l /etc | awk '{ print $5 $9 }'
+ls -l /etc | awk '{ print $5 " " $9 }'
+ls -l /etc | awk '{ print $5 " " $9 }'
+ls -l /etc/ | awk '{ print $5, $9 }'
+ls -l /etc | awk '{ print $9 " is " $5 }'
+ls -l /etc | awk '{ print $9 " is " $5 "bytes" }'
+ls -l /etc | awk '{ print $9 " is " $5 " bytes" }'
+ps -ef | awk '/jinmu.lee/ { print $8 " is owned by " $1 }'
+
+ps -ef | awk ' BEGIN { print "jinmu.lee in system-->" } /jinmu.lee/ { print $8 " is owned by " $1 }'
+ps -ef | awk '/jinmu.lee/ {print $8 " is owned by " $1 } END { print "-->finished" }'
+
+ls -l /etc | awk 'BEGIN { print " fines in /etc -->" } /\.conf/ { print $5 " " $9 } END { print "--> finished" }'
+awk 'BEGIN { FS=":" } { print $1 " " $6 }' /etc/passwd
+
+ls -l /etc | awk '{ print $5 " " $9 }'
+ls -l /etc | awk 'BEGIN {OFS=":"; ORS=" *\n"} { print $5 " " $9 }'
+ls -l /etc | awk '{ print NR, $5, $9 } END { print "--> found " NR " files" }'
+ls -l /etc | awk '/^-/ { total=total+$5 } END { print "total size is " total }'
+var=txt
+ls -l | awk '/txt/'
+ls -l | awk '/$var/'
+ls -l | awk '/'"$var"'/'
+ls -l | awk '/'"$var"'/ { print "'"$var"'" $9 }'
+ls -l | awk '/'"$var"'/ { print "'"$var"'", $9 }'
+'{ print "'"$var"'", $9}'
+awk '/'"$var"'/ '{ print "'"$var"'", $9}'
+ls -al | awk '/'"$var"'/ '{ print "'"$var"'", $9}'
+ls -l | awk '/'"$var"'/ { print "'"$var"'", $9}'
+
+cat > awkfile
+cat /etc/passwd | awk -f awkfile

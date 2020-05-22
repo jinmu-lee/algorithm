@@ -1,0 +1,12 @@
+find 명령 사용법
+
+find /etc -name *.conf
+
+atime (access) -> accessed time (cat, head, tail, grep ...)
+ctime (change) -> changed time (chmod, chown, ...)
+mtime (modification) -> modified time 
+
+파일 검색 후, 검색된 파일을 이용하는 명령을 수행
+-exec 옵션 사용
+
+find /etc -mtime -5 -exec file {} \

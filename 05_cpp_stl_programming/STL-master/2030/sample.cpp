@@ -13,8 +13,8 @@ int main()
 	reverse(s.begin(), s.end());
 
 	// 
-//	for (int i = 0; i < s.size(); i++)
-//		cout << s[i] << endl;
+	for (int i = 0; i < s.size(); i++)
+		cout << s[i] << endl;
 	/*
 	vector<int>::iterator p = s.begin();
 

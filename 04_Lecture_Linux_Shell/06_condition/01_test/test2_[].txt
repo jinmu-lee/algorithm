@@ -1,0 +1,89 @@
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ abc ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ 1 ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ -1 ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ ! abc ]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ ! "abc" ]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ ]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ ! ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ var="abcd"
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $var ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ ! $var ]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ -n $var ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ -n "$var" ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ ! -n "$var" ]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $xxx ]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ ! $xxx ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ -n $xxx ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ -n "$xxx" ]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $var -a "abcd" ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $var -a $xxx ]; echo $?
+-bash: [: abcd: unary operator expected
+2
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $var -a "$xxx" ]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ "$var" -a "$xxx" ]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $var -o "abcd" ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $var -o $xxx ]; echo $?
+-bash: [: abcd: unary operator expected
+2
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ "$var" -o "$xxx" ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $var = "abcd" ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ var
+No command 'var' found, but there are 21 similar ones
+var: command not found
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ echo $var
+abcd
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $var = "$xxx" ]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ "$xxx" = "" ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ x"$xxx" = x ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ var=100
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $var -gt 50 ]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [[ $var -gt 50 ]]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [[ ! $var -gt 50 ]]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [[ $var -gt 50 && $var -lt 150 ]]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [[ $var -lt 50 || $var -gt 150 ]]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ $yyy -eq 0 ]; echo $?
+-bash: [: -eq: unary operator expected
+2
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [[ $yyy -eq 0 ]]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ "$yyy" -eq 0 ]; echo $?
+-bash: [: : integer expression expected
+2
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [ "$yyy" -eq 0 ]; echo $?^C
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ var="12abcd"
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [[ $var == 1[3-9]* ]]; echo $?
+1
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [[ $var != 1[3-9]* ]]; echo $?
+0
+jinmu.lee@ADAS-BSP:~/lec_linux_shell/06_condition/01_test$ [[ $var =~ 1[3-9]* ]]; echo $?
+0

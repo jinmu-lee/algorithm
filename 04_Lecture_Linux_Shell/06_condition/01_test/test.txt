@@ -1,0 +1,7 @@
+var=100
+[ $var -gt 50 ]; echo $?
+
+
+dir="/etc/xxx"
+[ -d $dir ] && echo "$dir exists" || echo "$dir doesn't exist"
+

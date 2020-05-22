@@ -1,0 +1,10 @@
+리눅스 압축/해제 명령어
+
+tar -cvf testdir.tar testdir => testdir 디렉토리를 .tar 파일로 압축 (압축된 용량이 오히려 더 크다)
+tar -xvf testdir.tar
+
+tar -zcvf testdir.tar.gz testdir => .tar.gz 파일로 압축 (압축율 좋음)
+tar -zxvf testdir.tar => .gz 으로 된 파일은 -z 옵션으로 압축해제 필요
+
+tar -jcvf testdir.tar.bz2 testdir => tar.bz2 파일로 압축 (.gz보다 압축율이 더 좋음)
+tar -jxvf testdir.tar.bz2
