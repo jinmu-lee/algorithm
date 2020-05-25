@@ -1,0 +1,9 @@
+if [ -f /etc/issue ]; then echo "/etc/issue exists"; fi
+if [ -f /etc/xxx ]; then echo "/etc/issue exists"; fi
+grep root /etc/passwd
+grep root /etc/passwd > /dev/null
+grep root /etc/passwd > /dev/null 2>&1
+if grep root /etc/passwd > /dev/null 2>&1; then echo "found root at /etc/passwd"; fi
+if grep soyoung /etc/passwd > dev/null 2>&1; then echo "found root at /etc/passwd"; fi
+if [ $USER = "root" ]; then echo "Access is possible"; else echo "Only root is accessible"; fi
+if [ $USER = "jinmu.lee" ]; then echo "Access is possible"; else echo "Only root is accessible"; fi
