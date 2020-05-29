@@ -1,18 +1,20 @@
 #!/bin/bash
-
-echo $1 | sed -nr '/^01[016-9]( |-|:)[0-9]{3,4}\1[0-9]{4,4}$/s/( |-|:)/ /gp' > /dev/null;
-res=$(echo $?)
-echo $res
-if [ $res -eq 0 ]
-then
-	echo $1
-else
-	echo "wrong number"
-fi
-
+#
+#echo $1 | sed -nr '/^01[016-9]( |-|:)[0-9]{3,4}\1[0-9]{4,4}$/s/( |-|:)/ /gp' > /dev/null;
+#res=$(echo $?)
+#echo $res
+#if [ $res -eq 0 ]
+#then
+##	echo $1
+#	echo "YES"
+#else
+##	echo "wrong number"
+#	echo "NO"
+#fi
+#
 #echo ${res}:-"wrong number"
-#res='echo $1 | sed -nr '/^01[016-9]( |-|:)[0-9]{3,4}\1[0-9]{4,4}$/s/( |-|:)/ /gp''
-#echo ${res:-"wrong number"}
+res=`echo $1 | sed -nr '/^01[016-9]( |-|:)[0-9]{3,4}\1[0-9]{4,4}$/s/( |-|:)/ /gp'`
+echo ${res:-"wrong number"}
 
 #echo $1|grep -E '^01[016-9]-[0-9]{3,4}-[0-9]{4,4}$' > /dev/null; echo $?
 

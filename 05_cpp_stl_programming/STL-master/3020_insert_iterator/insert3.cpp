@@ -12,14 +12,14 @@ int main(int argc, char** argv)
 	// 0, 1, 2, 3, 4, 5, 0, 0, 0, 0
 
 	//back_insert_iterator< list<int> > p(s);
-	//front_insert_iterator< list<int> > p(s);
+	front_insert_iterator< list<int> > p(s);
 	//insert_iterator< list<int> > p(s, s.begin());
 
 	//copy(x, x + 5, p);
 
 	//copy(x, x + 5, back_inserter(s) );
-	//copy(x, x + 5, front_inserter(s));
-	copy(x, x + 5, inserter(s, ++s.begin()));
+	copy(x, x + 5, front_inserter(s));
+	//copy(x, x + 5, inserter(s, ++s.begin()));
 
 
 

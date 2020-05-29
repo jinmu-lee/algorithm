@@ -25,7 +25,7 @@ int main()
 	list<int> s = { 1,2 };
 	eback_insert_iterator<list<int>> p(s);
 
-	p = 20;
+	//p = 20;
 	*p = 30; // ( p.operator*() ).operator=(30)
 
 	for (auto& n : s)
