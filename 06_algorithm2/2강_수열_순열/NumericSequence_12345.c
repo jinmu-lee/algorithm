@@ -7,16 +7,27 @@ void f(int n, int k, int m) {
 	int i;
 
 	// TODO
+	if (n == m) {
+		cnt++;
+		printArray(m); return;
+	}
+	for (int i = 1; i <= k; i++) {
+		L[n] = i;
+		f(n + 1, k, m);
+	}
+
 }
 int main(void) {
+	// number range : <1-5>
+	// array range  : <1-3>
 	f(0, 5, 3);
 	printf("%d\n", cnt);
 	return 0;
 }
 
-void printArray(int m){
+void printArray(int m) {
 	int i;
-	for (i=0 ; i<m ; i++) {
+	for (i = 0; i<m; i++) {
 		printf("%2d", L[i]);
 	}
 	printf("\t");

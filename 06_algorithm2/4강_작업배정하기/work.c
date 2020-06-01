@@ -4,8 +4,8 @@
 
 int perm[MAX];					/* 순열저장 배열 */
 int used[MAX];					/* 순열 체크 배열 */
-int wtime[MAX][MAX];              /* 개인별 해당 작업의 소요시간 저장 배열 */ 
-int minV;                       /* 최소 작업시간 저장 */ 
+int wtime[MAX][MAX];              /* 개인별 해당 작업의 소요시간 저장 배열 */
+int minV;                       /* 최소 작업시간 저장 */
 
 void work(int n, int k);
 
@@ -33,19 +33,30 @@ int main(void)
 }
 
 /*----------------------------------------------------------------------
- * Function Name 	: work() - 순열 생성 및 작업시간 계산 함수
- * Argument 		: n - 순열 배열 저장 위치
- * 					  k - 배열 저장 인덱스 한계 값
- * Return value	: 없음
- ----------------------------------------------------------------------*/
+* Function Name 	: work() - 순열 생성 및 작업시간 계산 함수
+* Argument 		: n - 순열 배열 저장 위치
+* 					  k - 배열 저장 인덱스 한계 값
+* Return value	: 없음
+----------------------------------------------------------------------*/
 void work(int n, int k)
 {
-	
+
 	// TODO
-	
+	if (n == k) {
+		int weight = 0;
+		for (int i = 0; i < n; i++) {
+			weight += wtime[i][perm[i]];
+		}
+		if (weight < minV) {
+			minV = weight;
+		}
+		return;
+	}
+	for (int i = 0; i < k; i++) {
+		if (used[i]) continue;
+		used[i] = 1;
+		perm[n] = i;
+		work(n + 1, k);
+		used[i] = 0;
+	}
 }
-
-
-
-
-
