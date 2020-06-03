@@ -20,14 +20,19 @@ void dijkstra(int s)
 	int j;
 
 	// TODO
+	// 초기화
 	for (i = 0; i < vertex; i++) {
 		D[i] = G[s][i];
 		V[i] = 0;
 		if (G[s][i] != INF) P[i] = s;
 		else P[i] = NIL;
-	}
+	}	
 	V[s] = 1;
+
+	// beginning of dijkstra
 	for (i = 0; i < vertex; i++) {
+		// 기존 정점 검색
+		// pq 의 역할이라고 생각하면 됨
 		int minidx = 0;
 		int minval = INF;
 		for (j = 0; j < vertex; j++) {
@@ -37,8 +42,10 @@ void dijkstra(int s)
 			}
 		}
 		V[minidx] = 1;
+
+		// dijkstra
 		for (j = 0; j < vertex; j++) {
-			if (V[j] == 0) {
+			if (V[j] == 0) { // 선택적인 부분
 				if (D[minidx] + G[minidx][j] < D[j]) {
 					D[j] = D[minidx] + G[minidx][j];
 					P[j] = minidx;

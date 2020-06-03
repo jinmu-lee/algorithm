@@ -1,6 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
 #define MAX 50
-typedef enum{false, true} bool;
 
 int a[MAX][MAX];      // 땅과 바다 정보 저장 배열 
 int check[MAX][MAX];  // 탐색여부 체크 배열 
@@ -45,7 +44,25 @@ Return Valuse : 없음
 void bfs(int x, int y)
 {
 	// TODO
-
+	check[x][y] = 1;
+	front = rear = 0;
+	queue[front++] = x;
+	queue[front++] = y;
+	while(front!=rear){
+		int x = queue[rear++];
+		int y = queue[rear++];
+		for(int i=0;i<8;i++){
+			int nx = x + dx[i];
+			int ny = y + dy[i];
+			if( inRange(nx,ny) ){
+				if( check[nx][ny] == 0 && a[nx][ny] == 1 ){
+					check[nx][ny] = 1;
+					queue[front++] = nx;
+					queue[front++] = ny;
+				}
+			}
+		}
+	}
 }
 /*--------------------------------------------------------------------------------------
 Function Name : dataLoad() - 데이터파일내의 땅과 바다 정보를 읽어서 저장하고 check배열을 초기화 시킴 
@@ -56,14 +73,14 @@ int dataLoad()
 {
 	int i, j; /* iterator */
 	scanf("%d %d", &w, &h);
-	if (w == 0 && h == 0) return false;
+	if (w == 0 && h == 0) return 0;
 	for (i = 0; i<h; i++) {
 		for (j = 0; j<w; j++) {
 			scanf("%d", &a[i][j]);  // 땅과 바다의 정보를  
 			check[i][j] = 0;  // check 배열 초기화 
 		}
 	}
-	return true;
+	return 1;
 }
 /*--------------------------------------------------------------------------------------
 Function Name : inRange() - x, y 범위체크 함수 
@@ -73,9 +90,9 @@ Return Valuse : 지도 범위내의 위치이면 true, 범위 밖이면 false 리턴
 bool inRange(int x, int y)
 {
 	if (0 <= x && x < h && 0 <= y && y < w) {
-		return true;
+		return 1;
 	}
 	else{
-		return false;
+		return 0;
 	}
 }

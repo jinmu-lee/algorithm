@@ -33,7 +33,19 @@ Return Valuse : ¾øÀ½
 void bfs(int me, int you) {
 
 	// TODO
-
+	int count = 0;	
+	for(int i=0;i<=MAX;i++) visit[i]=0;
+	front=rear=0;
+	queue[rear++] = me;
+	visit[me] = count;	
+	while(front!=rear){
+		int c = queue[front++];
+		if( c == you ) return;
+		for(int i=0;i<4;i++){
+			int n = c + D[i];
+			if( n < 0 || n > MAX || n == me || visit[n] ) continue;
+			visit[n] = visit[c] + 1;
+			queue[rear++] = n;
+		}
+	}
 }
-
-

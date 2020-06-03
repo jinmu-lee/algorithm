@@ -59,4 +59,36 @@ Return Valuse : ¾øÀ½
 --------------------------------------------------------------------------------------*/
 void bfs(void) {
 	// TO DO
+	front = rear = 0;
+	coord_t c,n,v;
+	for(int i=0;i<row;i++){
+		for(int j=0;j<col;j++){
+			if( box[i][j] == 1 ){
+				c.r = i; c.c = j;
+				queue[rear++] = c;
+			}
+		}
+	}
+	while(front!=rear){
+		n = queue[front++];
+		if( box[n.r][n.c] > day ){
+			day = box[n.r][n.c];
+		}
+		for(int i=0;i<4;i++){
+			v.r = n.r + dr[i];
+			v.c = n.c + dc[i];
+			if( v.r < 0 || v.r >= row || v.c < 0 || v.c >= col ) continue;
+			if( box[v.r][v.c] == 0 ){
+				box[v.r][v.c] = box[n.r][n.c] + 1;
+				queue[rear++] = v;
+			}
+		}
+	}
+	for(int i=0;i<row;i++){
+		for(int j=0;j<col;j++){
+			if( box[i][j] == 0 ){
+				day = 1;
+			}
+		}
+	}
 }
