@@ -1,8 +1,7 @@
 #include<stdio.h>
 #define MAX 1000
-typedef enum { FALSE, TRUE } BOOL;
 int a[MAX + 1];   // 순열 저장 배열 
-BOOL check[MAX + 1];
+int check[MAX + 1];
 void dfs(int x);  // 깊이우선 탐색 함수
 int main()
 {
@@ -15,13 +14,28 @@ int main()
 	scanf("%d", &tc);
 
 	// TODO
-	
+	while(tc--){
+		ans = 0;
+		scanf("%d",&n);		
+		for(int i=1;i<=n;i++){
+			scanf("%d",&a[i]);
+			check[i] = 0;
+		}
+		for(int i=1;i<=n;i++){
+			if( check[i] == 0 ) {
+				dfs(i);
+				ans++;
+			}
+		}
+		printf("%d\n",ans);
+	}	
 	return 0;
 }
 
 void dfs(int x)
 {
 	// TODO
+	if( check[x] ) return;
+	check[x] = 1;
+	dfs(a[x]);
 }
-
-

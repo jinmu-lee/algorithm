@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <string.h>
 #define MAX 100      // 행과 열의 최대 수
 int D[MAX+1][MAX+1];  // 동적테이블 배열 
 int A[MAX+1][MAX+1];  // 각 방의 값 저장 배열 
 int row, col;         // 행, 열의 수
 int f(int row, int col);
+inline int max(int a,int b){ return a>=b?a:b; }
 int main()
 {
 	int i,j;
@@ -23,19 +25,27 @@ int main()
 		// Dynamic Table 값 채우기
 	
 		// TO DO
-
+		// TO DO
+		memset(D,0,sizeof(D));
+#if 0
+		for(int i=1;i<=row;i++){
+			for(int j=1;j<=col;j++){
+				D[i][j] = max(D[i-1][j],D[i][j-1]) + A[i][j];
+			}
+		}
 		printf("TC%d(DP) : %d\n", ti, D[row][col]);  // DP로 문제 해결
+#endif
 		printf("TC%d(Re) : %d\n", ti, f(row,col));  // 일반재귀 호출 해결
 
 	}
 	return 0;
 }
-
 int f(int row, int col)
 {
-	
-	// TO DO
-
+	if( row == 0 || col == 0 ) return 0;
+	int &ret = D[row][col];
+	if( ret != 0 ) return ret;
+	return ret = max(f(row-1,col),f(row,col-1)) + A[row][col];
 }
 
 

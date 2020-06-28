@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdbool.h>
 #include<string.h>
 #define MAX_LENGTH (10000)
 int naiveMatching(char *originalStr, char *searchStr);
@@ -20,7 +19,13 @@ int naiveMatching(char *originalStr, char *searchStr)
 	int matchCnt=0;
 	
 	// TO DO
-
+	int slen = strlen(searchStr);
+	int olen = strlen(originalStr);
+	for(int i=0;i<=olen-slen;i++){
+		if( strncmp(originalStr+i,searchStr,slen) == 0 ){
+			matchCnt++;
+		}
+	}
 	return matchCnt;
 }
 
